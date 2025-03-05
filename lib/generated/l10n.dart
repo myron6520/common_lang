@@ -16460,6 +16460,476 @@ class S {
       args: [],
     );
   }
+
+  /// `Selected {num} Goods`
+  String selected_goods_with_num(Object num) {
+    return Intl.message(
+      'Selected $num Goods',
+      name: 'selected_goods_with_num',
+      desc: '',
+      args: [num],
+    );
+  }
+
+  /// `Search Goods Name`
+  String get search_goods_name {
+    return Intl.message(
+      'Search Goods Name',
+      name: 'search_goods_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `You Don't Have Permission To Operate Goods File`
+  String get no_permission_to_operate_commodity_archive {
+    return Intl.message(
+      'You Don\'t Have Permission To Operate Goods File',
+      name: 'no_permission_to_operate_commodity_archive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `You Can Import Data From Old Cashier Or Manually\nAdd Goods`
+  String get import_or_add_goods {
+    return Intl.message(
+      'You Can Import Data From Old Cashier Or Manually\nAdd Goods',
+      name: 'import_or_add_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `After deleting, the goods will not be able to be recovered, are you sure you want to delete?`
+  String get delete_goods_tips {
+    return Intl.message(
+      'After deleting, the goods will not be able to be recovered, are you sure you want to delete?',
+      name: 'delete_goods_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Scan Barcode For Warehouse Operation`
+  String get scan_barcode_for_warehouse_operation {
+    return Intl.message(
+      'Scan Barcode For Warehouse Operation',
+      name: 'scan_barcode_for_warehouse_operation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Goods Scan Barcode`
+  String get goods_scan_barcode {
+    return Intl.message(
+      'Goods Scan Barcode',
+      name: 'goods_scan_barcode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Scan Barcode To View Goods Info And Add Goods`
+  String get scan_barcode_to_view_goods_info_and_add_goods {
+    return Intl.message(
+      'Scan Barcode To View Goods Info And Add Goods',
+      name: 'scan_barcode_to_view_goods_info_and_add_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Scan Barcode For Inventory Check`
+  String get scan_barcode_for_inventory_check {
+    return Intl.message(
+      'Scan Barcode For Inventory Check',
+      name: 'scan_barcode_for_inventory_check',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Communication Error, Please Try Again`
+  String get communication_error_tips {
+    return Intl.message(
+      'Communication Error, Please Try Again',
+      name: 'communication_error_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `I am a line of text`
+  String get bottom_line {
+    return Intl.message(
+      'I am a line of text',
+      name: 'bottom_line',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Select Goods Type`
+  String get select_goods_type {
+    return Intl.message(
+      'Select Goods Type',
+      name: 'select_goods_type',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `You Can Import Data From Old Cashier Or Manually\nAdd Dish`
+  String get import_or_add_dish {
+    return Intl.message(
+      'You Can Import Data From Old Cashier Or Manually\nAdd Dish',
+      name: 'import_or_add_dish',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Add Dish`
+  String get add_dish {
+    return Intl.message(
+      'Add Dish',
+      name: 'add_dish',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Move Category`
+  String get move_category {
+    return Intl.message(
+      'Move Category',
+      name: 'move_category',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Delete Dish`
+  String get delete_dish {
+    return Intl.message(
+      'Delete Dish',
+      name: 'delete_dish',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `After deleting, the dish will not be able to be recovered, are you sure you want to delete?`
+  String get delete_dish_tips {
+    return Intl.message(
+      'After deleting, the dish will not be able to be recovered, are you sure you want to delete?',
+      name: 'delete_dish_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Search Goods Name/Barcode`
+  String get search_goods_name_or_barcode {
+    return Intl.message(
+      'Search Goods Name/Barcode',
+      name: 'search_goods_name_or_barcode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No Goods Info Found`
+  String get no_goods_info_found {
+    return Intl.message(
+      'No Goods Info Found',
+      name: 'no_goods_info_found',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sell By Piece, e.g. Yangzhou Fried Rice, Pearl Milk Tea`
+  String get sell_by_piece {
+    return Intl.message(
+      'Sell By Piece, e.g. Yangzhou Fried Rice, Pearl Milk Tea',
+      name: 'sell_by_piece',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Regular Barcode Goods, e.g. Coca-Cola`
+  String get regular_barcode_goods {
+    return Intl.message(
+      'Regular Barcode Goods, e.g. Coca-Cola',
+      name: 'regular_barcode_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sell By Weight, e.g. Duck Neck 30/kg`
+  String get sell_by_weight {
+    return Intl.message(
+      'Sell By Weight, e.g. Duck Neck 30/kg',
+      name: 'sell_by_weight',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Goods Category`
+  String get goods_category {
+    return Intl.message(
+      'Goods Category',
+      name: 'goods_category',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cooking Method`
+  String get cooking_method {
+    return Intl.message(
+      'Cooking Method',
+      name: 'cooking_method',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Edit Dish`
+  String get edit_dish {
+    return Intl.message(
+      'Edit Dish',
+      name: 'edit_dish',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Goods Type`
+  String get goods_type {
+    return Intl.message(
+      'Goods Type',
+      name: 'goods_type',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Normal`
+  String get normalGoods {
+    return Intl.message(
+      'Normal',
+      name: 'normalGoods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¥/piece`
+  String get yuan_per_piece {
+    return Intl.message(
+      '¥/piece',
+      name: 'yuan_per_piece',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Set Specification`
+  String get set_specification {
+    return Intl.message(
+      'Set Specification',
+      name: 'set_specification',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Select Combo Goods`
+  String get select_combo_goods {
+    return Intl.message(
+      'Select Combo Goods',
+      name: 'select_combo_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please Select Combo Dish`
+  String get select_combo_goods_hint {
+    return Intl.message(
+      'Please Select Combo Dish',
+      name: 'select_combo_goods_hint',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Select Done`
+  String get select_done {
+    return Intl.message(
+      'Select Done',
+      name: 'select_done',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Weighing`
+  String get weighing_tag {
+    return Intl.message(
+      'Weighing',
+      name: 'weighing_tag',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `pieces`
+  String get pieces {
+    return Intl.message(
+      'pieces',
+      name: 'pieces',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please Input Category Name`
+  String get input_category_name {
+    return Intl.message(
+      'Please Input Category Name',
+      name: 'input_category_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Category Name Length Limit`
+  String get category_name_length_limit {
+    return Intl.message(
+      'Category Name Length Limit',
+      name: 'category_name_length_limit',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Add First Level Category`
+  String get add_first_level_category {
+    return Intl.message(
+      'Add First Level Category',
+      name: 'add_first_level_category',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Add Second Level Category`
+  String get add_second_level_category {
+    return Intl.message(
+      'Add Second Level Category',
+      name: 'add_second_level_category',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `「{title}」deleted, goods will be moved to「Uncategorized」`
+  String delete_goods_tips_with(Object title) {
+    return Intl.message(
+      '「$title」deleted, goods will be moved to「Uncategorized」',
+      name: 'delete_goods_tips_with',
+      desc: '',
+      args: [title],
+    );
+  }
+
+  /// `Delete Category`
+  String get delete_category {
+    return Intl.message(
+      'Delete Category',
+      name: 'delete_category',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rename`
+  String get rename {
+    return Intl.message(
+      'Rename',
+      name: 'rename',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `This category has sub-categories, cannot delete this category`
+  String get category_has_sub_category {
+    return Intl.message(
+      'This category has sub-categories, cannot delete this category',
+      name: 'category_has_sub_category',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cannot move, category level limit 2 levels`
+  String get cannot_move_category_level_limit {
+    return Intl.message(
+      'Cannot move, category level limit 2 levels',
+      name: 'cannot_move_category_level_limit',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `{title} Management`
+  String something_management(Object title) {
+    return Intl.message(
+      '$title Management',
+      name: 'something_management',
+      desc: '',
+      args: [title],
+    );
+  }
+
+  /// `Add {title}`
+  String add_something(Object title) {
+    return Intl.message(
+      'Add $title',
+      name: 'add_something',
+      desc: '',
+      args: [title],
+    );
+  }
+
+  /// `Device Cannot Be Identified, Please Scan Again`
+  String get device_cannot_be_identified {
+    return Intl.message(
+      'Device Cannot Be Identified, Please Scan Again',
+      name: 'device_cannot_be_identified',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Device Order Management`
+  String get device_order_management {
+    return Intl.message(
+      'Device Order Management',
+      name: 'device_order_management',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
