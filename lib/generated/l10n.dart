@@ -5060,6 +5060,16 @@ class S {
     );
   }
 
+  /// `Full {amountUp} Pieces, Gift`
+  String fullAmountWithGiftWithAmount(Object amountUp) {
+    return Intl.message(
+      'Full $amountUp Pieces, Gift',
+      name: 'fullAmountWithGiftWithAmount',
+      desc: '',
+      args: [amountUp],
+    );
+  }
+
   /// `Full {amountUp} Yuan, {discount} Discount`
   String fullAmountWithDiscount(Object amountUp, Object discount) {
     return Intl.message(
@@ -18711,6 +18721,306 @@ class S {
       name: 'please_enter_role_name',
       desc: '',
       args: [],
+    );
+  }
+
+  /// `Applying`
+  String get applying {
+    return Intl.message(
+      'Applying',
+      name: 'applying',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Apply Success`
+  String get apply_success {
+    return Intl.message(
+      'Apply Success',
+      name: 'apply_success',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Apply Failed`
+  String get apply_failed {
+    return Intl.message(
+      'Apply Failed',
+      name: 'apply_failed',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Pending Approval`
+  String get pending_approval {
+    return Intl.message(
+      'Pending Approval',
+      name: 'pending_approval',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Small Package`
+  String get small_package {
+    return Intl.message(
+      'Small Package',
+      name: 'small_package',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No Price`
+  String get no_price {
+    return Intl.message(
+      'No Price',
+      name: 'no_price',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Dish Detail`
+  String get dish_detail {
+    return Intl.message(
+      'Dish Detail',
+      name: 'dish_detail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Multi Specifications Settings`
+  String get multi_specifications_settings {
+    return Intl.message(
+      'Multi Specifications Settings',
+      name: 'multi_specifications_settings',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Add Specification`
+  String get add_specification {
+    return Intl.message(
+      'Add Specification',
+      name: 'add_specification',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Modify Sale Period`
+  String get modify_sale_period {
+    return Intl.message(
+      'Modify Sale Period',
+      name: 'modify_sale_period',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Add Sale Period`
+  String get add_sale_period {
+    return Intl.message(
+      'Add Sale Period',
+      name: 'add_sale_period',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Select Sale Period`
+  String get select_sale_period {
+    return Intl.message(
+      'Select Sale Period',
+      name: 'select_sale_period',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please Set Sale Period`
+  String get please_set_sale_period {
+    return Intl.message(
+      'Please Set Sale Period',
+      name: 'please_set_sale_period',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Modify Success`
+  String get modify_success {
+    return Intl.message(
+      'Modify Success',
+      name: 'modify_success',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `{shopTemplateType} Category`
+  String shop_template_type_name_category(Object shopTemplateType) {
+    return Intl.message(
+      '$shopTemplateType Category',
+      name: 'shop_template_type_name_category',
+      desc: '',
+      args: [shopTemplateType],
+    );
+  }
+
+  /// `Use This Shop Template Type`
+  String get use_this_shop_template_type {
+    return Intl.message(
+      'Use This Shop Template Type',
+      name: 'use_this_shop_template_type',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Shop Type`
+  String get shop_template_type {
+    return Intl.message(
+      'Shop Type',
+      name: 'shop_template_type',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Batch Set Packing Fee`
+  String get batch_set_packing_fee {
+    return Intl.message(
+      'Batch Set Packing Fee',
+      name: 'batch_set_packing_fee',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Goods Import`
+  String get goods_import {
+    return Intl.message(
+      'Goods Import',
+      name: 'goods_import',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Reuse Shop Goods`
+  String get goods_import_tip_start {
+    return Intl.message(
+      'Reuse Shop Goods',
+      name: 'goods_import_tip_start',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// ` items, import will take some loading time, are you sure to import!`
+  String get goods_import_tip_end {
+    return Intl.message(
+      ' items, import will take some loading time, are you sure to import!',
+      name: 'goods_import_tip_end',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Last Update: {loadTime}`
+  String last_update(Object loadTime) {
+    return Intl.message(
+      'Last Update: $loadTime',
+      name: 'last_update',
+      desc: '',
+      args: [loadTime],
+    );
+  }
+
+  /// `Loading...`
+  String get loadings {
+    return Intl.message(
+      'Loading...',
+      name: 'loadings',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Loaded`
+  String get loaded {
+    return Intl.message(
+      'Loaded',
+      name: 'loaded',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Network Request Failed`
+  String get network_request_failed {
+    return Intl.message(
+      'Network Request Failed',
+      name: 'network_request_failed',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please check your network settings and try again`
+  String get network_request_failed_tips {
+    return Intl.message(
+      'Please check your network settings and try again',
+      name: 'network_request_failed_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No Update`
+  String get no_update {
+    return Intl.message(
+      'No Update',
+      name: 'no_update',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Give Goods Only One`
+  String get give_goods_only_one {
+    return Intl.message(
+      'Give Goods Only One',
+      name: 'give_goods_only_one',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Goods Cannot Participate Activity`
+  String get goods_cannot_participate_activity {
+    return Intl.message(
+      'Goods Cannot Participate Activity',
+      name: 'goods_cannot_participate_activity',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Select Up To {num} Special Industries`
+  String select_special_industry_with_num(Object num) {
+    return Intl.message(
+      'Select Up To $num Special Industries',
+      name: 'select_special_industry_with_num',
+      desc: '',
+      args: [num],
     );
   }
 }
