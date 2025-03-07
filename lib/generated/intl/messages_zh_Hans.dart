@@ -58,160 +58,206 @@ class MessageLookup extends MessageLookupByLibrary {
 
   static String m17(name) => "创建${name}";
 
-  static String m18(selectedNum) => "确定删除选中的${selectedNum}个桌台吗？";
+  static String m18(year, month, day) => "${year}年${month}月${day}日";
 
-  static String m19(title) => "「${title}」删除后商品将被移动到「未分类」";
+  static String m19(selectedNum) => "确定删除选中的${selectedNum}个桌台吗？";
 
-  static String m20(no) => "设备号 ${no}";
+  static String m20(title) => "「${title}」删除后商品将被移动到「未分类」";
 
-  static String m21(amount) => "抹${amount}";
+  static String m21(no) => "设备号 ${no}";
 
-  static String m22(pro) => "下载中 ${pro}%";
+  static String m22(shopName) => "设备已绑定到「${shopName}」，感谢你的\n使用和支持，祝你生意兴隆";
 
-  static String m23(name) => "编辑${name}";
+  static String m23(deviceName) => "${deviceName}号收银机";
 
-  static String m24(amountUp, amountSub) => "已满${amountUp}元，减${amountSub}元";
+  static String m24(name) => "设备 ${name}";
 
-  static String m25(amountUp, amountSub) => "满${amountUp}减${amountSub}";
+  static String m25(num) => "${num}人";
 
-  static String m26(amountUp, discount) => "已满足条件,第${amountUp}件${discount}折";
+  static String m26(amount) => "抹${amount}";
 
-  static String m27(amountUp, discount) => "第${amountUp}件${discount}折";
+  static String m27(pro) => "下载中 ${pro}%";
 
-  static String m28(amountUp) => "已满${amountUp}元，送赠品";
+  static String m28(name) => "编辑${name}";
 
-  static String m29(amountUp) => "满${amountUp}赠";
+  static String m29(title) => "编辑${title}";
 
-  static String m30(amountUp, amountSub) => "满${amountUp}赠${amountSub}";
+  static String m30(amountUp, amountSub) => "已满${amountUp}元，减${amountSub}元";
 
-  static String m31(amount) => "赠${amount}元";
+  static String m31(amountUp, amountSub) => "满${amountUp}减${amountSub}";
 
-  static String m32(amount) => "商品种类 ${amount} SKU";
+  static String m32(amountUp, discount) => "已满足条件,第${amountUp}件${discount}折";
 
-  static String m33(value) => "毛利  ${value}";
+  static String m33(amountUp, discount) => "第${amountUp}件${discount}折";
 
-  static String m34(name) => "你好,${name}";
+  static String m34(amountUp) => "已满${amountUp}元，送赠品";
 
-  static String m35(title) => "请输入${title}名称";
+  static String m35(amountUp) => "满${amountUp}赠";
 
-  static String m36(content) => "请输入${content}";
+  static String m36(amountUp, amountSub) => "满${amountUp}赠${amountSub}";
 
-  static String m37(name) => "您正在使用 ${name} 申请加入，是否提交申请？";
+  static String m37(left) => "${left}s后获取";
 
-  static String m38(name) => "标签秤[${name}]";
+  static String m38(amount) => "赠${amount}元";
 
-  static String m39(date) => "最近同步 ${date}";
+  static String m39(amount) => "商品种类 ${amount} SKU";
 
-  static String m40(num) => "剩余${num}份";
+  static String m40(value) => "毛利  ${value}";
 
-  static String m41(weight, unit) => "剩余${weight}${unit}";
+  static String m41(name) => "你好,${name}";
 
-  static String m42(len) => "${len}毫米";
+  static String m42(year, month, day, hour) =>
+      "${year}年${month}月${day}日 ${hour}时";
 
-  static String m43(shop) => "退出「${shop}」店铺";
+  static String m43(count, successCount, failedCount) =>
+      "共${count}条商品，成功导入${successCount}条，\n失败${failedCount}条";
 
-  static String m44(name) => "手动${name}";
+  static String m44(title) => "请输入${title}名称";
 
-  static String m45(materials) => "加料：${materials}";
+  static String m45(content) => "请输入${content}";
 
-  static String m46(phone) => "账号 ${phone} 尚未成为会员，是否为客人办理会员？";
+  static String m46(time) => "失效时间 ${time}";
 
-  static String m47(name) => "修改${name}";
+  static String m47(name) => "您正在使用 ${name} 申请加入，是否提交申请？";
 
-  static String m48(year, month) => "${year}年${month}月";
+  static String m48(name) => "标签秤[${name}]";
 
-  static String m49(name) => "移动(${name})";
+  static String m49(date) => "最近同步 ${date}";
 
-  static String m50(title) => "${title}名称";
+  static String m50(num) => "剩余${num}份";
 
-  static String m51(name) => "商品条码「${name}」不存在，是否新增";
+  static String m51(weight, unit) => "剩余${weight}${unit}";
 
-  static String m52(publisher) => "还没有${publisher}账号?";
+  static String m52(len) => "${len}毫米";
 
-  static String m53(name) => "订单数  ${name}";
+  static String m53(shop) => "退出「${shop}」店铺";
 
-  static String m54(offDutyTime) => "交班时间：${offDutyTime}";
+  static String m54(name) => "手动${name}";
 
-  static String m55(workTime) => "上班时间：${workTime}";
+  static String m55(materials) => "加料：${materials}";
 
-  static String m56(orderCount) => "订单数：${orderCount}";
+  static String m56(phone) => "账号 ${phone} 尚未成为会员，是否为客人办理会员？";
 
-  static String m57(num) => "用餐人数 ${num} 位";
+  static String m57(year, month, day, hour, minute) =>
+      "${year}年${month}月${day}日 ${hour}时${minute}分";
 
-  static String m58(len) => "已下单商品（${len}）";
+  static String m58(name) => "修改${name}";
 
-  static String m59(num) => "${num} 张";
+  static String m59(month, day) => "${month}月${day}日";
 
-  static String m60(reason) => "失败原因：${reason}";
+  static String m60(year, month) => "${year}年${month}月";
 
-  static String m61(name) => "请选择${name}";
+  static String m61(name) => "移动(${name})";
 
-  static String m62(name) => "请填写${name}";
+  static String m62(selectName) => "选中商品移动至「${selectName}」";
 
-  static String m63(name) => "设备「${name}」打印异常，请检查是否正确连接，如问题持续，请尝试重启设备";
+  static String m63(price, num) => "${price}元 x ${num}份/人";
 
-  static String m64(len) => "此次打印${len}个标签，已推送到打印机，请等待打印完成。";
+  static String m64(price, num) => "${price}元 x ${num}份/桌";
 
-  static String m65(amount) => "收款（${amount}）";
+  static String m65(title) => "${title}名称";
 
-  static String m66(recharge, gift) => "充值${recharge}元赠送${gift}元";
+  static String m66(name) => "商品条码「${name}」不存在，是否新增";
 
-  static String m67(name) => "退款  ${name}";
+  static String m67(publisher) => "还没有${publisher}账号?";
 
-  static String m68(amount) => "扫码收款 ¥${amount}，请手动退款给顾客";
+  static String m68(name) => "订单数  ${name}";
 
-  static String m69(amount) => "立即退款 ${amount}";
+  static String m69(offDutyTime) => "交班时间：${offDutyTime}";
 
-  static String m70(number) => "剩余库存：${number}";
+  static String m70(workTime) => "上班时间：${workTime}";
 
-  static String m71(remark) => "整单备注：${remark}";
+  static String m71(appName) => "开启后仅支持收银登录，无法进入${appName}";
 
-  static String m72(remark) => "备注：${remark}";
+  static String m72(appName) => "感谢您选择${appName}，下面可以开通支付或直接进入店铺，祝您使用愉快！";
 
-  static String m73(name) => "重命名${name}";
+  static String m73(orderCount) => "订单数：${orderCount}";
 
-  static String m74(time) => "补打小票(${time})";
+  static String m74(num) => "用餐人数 ${num} 位";
 
-  static String m75(price) => "销售价必须大于${price}";
+  static String m75(len) => "已下单商品（${len}）";
 
-  static String m76(scanAmount) => "扫码收款 ¥${scanAmount}，已退款到顾客账户";
+  static String m76(num) => "${num} 张";
 
-  static String m77(num) => "拼${num}桌";
+  static String m77(reason) => "失败原因：${reason}";
 
-  static String m78(practiceName) => "请选择${practiceName}";
+  static String m78(name) => "请选择${name}";
 
-  static String m79(selectedNum) => "已选${selectedNum}个桌台";
+  static String m79(name) => "请填写${name}";
 
-  static String m80(num) => "已选 ${num} 个商品";
+  static String m80(name) => "设备「${name}」打印异常，请检查是否正确连接，如问题持续，请尝试重启设备";
 
-  static String m81(title) => "${title}管理";
+  static String m81(len) => "此次打印${len}个标签，已推送到打印机，请等待打印完成。";
 
-  static String m82(amount) => "还差 ¥${amount}";
+  static String m82(amount) => "收款（${amount}）";
 
-  static String m83(no) => "桌台 ${no}";
+  static String m83(recharge, gift) => "充值${recharge}元赠送${gift}元";
 
-  static String m84(hour, minute) => "${hour}时${minute}分";
+  static String m84(name) => "退款  ${name}";
 
-  static String m85(num) => "共 ${num} 件商品";
+  static String m85(amount) => "扫码收款 ¥${amount}，请手动退款给顾客";
 
-  static String m86(name) => "您的申请已提交支付平台审核，我们将通过\n短信向你通知审核结果\n详情请咨询：${name}";
+  static String m86(amount) => "立即退款 ${amount}";
 
-  static String m87(name) =>
+  static String m87(number) => "剩余库存：${number}";
+
+  static String m88(remark) => "整单备注：${remark}";
+
+  static String m89(remark) => "备注：${remark}";
+
+  static String m90(name) => "重命名${name}";
+
+  static String m91(time) => "补打小票(${time})";
+
+  static String m92(price) => "销售价必须大于${price}";
+
+  static String m93(scanAmount) => "扫码收款 ¥${scanAmount}，已退款到顾客账户";
+
+  static String m94(num) => "拼${num}桌";
+
+  static String m95(year, month, day, hour, minute, second) =>
+      "${year}年${month}月${day}日 ${hour}时${minute}分${second}秒";
+
+  static String m96(practiceName) => "请选择${practiceName}";
+
+  static String m97(selectedNum) => "已选${selectedNum}个桌台";
+
+  static String m98(num) => "已选${num}个分类";
+
+  static String m99(num) => "指定商品参加促销，已选${num}个商品";
+
+  static String m100(num) => "已选 ${num} 个商品";
+
+  static String m101(title) => "${title}管理";
+
+  static String m102(num) => "指定${num}件商品参加";
+
+  static String m103(amount) => "还差 ¥${amount}";
+
+  static String m104(no) => "桌台 ${no}";
+
+  static String m105(hour, minute) => "${hour}时${minute}分";
+
+  static String m106(num) => "共 ${num} 件商品";
+
+  static String m107(name) => "您的申请已提交支付平台审核，我们将通过\n短信向你通知审核结果\n详情请咨询：${name}";
+
+  static String m108(name) =>
       "解除包装关联需要输入大包装商品的当前库存，解除后，将按 ${name} 的关联关系扣除小包装库存。";
 
-  static String m88(no) => "用户${no}";
+  static String m109(no) => "用户${no}";
 
-  static String m89(price) => "用户指定商品${price}";
+  static String m110(price) => "用户指定商品${price}";
 
-  static String m90(name) => "已发送验证码至 ${name}";
+  static String m111(name) => "已发送验证码至 ${name}";
 
-  static String m91(skuNum) => "查看全部（${skuNum}）";
+  static String m112(skuNum) => "查看全部（${skuNum}）";
 
-  static String m92(count) => "传秤完成，共传输${count}个商品";
+  static String m113(count) => "传秤完成，共传输${count}个商品";
 
-  static String m93(appName) => "欢迎登录，${appName}";
+  static String m114(appName) => "欢迎登录，${appName}";
 
-  static String m94(price) => "批发价必须大于${price}";
+  static String m115(price) => "批发价必须大于${price}";
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
@@ -234,8 +280,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "account_opened": MessageLookupByLibrary.simpleMessage("收款账户已开通"),
         "account_type": MessageLookupByLibrary.simpleMessage("账户类型"),
         "accounts_receivable": MessageLookupByLibrary.simpleMessage("收款账户"),
+        "activity_created_successfully":
+            MessageLookupByLibrary.simpleMessage("活动创建成功"),
         "activity_deadline": MessageLookupByLibrary.simpleMessage("活动期限"),
+        "activity_ended_tips":
+            MessageLookupByLibrary.simpleMessage("活动结束后，本次活动中的商品将不再享受优惠"),
         "activity_goods": MessageLookupByLibrary.simpleMessage("活动商品"),
+        "activity_has_ended": MessageLookupByLibrary.simpleMessage("活动已结束"),
+        "activity_modified_successfully":
+            MessageLookupByLibrary.simpleMessage("活动修改成功"),
         "activity_name": MessageLookupByLibrary.simpleMessage("活动名称"),
         "actualDeliveryFee": MessageLookupByLibrary.simpleMessage("实付配送费"),
         "add": MessageLookupByLibrary.simpleMessage("加入"),
@@ -264,6 +317,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "add_first_level_category":
             MessageLookupByLibrary.simpleMessage("新增一级分类"),
         "add_goods": MessageLookupByLibrary.simpleMessage("新增商品"),
+        "add_label": MessageLookupByLibrary.simpleMessage("添加标签"),
         "add_member": MessageLookupByLibrary.simpleMessage("添加会员"),
         "add_network_printer": MessageLookupByLibrary.simpleMessage("添加网络打印机"),
         "add_payment_method": MessageLookupByLibrary.simpleMessage("添加支付方式"),
@@ -289,6 +343,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "advancing_reminder": MessageLookupByLibrary.simpleMessage("临期提前提醒"),
         "advent_reminder": MessageLookupByLibrary.simpleMessage("临期提醒"),
         "agree": MessageLookupByLibrary.simpleMessage("同意"),
+        "agree_and_continue": MessageLookupByLibrary.simpleMessage("同意并继续"),
         "aliPay": MessageLookupByLibrary.simpleMessage("支付宝"),
         "alipay": MessageLookupByLibrary.simpleMessage("支付宝"),
         "all": MessageLookupByLibrary.simpleMessage("全部"),
@@ -300,9 +355,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "allWifi": MessageLookupByLibrary.simpleMessage("支持所有通过Wi-Fi连接的打印机"),
         "all_employee": MessageLookupByLibrary.simpleMessage("全部员工"),
         "all_goods": MessageLookupByLibrary.simpleMessage("全部商品"),
+        "all_goods_participate_promotion":
+            MessageLookupByLibrary.simpleMessage("全店所有商品参与促销"),
         "all_members_employees":
             MessageLookupByLibrary.simpleMessage("● 名下所有会员、员工等"),
         "all_type": MessageLookupByLibrary.simpleMessage("全部类型"),
+        "all_user": MessageLookupByLibrary.simpleMessage("全部用户"),
         "already_have_account": MessageLookupByLibrary.simpleMessage("已经有账户？"),
         "amount": MessageLookupByLibrary.simpleMessage("数量"),
         "amountFinalGot": MessageLookupByLibrary.simpleMessage("到账金额"),
@@ -310,6 +368,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "amountHint": MessageLookupByLibrary.simpleMessage("请输入数量"),
         "amountReceivable": MessageLookupByLibrary.simpleMessage("应收金额"),
         "amount_actually_paid": MessageLookupByLibrary.simpleMessage("实付金额"),
+        "amount_unit": MessageLookupByLibrary.simpleMessage("件"),
         "amount_with": m5,
         "applicant": MessageLookupByLibrary.simpleMessage("申请人："),
         "applyInvalid": MessageLookupByLibrary.simpleMessage("申请已失效"),
@@ -356,6 +415,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "batch_add": MessageLookupByLibrary.simpleMessage("批量添加"),
         "batch_add_table": MessageLookupByLibrary.simpleMessage("批量添加桌台"),
         "batch_edit_commodity": MessageLookupByLibrary.simpleMessage("商品批量编辑"),
+        "batch_operation": MessageLookupByLibrary.simpleMessage("批量操作"),
         "belConnected": MessageLookupByLibrary.simpleMessage("蓝牙已连接"),
         "beneficiary_bank": MessageLookupByLibrary.simpleMessage("收款银行"),
         "beneficiary_or_not": MessageLookupByLibrary.simpleMessage("是否受益人"),
@@ -380,6 +440,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "binding_time": MessageLookupByLibrary.simpleMessage("绑定时间"),
         "birthday": MessageLookupByLibrary.simpleMessage("生日"),
         "birthdayHint": MessageLookupByLibrary.simpleMessage("请选择会员生日"),
+        "blank_line_at_end_of_receipt":
+            MessageLookupByLibrary.simpleMessage("票尾空白行"),
+        "blank_line_at_end_of_receipt_desc":
+            MessageLookupByLibrary.simpleMessage(
+                "部分打印机打印后可能出现票尾不全\n预留一定的空白行以确保小票完整"),
+        "blank_line_count": MessageLookupByLibrary.simpleMessage("空白行数"),
         "bleDisconnect": MessageLookupByLibrary.simpleMessage("蓝牙已断开"),
         "bleLabelPrinter": MessageLookupByLibrary.simpleMessage("蓝牙标签打印机"),
         "bleList": MessageLookupByLibrary.simpleMessage("蓝牙列表"),
@@ -390,6 +456,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "bonusAmount": MessageLookupByLibrary.simpleMessage("赠送金额"),
         "bottom_line": MessageLookupByLibrary.simpleMessage("-—我是有底线的—-"),
         "bound": MessageLookupByLibrary.simpleMessage("已绑定"),
+        "branch_store": MessageLookupByLibrary.simpleMessage("分店"),
         "break_table": MessageLookupByLibrary.simpleMessage("撤台"),
         "break_table_success": MessageLookupByLibrary.simpleMessage("撤台成功"),
         "btDeviceHint": MessageLookupByLibrary.simpleMessage("请选择蓝牙设备"),
@@ -405,6 +472,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "business_overview": MessageLookupByLibrary.simpleMessage("营业概况"),
         "business_report": MessageLookupByLibrary.simpleMessage("营业报表"),
         "business_statistics": MessageLookupByLibrary.simpleMessage("营业统计"),
+        "buy_full_reduction": MessageLookupByLibrary.simpleMessage("买满"),
+        "buy_full_reduction_unit": MessageLookupByLibrary.simpleMessage("买(件)"),
+        "by_person": MessageLookupByLibrary.simpleMessage("按人数"),
+        "by_table": MessageLookupByLibrary.simpleMessage("按桌台"),
         "call_phone": MessageLookupByLibrary.simpleMessage("呼叫"),
         "camera_permission_desc":
             MessageLookupByLibrary.simpleMessage("用于拍摄照片、扫描商品条形码等场景"),
@@ -423,6 +494,12 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("注销店铺后以下信息将清空无法找回"),
         "cancel_shop_with": m11,
         "cancel_success": MessageLookupByLibrary.simpleMessage("注销成功"),
+        "cannot_download_table_code":
+            MessageLookupByLibrary.simpleMessage("无法下载桌台码"),
+        "cannot_generate_qr_code":
+            MessageLookupByLibrary.simpleMessage("无法生成点餐码"),
+        "cannot_identify_qr_code":
+            MessageLookupByLibrary.simpleMessage("无法识别二维码，请使用吉祥收银提供的桌台二维码"),
         "cannot_move_category_level_limit":
             MessageLookupByLibrary.simpleMessage("无法移动，分类层级限制2层"),
         "cardReadTips": MessageLookupByLibrary.simpleMessage("将会员卡靠近读卡器"),
@@ -458,7 +535,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "change_password": MessageLookupByLibrary.simpleMessage("修改密码"),
         "change_weight_unit": MessageLookupByLibrary.simpleMessage("切换称重单位"),
         "charge_by_goods": MessageLookupByLibrary.simpleMessage("按商品收取"),
+        "charge_by_goods_desc":
+            MessageLookupByLibrary.simpleMessage("按商品设置打包费累计收取"),
         "charge_by_order": MessageLookupByLibrary.simpleMessage("按订单收取"),
+        "charge_by_order_desc":
+            MessageLookupByLibrary.simpleMessage("每单收取取固定打包费"),
         "charge_for_self_pickup_or_takeout":
             MessageLookupByLibrary.simpleMessage("自提或外带时收取费用"),
         "checkMore": MessageLookupByLibrary.simpleMessage("查看更多"),
@@ -481,6 +562,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "choose_store_subject_type":
             MessageLookupByLibrary.simpleMessage("选择主体类型"),
         "choose_supplier": MessageLookupByLibrary.simpleMessage("选择供应商"),
+        "circular_buy_one_give_one_tips":
+            MessageLookupByLibrary.simpleMessage("如：买一送一，买二送一"),
+        "circular_buy_two_discount_tips":
+            MessageLookupByLibrary.simpleMessage("如：买2件8折，第二件半价"),
+        "circular_full_reduction": MessageLookupByLibrary.simpleMessage("循环满减"),
+        "circular_full_reduction_tips":
+            MessageLookupByLibrary.simpleMessage("如：满10减5， 满100减20"),
+        "circular_full_reduction_tips2":
+            MessageLookupByLibrary.simpleMessage("根据金额循环叠加所设置的优惠"),
+        "circular_give_goods_tips":
+            MessageLookupByLibrary.simpleMessage("如：满100赠送商品"),
         "classification": MessageLookupByLibrary.simpleMessage("分类"),
         "classification_management":
             MessageLookupByLibrary.simpleMessage("分类管理"),
@@ -518,6 +610,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "combo_ranking": MessageLookupByLibrary.simpleMessage("套餐排行"),
         "commNoBarcode": MessageLookupByLibrary.simpleMessage("非标品"),
         "commPic": MessageLookupByLibrary.simpleMessage("商品图片"),
+        "comm_importing": MessageLookupByLibrary.simpleMessage("商品导入中..."),
         "commitmentLetter": MessageLookupByLibrary.simpleMessage("承诺函"),
         "commodity_ID": MessageLookupByLibrary.simpleMessage("商品ID"),
         "commodity_archive": MessageLookupByLibrary.simpleMessage("商品档案"),
@@ -553,7 +646,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("连接失败，请确认IP和端口是否正确"),
         "connect_label_printer":
             MessageLookupByLibrary.simpleMessage("请连接标签打印机"),
+        "connect_printer": MessageLookupByLibrary.simpleMessage("请连接打印机"),
         "connect_to_network": MessageLookupByLibrary.simpleMessage("设备连接网络"),
+        "connect_via_wifi":
+            MessageLookupByLibrary.simpleMessage("通过 WiFi 网络连接"),
         "connected": MessageLookupByLibrary.simpleMessage("已连接"),
         "consumeRecord": MessageLookupByLibrary.simpleMessage("消费记录"),
         "consumption_flow": MessageLookupByLibrary.simpleMessage("消费流水"),
@@ -574,6 +670,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "corporate_identity_card":
             MessageLookupByLibrary.simpleMessage("法人身份证"),
         "corporate_name": MessageLookupByLibrary.simpleMessage("公司名称"),
+        "correct_discount_info":
+            MessageLookupByLibrary.simpleMessage("请填写正确的折扣信息"),
+        "correct_full_reduction_info":
+            MessageLookupByLibrary.simpleMessage("请填写正确的满减信息"),
         "costPrice": MessageLookupByLibrary.simpleMessage("成本价"),
         "cost_accounting": MessageLookupByLibrary.simpleMessage("成本核算"),
         "count": MessageLookupByLibrary.simpleMessage("笔数"),
@@ -589,24 +689,39 @@ class MessageLookup extends MessageLookupByLibrary {
         "create": m17,
         "createStore": MessageLookupByLibrary.simpleMessage("创建店铺"),
         "createSuccess": MessageLookupByLibrary.simpleMessage("创建成功"),
+        "create_buy_one_give_one": MessageLookupByLibrary.simpleMessage("创建买赠"),
         "create_count": MessageLookupByLibrary.simpleMessage("创建数量"),
         "create_count_error":
             MessageLookupByLibrary.simpleMessage("请输入正确的创建数量"),
         "create_count_hint": MessageLookupByLibrary.simpleMessage("请输入创建数量"),
         "create_event": MessageLookupByLibrary.simpleMessage("创建活动"),
+        "create_full_reduction": MessageLookupByLibrary.simpleMessage("创建整单满减"),
+        "create_full_reduction_gift":
+            MessageLookupByLibrary.simpleMessage("创建整单满赠"),
         "create_new_password": MessageLookupByLibrary.simpleMessage("创建新密码"),
         "create_shop": MessageLookupByLibrary.simpleMessage("请在「吉祥管店APP」创建店铺"),
+        "create_shop_tips":
+            MessageLookupByLibrary.simpleMessage("您可以自己开店，或通过管理员邀请进店"),
+        "create_the_nth_discount":
+            MessageLookupByLibrary.simpleMessage("创建第N件折扣"),
         "credit_code": MessageLookupByLibrary.simpleMessage("信用代码"),
         "currentAccount": MessageLookupByLibrary.simpleMessage("当前账号"),
         "currentStock": MessageLookupByLibrary.simpleMessage("盘点库存"),
         "current_inventory": MessageLookupByLibrary.simpleMessage("当前库存"),
         "current_product": MessageLookupByLibrary.simpleMessage("当前商品"),
         "current_shop": MessageLookupByLibrary.simpleMessage("当前店铺"),
+        "currently_do_not_support_creating_activities_on_the_same_day":
+            MessageLookupByLibrary.simpleMessage("目前不支持创建当天活动"),
+        "custom": MessageLookupByLibrary.simpleMessage("自定义"),
         "customAmount": MessageLookupByLibrary.simpleMessage("自定义金额"),
         "customPayments": MessageLookupByLibrary.simpleMessage("自定义记账方式"),
         "customSaleTime": MessageLookupByLibrary.simpleMessage("自定义售卖时段"),
         "custom_button": MessageLookupByLibrary.simpleMessage("自定义按键"),
+        "custom_order": MessageLookupByLibrary.simpleMessage("自定义接单"),
+        "custom_order_desc":
+            MessageLookupByLibrary.simpleMessage("按以下顺序接单，长按并拖动可调整接单顺序"),
         "custom_payment": MessageLookupByLibrary.simpleMessage("记账方式"),
+        "custom_required_item": MessageLookupByLibrary.simpleMessage("自定义必点"),
         "customer_cannot_pay_online":
             MessageLookupByLibrary.simpleMessage("顾客无法通过在线支付，付款到您的账户"),
         "customer_payment_success":
@@ -623,6 +738,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "data_type": MessageLookupByLibrary.simpleMessage("数据类型"),
         "day": MessageLookupByLibrary.simpleMessage("天"),
         "dayInChart": MessageLookupByLibrary.simpleMessage("日"),
+        "dayStr": m18,
+        "day_": MessageLookupByLibrary.simpleMessage("日"),
         "deduction": MessageLookupByLibrary.simpleMessage("减免"),
         "del": MessageLookupByLibrary.simpleMessage("删除"),
         "delMember": MessageLookupByLibrary.simpleMessage("删除会员"),
@@ -637,9 +754,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "deleteMaterialTips": MessageLookupByLibrary.simpleMessage("是否删除该加料？"),
         "deleteSuccess": MessageLookupByLibrary.simpleMessage("删除成功"),
         "deleteTable": MessageLookupByLibrary.simpleMessage("删除桌台"),
-        "deleteTableTipsWithNum": m18,
+        "deleteTableTipsWithNum": m19,
+        "delete_activity": MessageLookupByLibrary.simpleMessage("删除活动"),
+        "delete_activity_tips":
+            MessageLookupByLibrary.simpleMessage("删除后，本次活动中的商品将不再享受优惠，活动不可恢复"),
         "delete_area": MessageLookupByLibrary.simpleMessage("删除区域"),
         "delete_category": MessageLookupByLibrary.simpleMessage("删除分类"),
+        "delete_cooking_method": MessageLookupByLibrary.simpleMessage("删除做法"),
+        "delete_cooking_method_tips":
+            MessageLookupByLibrary.simpleMessage("是否删除该做法？"),
         "delete_device": MessageLookupByLibrary.simpleMessage("删除设备"),
         "delete_dish": MessageLookupByLibrary.simpleMessage("删除菜品"),
         "delete_dish_tips":
@@ -649,12 +772,13 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("删除后，员工将被移出店铺，收银\n数据保留"),
         "delete_goods_tips":
             MessageLookupByLibrary.simpleMessage("删除后，该商品将无法恢复，是否确认删除？"),
-        "delete_goods_tips_with": m19,
+        "delete_goods_tips_with": m20,
         "delete_printer_tips":
             MessageLookupByLibrary.simpleMessage("删除后将断开设备连接，并清空自定义配置，是否继续删除"),
         "delete_product": MessageLookupByLibrary.simpleMessage("删除商品"),
         "delete_table_code_tips":
             MessageLookupByLibrary.simpleMessage("是否解除桌台码绑定？"),
+        "delete_table_tips": MessageLookupByLibrary.simpleMessage("是否删除桌台？"),
         "delivery": MessageLookupByLibrary.simpleMessage("外卖配送"),
         "deliveryAddress": MessageLookupByLibrary.simpleMessage("配送地址"),
         "deliveryOrder": MessageLookupByLibrary.simpleMessage("外卖单"),
@@ -686,13 +810,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "deviceName": MessageLookupByLibrary.simpleMessage("设备名称"),
         "deviceNameHint": MessageLookupByLibrary.simpleMessage("请输入设备名称"),
         "deviceNo": MessageLookupByLibrary.simpleMessage("设备号"),
-        "deviceNo2": m20,
+        "deviceNo2": m21,
         "device_ID": MessageLookupByLibrary.simpleMessage("设备编号"),
         "device_ID_hint": MessageLookupByLibrary.simpleMessage("输入打印机标签上的设备号"),
+        "device_bound_to_shop": m22,
         "device_cannot_be_identified":
             MessageLookupByLibrary.simpleMessage("该设备不可识别，请重新扫码"),
         "device_key": MessageLookupByLibrary.simpleMessage("设备密钥"),
         "device_key_hint": MessageLookupByLibrary.simpleMessage("输入打印机标签上的密钥"),
+        "device_name": m23,
+        "device_name_with": m24,
         "device_number_or_sn": MessageLookupByLibrary.simpleMessage("设备编号/SN"),
         "device_number_or_sn_required":
             MessageLookupByLibrary.simpleMessage("请输入设备编号/SN"),
@@ -702,6 +829,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "dingjianScaleTip":
             MessageLookupByLibrary.simpleMessage("支持通过局域网连接的顶尖电子秤"),
         "diningIn": MessageLookupByLibrary.simpleMessage("堂食"),
+        "dining_people": MessageLookupByLibrary.simpleMessage("就餐人数"),
+        "dining_people_with": m25,
         "disable_employees": MessageLookupByLibrary.simpleMessage("禁用员工"),
         "disconnect": MessageLookupByLibrary.simpleMessage("断开"),
         "discount": MessageLookupByLibrary.simpleMessage("折扣"),
@@ -709,7 +838,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "discountAmountReceivable":
             MessageLookupByLibrary.simpleMessage("优惠后应收金额"),
         "discountChargeNone": MessageLookupByLibrary.simpleMessage("不抹零"),
-        "discountChargeWithAmount": m21,
+        "discountChargeWithAmount": m26,
         "discount_amount": MessageLookupByLibrary.simpleMessage("折"),
         "discounts": MessageLookupByLibrary.simpleMessage("优惠"),
         "dishCode": MessageLookupByLibrary.simpleMessage("菜品编码"),
@@ -727,9 +856,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "download_order_qr_code":
             MessageLookupByLibrary.simpleMessage("下载点餐二维码"),
         "download_template": MessageLookupByLibrary.simpleMessage("下载模板"),
+        "download_template_desc": MessageLookupByLibrary.simpleMessage(
+            "点击「下载模板」，按文件录入商品信息\n点击「选择文件」，导入商品"),
         "download_template_hint":
             MessageLookupByLibrary.simpleMessage("导入模板，按照模板填写将原有POS数据导出"),
-        "downloading": m22,
+        "downloading": m27,
+        "each_full": MessageLookupByLibrary.simpleMessage("每满"),
+        "each_person": MessageLookupByLibrary.simpleMessage("每位"),
         "early_warning_of_shelf_life":
             MessageLookupByLibrary.simpleMessage("保质期预警"),
         "edit": MessageLookupByLibrary.simpleMessage("编辑"),
@@ -737,36 +870,48 @@ class MessageLookup extends MessageLookupByLibrary {
         "editInfo": MessageLookupByLibrary.simpleMessage("编辑信息"),
         "editMaterial": MessageLookupByLibrary.simpleMessage("编辑加料"),
         "editUsbPrinter": MessageLookupByLibrary.simpleMessage("编辑USB打印机"),
-        "edit_": m23,
+        "edit_": m28,
+        "edit_buy_one_give_one": MessageLookupByLibrary.simpleMessage("编辑买赠"),
         "edit_device": MessageLookupByLibrary.simpleMessage("编辑设备"),
         "edit_dish": MessageLookupByLibrary.simpleMessage("编辑菜品"),
         "edit_employee_information":
             MessageLookupByLibrary.simpleMessage("编辑员工信息"),
+        "edit_full_reduction": MessageLookupByLibrary.simpleMessage("编辑整单满减"),
+        "edit_full_reduction_gift":
+            MessageLookupByLibrary.simpleMessage("编辑整单满赠"),
         "edit_goods": MessageLookupByLibrary.simpleMessage("修改商品"),
         "edit_name": MessageLookupByLibrary.simpleMessage("修改姓名"),
         "edit_network_printer": MessageLookupByLibrary.simpleMessage("编辑网络打印机"),
         "edit_product": MessageLookupByLibrary.simpleMessage("编辑商品"),
         "edit_role": MessageLookupByLibrary.simpleMessage("编辑角色"),
         "edit_shop_address": MessageLookupByLibrary.simpleMessage("编辑店铺地址"),
+        "edit_something": m29,
         "edit_supplier": MessageLookupByLibrary.simpleMessage("编辑供应商"),
         "edit_table": MessageLookupByLibrary.simpleMessage("编辑桌台"),
+        "edit_the_nth_discount":
+            MessageLookupByLibrary.simpleMessage("编辑第N件折扣"),
         "emailDeliveryTips": MessageLookupByLibrary.simpleMessage(
             "邮件需要几分钟才能送达，请耐心等待。若在邮箱中未找到，可能被误认为垃圾邮件，请到垃圾邮箱查找"),
         "employee_join_application":
             MessageLookupByLibrary.simpleMessage("员工加入申请"),
         "empty": MessageLookupByLibrary.simpleMessage("清空"),
         "enable": MessageLookupByLibrary.simpleMessage("已开通"),
+        "end": MessageLookupByLibrary.simpleMessage("结束"),
         "endCashier": MessageLookupByLibrary.simpleMessage("结束收银"),
         "endDate": MessageLookupByLibrary.simpleMessage("结束日期"),
         "endTime": MessageLookupByLibrary.simpleMessage("结束时间"),
         "endTimeRequired": MessageLookupByLibrary.simpleMessage("请选择结束时间"),
+        "end_activity": MessageLookupByLibrary.simpleMessage("结束活动"),
         "end_cash_register": MessageLookupByLibrary.simpleMessage("结束收银"),
         "end_cash_register_hint":
             MessageLookupByLibrary.simpleMessage("工作辛苦了，结束收银后您的账号将停\n止收银"),
         "end_time": MessageLookupByLibrary.simpleMessage("有效期限至"),
         "end_time_": MessageLookupByLibrary.simpleMessage("结束时间"),
+        "end_time_must_be_greater_than_today":
+            MessageLookupByLibrary.simpleMessage("结束时间必须大于今日时间"),
         "enter_invitation_code": MessageLookupByLibrary.simpleMessage("输入邀请码"),
         "enter_password_again": MessageLookupByLibrary.simpleMessage("再次输入密码"),
+        "enter_shop": MessageLookupByLibrary.simpleMessage("进入店铺"),
         "enter_shop_invitation_code":
             MessageLookupByLibrary.simpleMessage("输入店铺邀请码"),
         "enter_shop_invitation_code_hint":
@@ -777,6 +922,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "estimatedDeliveryFee": MessageLookupByLibrary.simpleMessage("预估配送费"),
         "estimatedDeliveryTime": MessageLookupByLibrary.simpleMessage("预计送达时间"),
         "example": MessageLookupByLibrary.simpleMessage("示例"),
+        "excel_downloading":
+            MessageLookupByLibrary.simpleMessage("下载Excel模板..."),
         "exchange": MessageLookupByLibrary.simpleMessage("兑换"),
         "exchangeHint": MessageLookupByLibrary.simpleMessage("输入兑换金额"),
         "exchangeOrder": MessageLookupByLibrary.simpleMessage("兑换订单"),
@@ -799,6 +946,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("导出店内商品数据（Excel 文件）"),
         "export_success": MessageLookupByLibrary.simpleMessage("导出成功"),
         "female": MessageLookupByLibrary.simpleMessage("女士"),
+        "file_limit": MessageLookupByLibrary.simpleMessage("文件上限2M,请重新选择文件"),
         "filter": MessageLookupByLibrary.simpleMessage("筛选"),
         "finalPaymentTotal": MessageLookupByLibrary.simpleMessage("实际到账总额"),
         "finalRefund": MessageLookupByLibrary.simpleMessage("应退"),
@@ -806,25 +954,28 @@ class MessageLookup extends MessageLookupByLibrary {
         "first_in_first_out": MessageLookupByLibrary.simpleMessage("先进先出"),
         "flow_record_inventory_record":
             MessageLookupByLibrary.simpleMessage("● 流水记录、库存记录等"),
+        "font_size": MessageLookupByLibrary.simpleMessage("字号"),
         "forget_password": MessageLookupByLibrary.simpleMessage("忘记密码"),
         "freeDish": MessageLookupByLibrary.simpleMessage("赠菜"),
         "freeze": MessageLookupByLibrary.simpleMessage("冻结"),
+        "friday": MessageLookupByLibrary.simpleMessage("五"),
         "front_ID_card": MessageLookupByLibrary.simpleMessage("人像面照片"),
         "front_ID_card_hint":
             MessageLookupByLibrary.simpleMessage("身份证正面照片（包含姓名、公民身份号码）"),
         "front_cashier": MessageLookupByLibrary.simpleMessage("前台收银"),
         "frozen": MessageLookupByLibrary.simpleMessage("已冻结"),
-        "fullAmount": m24,
-        "fullAmountCouponName": m25,
-        "fullAmountWithDiscount": m26,
-        "fullAmountWithDiscountCouponName": m27,
-        "fullAmountWithGift": m28,
-        "fullAmountWithGiftCouponName": m29,
-        "fullAmountWithGiftCouponNameWithAmount": m30,
+        "fullAmount": m30,
+        "fullAmountCouponName": m31,
+        "fullAmountWithDiscount": m32,
+        "fullAmountWithDiscountCouponName": m33,
+        "fullAmountWithGift": m34,
+        "fullAmountWithGiftCouponName": m35,
+        "fullAmountWithGiftCouponNameWithAmount": m36,
         "full_gift_1_activity": MessageLookupByLibrary.simpleMessage("买赠"),
         "full_gift_2_activity": MessageLookupByLibrary.simpleMessage("整单满赠"),
         "full_gift_condition": MessageLookupByLibrary.simpleMessage("满赠条件"),
         "full_name_store": MessageLookupByLibrary.simpleMessage("店铺全称"),
+        "full_reduction": MessageLookupByLibrary.simpleMessage("满(元)"),
         "full_reduction_activity": MessageLookupByLibrary.simpleMessage("整单满减"),
         "full_reduction_condition":
             MessageLookupByLibrary.simpleMessage("满减条件"),
@@ -840,6 +991,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "gender": MessageLookupByLibrary.simpleMessage("性别"),
         "generate_barcode": MessageLookupByLibrary.simpleMessage("生成条码"),
         "generate_image": MessageLookupByLibrary.simpleMessage("生成图片"),
+        "generate_table_code": MessageLookupByLibrary.simpleMessage("生成桌台码"),
         "get": MessageLookupByLibrary.simpleMessage("获得"),
         "getCode": MessageLookupByLibrary.simpleMessage("获取验证码"),
         "getCodeSuccess": MessageLookupByLibrary.simpleMessage("验证码发送成功！"),
@@ -850,6 +1002,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("提货方式设置"),
         "getGoodsMethodTips": MessageLookupByLibrary.simpleMessage(
             "提货选择提示：\n1.到店自提由消费者到店铺的自行取货\n2.送货上门由商家进行配送服务\n3.支持同时开启两种提货方式"),
+        "get_activity_goods_failed":
+            MessageLookupByLibrary.simpleMessage("获取活动商品失败"),
+        "get_code_tips": m37,
         "geterTel": MessageLookupByLibrary.simpleMessage("取货人电话"),
         "gift": MessageLookupByLibrary.simpleMessage("赠"),
         "giftAmount": MessageLookupByLibrary.simpleMessage("赠送金额"),
@@ -859,7 +1014,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "giftFlag": MessageLookupByLibrary.simpleMessage("赠送"),
         "giftOrderCount": MessageLookupByLibrary.simpleMessage("完成订单(笔)"),
         "giftRefundCount": MessageLookupByLibrary.simpleMessage("退回礼劵"),
-        "giftWithAmount": m31,
+        "giftWithAmount": m38,
+        "give_goods": MessageLookupByLibrary.simpleMessage("赠送商品"),
+        "give_goods_empty": MessageLookupByLibrary.simpleMessage("赠送商品为空"),
+        "give_goods_unit": MessageLookupByLibrary.simpleMessage("赠(件)"),
         "goPay": MessageLookupByLibrary.simpleMessage("去付款"),
         "go_bind": MessageLookupByLibrary.simpleMessage("去绑定"),
         "go_login": MessageLookupByLibrary.simpleMessage("去登录"),
@@ -870,7 +1028,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "goods": MessageLookupByLibrary.simpleMessage("商品"),
         "goodsAdjustment": MessageLookupByLibrary.simpleMessage("商品调整"),
         "goodsCardStyle": MessageLookupByLibrary.simpleMessage("商品卡片样式"),
-        "goodsCatFlag": m32,
+        "goodsCatFlag": m39,
         "goodsInfo": MessageLookupByLibrary.simpleMessage("商品信息"),
         "goodsInfoUnSaveMakeSureLeave":
             MessageLookupByLibrary.simpleMessage("商品信息未保存，请确认是否离开"),
@@ -902,7 +1060,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "gram": MessageLookupByLibrary.simpleMessage("克"),
         "gross_profit": MessageLookupByLibrary.simpleMessage("毛利"),
         "gross_profit_rate": MessageLookupByLibrary.simpleMessage("毛利率"),
-        "gross_profit_with": m33,
+        "gross_profit_with": m40,
         "guestOrder": MessageLookupByLibrary.simpleMessage("客单"),
         "handover": MessageLookupByLibrary.simpleMessage("交接班"),
         "hangUpOrder": MessageLookupByLibrary.simpleMessage("挂单"),
@@ -917,10 +1075,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "have_been_voided": MessageLookupByLibrary.simpleMessage("已作废"),
         "have_been_voided_hint":
             MessageLookupByLibrary.simpleMessage("您的申请单已撤销，您可以重新发起入驻申\n请"),
-        "hello_name": m34,
+        "hello_name": m41,
         "home": MessageLookupByLibrary.simpleMessage("首页"),
         "horizontal_offset": MessageLookupByLibrary.simpleMessage("水平偏移"),
+        "hot_sauce": MessageLookupByLibrary.simpleMessage("如微辣、中辣"),
+        "hour": MessageLookupByLibrary.simpleMessage("时"),
         "hourInChart": MessageLookupByLibrary.simpleMessage("时"),
+        "hourStr": m42,
         "idNo": MessageLookupByLibrary.simpleMessage("身份证号"),
         "id_card": MessageLookupByLibrary.simpleMessage("身份证"),
         "idle": MessageLookupByLibrary.simpleMessage("空闲"),
@@ -931,6 +1092,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("您可以将旧收银机的数据导入或手动\n新增菜品"),
         "import_or_add_goods":
             MessageLookupByLibrary.simpleMessage("您可以将旧收银机的数据导入或手动\n新增商品"),
+        "import_result_with": m43,
+        "import_success": MessageLookupByLibrary.simpleMessage("商品导入完成"),
         "in_progress": MessageLookupByLibrary.simpleMessage("进行中"),
         "in_stock": MessageLookupByLibrary.simpleMessage("库存"),
         "inbound_num": MessageLookupByLibrary.simpleMessage("入库数量"),
@@ -977,7 +1140,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "inputMemberPrice": MessageLookupByLibrary.simpleMessage("请输入会员价"),
         "inputMerchantIdNo": MessageLookupByLibrary.simpleMessage("请输入商户身份证号"),
         "inputMerchantName": MessageLookupByLibrary.simpleMessage("请输入商户名称"),
-        "inputNameOf": m35,
+        "inputNameOf": m44,
         "inputNewPhoneNumber": MessageLookupByLibrary.simpleMessage("请输入新手机号"),
         "inputOrderPeopleNum": MessageLookupByLibrary.simpleMessage("输入用餐人数"),
         "inputPLUCode": MessageLookupByLibrary.simpleMessage("请输入PLU码"),
@@ -995,7 +1158,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("请输入批发最低数量"),
         "inputWholesaleMinimumWeight":
             MessageLookupByLibrary.simpleMessage("请输入批发最低重量"),
-        "inputWithContent": m36,
+        "inputWithContent": m45,
         "input_area_name": MessageLookupByLibrary.simpleMessage("请输入区域名称"),
         "input_binding_code_or_key":
             MessageLookupByLibrary.simpleMessage("请输入绑定码/KEY"),
@@ -1006,6 +1169,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("请输入正确的购买数量"),
         "input_device_number_or_sn":
             MessageLookupByLibrary.simpleMessage("请输入设备编号/SN"),
+        "input_goods_shelf_name":
+            MessageLookupByLibrary.simpleMessage("请填写商品货架名称"),
+        "input_join_tips": MessageLookupByLibrary.simpleMessage("输入店铺邀请码加入店铺"),
         "input_name": MessageLookupByLibrary.simpleMessage("请输入姓名"),
         "input_role_name": MessageLookupByLibrary.simpleMessage("请输入角色名称"),
         "input_sms_code": MessageLookupByLibrary.simpleMessage("请输入短信验证码"),
@@ -1021,6 +1187,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("余额不足，请选择其他收款方式"),
         "intoAmount": MessageLookupByLibrary.simpleMessage("营业净额"),
         "invalid": MessageLookupByLibrary.simpleMessage("作废"),
+        "invalid_time": m46,
         "inventory": MessageLookupByLibrary.simpleMessage("盘点"),
         "inventoryAdjust": MessageLookupByLibrary.simpleMessage("库存调整"),
         "inventoryCheck": MessageLookupByLibrary.simpleMessage("库存盘点"),
@@ -1052,20 +1219,27 @@ class MessageLookup extends MessageLookupByLibrary {
         "isPaying": MessageLookupByLibrary.simpleMessage("顾客正在付款..."),
         "job_title": MessageLookupByLibrary.simpleMessage("职务"),
         "join_shop": MessageLookupByLibrary.simpleMessage("加入店铺"),
-        "join_shop_hint": m37,
+        "join_shop_hint": m47,
+        "join_success": MessageLookupByLibrary.simpleMessage("加入成功"),
+        "join_time": MessageLookupByLibrary.simpleMessage("加入时间"),
         "just_now": MessageLookupByLibrary.simpleMessage("刚刚"),
         "kg": MessageLookupByLibrary.simpleMessage("公斤"),
         "kgDesc":
             MessageLookupByLibrary.simpleMessage("称重商品单位变成「公斤」\n例：1公斤=2市斤"),
         "kitchen_receipt": MessageLookupByLibrary.simpleMessage("后厨小票"),
+        "kitchen_receipt_settings":
+            MessageLookupByLibrary.simpleMessage("后厨小票设置"),
+        "label": MessageLookupByLibrary.simpleMessage("标签"),
         "labelPrinter": MessageLookupByLibrary.simpleMessage("标签打印机"),
         "labelScaler": MessageLookupByLibrary.simpleMessage("条码扫描器"),
-        "label_scale": m38,
+        "label_scale": m48,
         "label_size": MessageLookupByLibrary.simpleMessage("标签尺寸"),
+        "label_style": MessageLookupByLibrary.simpleMessage("价签样式"),
+        "large": MessageLookupByLibrary.simpleMessage("大"),
         "large_package": MessageLookupByLibrary.simpleMessage("大包装"),
         "large_package_goods":
             MessageLookupByLibrary.simpleMessage("商品为大包装，请拆分后操作"),
-        "lastSync": m39,
+        "lastSync": m49,
         "last_120_days": MessageLookupByLibrary.simpleMessage("近120天"),
         "last_30_days": MessageLookupByLibrary.simpleMessage("近30天"),
         "last_7_days": MessageLookupByLibrary.simpleMessage("近7天"),
@@ -1073,13 +1247,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "leaveOrNot": MessageLookupByLibrary.simpleMessage("是否离开"),
         "leavePageTips": MessageLookupByLibrary.simpleMessage("即将离开此页面，是否清空商品"),
         "leftDay": MessageLookupByLibrary.simpleMessage("剩余天数"),
-        "leftNumWith": m40,
+        "leftNumWith": m50,
         "leftPoints": MessageLookupByLibrary.simpleMessage("剩余积分"),
         "leftTime": MessageLookupByLibrary.simpleMessage("剩余时间"),
-        "leftWeightWith": m41,
-        "lenMm": m42,
+        "leftWeightWith": m51,
+        "lenMm": m52,
+        "line": MessageLookupByLibrary.simpleMessage("行"),
         "loaded_all_data": MessageLookupByLibrary.simpleMessage("已加载完全部数据"),
         "loading": MessageLookupByLibrary.simpleMessage("正在加载中..."),
+        "location_permission_usage_instructions":
+            MessageLookupByLibrary.simpleMessage("定位权限使用说明"),
+        "location_permission_usage_instructions_desc":
+            MessageLookupByLibrary.simpleMessage("用于定位商家店铺位置"),
         "login": MessageLookupByLibrary.simpleMessage("登录"),
         "loginMember": MessageLookupByLibrary.simpleMessage("登录会员"),
         "loginOnKeyboard": MessageLookupByLibrary.simpleMessage("登\n录"),
@@ -1089,7 +1268,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logout_shop": MessageLookupByLibrary.simpleMessage("退出店铺"),
         "logout_shop_hint":
             MessageLookupByLibrary.simpleMessage("退出店铺后您将不是该店铺员工\n所有资料数据也会被清除"),
-        "logout_shop_with": m43,
+        "logout_shop_with": m53,
         "logout_success": MessageLookupByLibrary.simpleMessage("退出成功"),
         "long_press_to_identify_mini_program_code":
             MessageLookupByLibrary.simpleMessage("长按识别小程序码"),
@@ -1109,13 +1288,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "manage_tables_and_table_codes":
             MessageLookupByLibrary.simpleMessage("管理桌台及桌台码"),
         "management_type": MessageLookupByLibrary.simpleMessage("经营类型"),
-        "manual": m44,
+        "manual": m54,
         "marketing": MessageLookupByLibrary.simpleMessage("营销"),
         "marketing_activity": MessageLookupByLibrary.simpleMessage("营销活动"),
         "materialName": MessageLookupByLibrary.simpleMessage("加料名称"),
         "materials": MessageLookupByLibrary.simpleMessage("加料"),
-        "materialsWith": m45,
+        "materialsWith": m55,
         "maxCost": MessageLookupByLibrary.simpleMessage("订单金额不能超过100000元"),
+        "max_label_count": MessageLookupByLibrary.simpleMessage("最多只可添加10个标签"),
+        "medium": MessageLookupByLibrary.simpleMessage("中"),
         "member": MessageLookupByLibrary.simpleMessage("会员"),
         "memberAvatar": MessageLookupByLibrary.simpleMessage("会员头像"),
         "memberBalance": MessageLookupByLibrary.simpleMessage("储值余额"),
@@ -1133,7 +1314,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "memberName": MessageLookupByLibrary.simpleMessage("会员姓名"),
         "memberNameInputHint": MessageLookupByLibrary.simpleMessage("请输入会员姓名"),
         "memberNotFound": MessageLookupByLibrary.simpleMessage("未找到会员"),
-        "memberNotFoundTips": m46,
+        "memberNotFoundTips": m56,
         "memberPayment": MessageLookupByLibrary.simpleMessage("会员收款"),
         "memberPrice": MessageLookupByLibrary.simpleMessage("会员售价"),
         "memberRecharge": MessageLookupByLibrary.simpleMessage("会员充值"),
@@ -1163,6 +1344,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "merchants_info": MessageLookupByLibrary.simpleMessage("商户资料"),
         "mini_program_code_generating":
             MessageLookupByLibrary.simpleMessage("小程序码生成中..."),
+        "minute": MessageLookupByLibrary.simpleMessage("分"),
+        "minuteStr": m57,
         "mobile": MessageLookupByLibrary.simpleMessage("手机号码"),
         "mobileHint": MessageLookupByLibrary.simpleMessage("请输入手机号码"),
         "mobileLogin": MessageLookupByLibrary.simpleMessage("手机登录"),
@@ -1171,26 +1354,31 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("服务商编号"),
         "mobile_pay_opened": MessageLookupByLibrary.simpleMessage("手机支付已开通"),
         "model": MessageLookupByLibrary.simpleMessage("型号"),
-        "modify": m47,
+        "modify": m58,
         "modifyPhoneNumber": MessageLookupByLibrary.simpleMessage("修改手机号"),
         "modifyRefundAmount": MessageLookupByLibrary.simpleMessage("修改退款金额"),
         "modifyRefundAmount2": MessageLookupByLibrary.simpleMessage("修改退款金额"),
         "modify_store_name_hint":
             MessageLookupByLibrary.simpleMessage("支持4-20个字符，可由中英文、数字组成"),
         "modify_temporary_dish": MessageLookupByLibrary.simpleMessage("修改临时菜"),
+        "monday": MessageLookupByLibrary.simpleMessage("一"),
         "money": MessageLookupByLibrary.simpleMessage("金额"),
         "month": MessageLookupByLibrary.simpleMessage("月"),
+        "monthAndDay": m59,
         "monthInChart": MessageLookupByLibrary.simpleMessage("月"),
-        "monthStr": m48,
+        "monthStr": m60,
         "more": MessageLookupByLibrary.simpleMessage("更多"),
         "moreSetting": MessageLookupByLibrary.simpleMessage("更多设置"),
         "more_function": MessageLookupByLibrary.simpleMessage("更多功能"),
-        "moveWithName": m49,
+        "moveWithName": m61,
         "move_category": MessageLookupByLibrary.simpleMessage("移动分类"),
+        "move_to_category_named": m62,
+        "must_person_desc": m63,
+        "must_table_desc": m64,
         "my": MessageLookupByLibrary.simpleMessage("我的"),
         "my_message": MessageLookupByLibrary.simpleMessage("我的消息"),
         "name": MessageLookupByLibrary.simpleMessage("姓名"),
-        "nameOf": m50,
+        "nameOf": m65,
         "name_legal_person": MessageLookupByLibrary.simpleMessage("法人姓名"),
         "needChangeTable": MessageLookupByLibrary.simpleMessage("需要换到哪个桌台？"),
         "networkLabelPrinter": MessageLookupByLibrary.simpleMessage("网络标签打印机"),
@@ -1209,7 +1397,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "new_category_hint":
             MessageLookupByLibrary.simpleMessage("请输入你想要的分类名称"),
         "new_goods": MessageLookupByLibrary.simpleMessage("新增商品"),
-        "new_goods_hint_1": m51,
+        "new_goods_hint_1": m66,
         "new_goods_hint_2":
             MessageLookupByLibrary.simpleMessage("商品档案有该商品信息，是否新增"),
         "new_role": MessageLookupByLibrary.simpleMessage("新增角色"),
@@ -1239,7 +1427,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "noTable": MessageLookupByLibrary.simpleMessage("暂无桌台"),
         "noUpload": MessageLookupByLibrary.simpleMessage("未上传"),
         "noValidBarcode": MessageLookupByLibrary.simpleMessage("未识别到有效条码！"),
-        "no_account": m52,
+        "no_account": m67,
         "no_barcode_detected": MessageLookupByLibrary.simpleMessage("未识别到条码"),
         "no_barcode_goods": MessageLookupByLibrary.simpleMessage("无码商品"),
         "no_cashier_account": MessageLookupByLibrary.simpleMessage("还没有收银账号"),
@@ -1250,9 +1438,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "no_data": MessageLookupByLibrary.simpleMessage("没有数据"),
         "no_equipment": MessageLookupByLibrary.simpleMessage("暂无设备"),
         "no_goods_info_found": MessageLookupByLibrary.simpleMessage("未找到该商品信息"),
+        "no_permission": MessageLookupByLibrary.simpleMessage("您还没有获取权限"),
+        "no_permission_tips":
+            MessageLookupByLibrary.simpleMessage("您还未获得权限，请向管理者申请"),
         "no_permission_to_operate_commodity_archive":
             MessageLookupByLibrary.simpleMessage("您没有权限操作商品档案"),
+        "no_related_results_found":
+            MessageLookupByLibrary.simpleMessage("没有找到相关结果"),
         "no_shop": MessageLookupByLibrary.simpleMessage("您还没创建店铺"),
+        "no_shop_tips": MessageLookupByLibrary.simpleMessage("当前还没店铺"),
         "no_ticket_printer_configured":
             MessageLookupByLibrary.simpleMessage("未配置出票打印机"),
         "no_weight_goods_exist":
@@ -1276,21 +1470,23 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("非长期有效"),
         "not_now": MessageLookupByLibrary.simpleMessage("我再想想"),
         "not_open_merchant": MessageLookupByLibrary.simpleMessage("未开通商户号"),
+        "not_open_online_payment":
+            MessageLookupByLibrary.simpleMessage("未开通线上支付"),
         "not_started": MessageLookupByLibrary.simpleMessage("未开始"),
         "not_use": MessageLookupByLibrary.simpleMessage("暂不使用"),
         "nthItemDiscount": MessageLookupByLibrary.simpleMessage("第N件折扣"),
-        "number_order": m53,
+        "number_order": m68,
         "oddChange": MessageLookupByLibrary.simpleMessage("找零"),
         "offDuty": MessageLookupByLibrary.simpleMessage("已交班"),
         "offDutyDetail": MessageLookupByLibrary.simpleMessage("交班详情"),
-        "offDutyTimeWith": m54,
+        "offDutyTimeWith": m69,
         "offer_stacking": MessageLookupByLibrary.simpleMessage("优惠叠加"),
         "offline": MessageLookupByLibrary.simpleMessage("已离线"),
         "offline_order": MessageLookupByLibrary.simpleMessage("线下订单"),
         "offline_simple": MessageLookupByLibrary.simpleMessage("线下"),
         "onDuty": MessageLookupByLibrary.simpleMessage("当班人"),
         "onDutyDetail": MessageLookupByLibrary.simpleMessage("当班详情"),
-        "onDutyWith": m55,
+        "onDutyWith": m70,
         "one_dish_one_cut": MessageLookupByLibrary.simpleMessage("一菜一切"),
         "one_dish_one_cut_tips":
             MessageLookupByLibrary.simpleMessage("后厨小票订单内每个菜品都打印一张小票"),
@@ -1298,7 +1494,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "onlineDevice": MessageLookupByLibrary.simpleMessage("在线设备"),
         "onlineOrder": MessageLookupByLibrary.simpleMessage("外卖"),
         "online_order": MessageLookupByLibrary.simpleMessage("线上订单"),
+        "only_cashier_login": MessageLookupByLibrary.simpleMessage("仅限收银登录"),
+        "only_cashier_login_tips": m71,
+        "only_member_participate":
+            MessageLookupByLibrary.simpleMessage("仅会员参加"),
         "only_order": MessageLookupByLibrary.simpleMessage("仅点餐"),
+        "only_qr_code": MessageLookupByLibrary.simpleMessage("仅二维码"),
         "only_show_non_standard_goods":
             MessageLookupByLibrary.simpleMessage("仅显示非标品"),
         "openCashDrawer": MessageLookupByLibrary.simpleMessage("开钱箱"),
@@ -1309,6 +1510,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "openTableComms": MessageLookupByLibrary.simpleMessage("开台必点"),
         "openTableTime": MessageLookupByLibrary.simpleMessage("开台时间"),
         "open_flashlight": MessageLookupByLibrary.simpleMessage("开启手电筒"),
+        "open_payment": MessageLookupByLibrary.simpleMessage("开通支付"),
+        "open_shop_success": MessageLookupByLibrary.simpleMessage("恭喜您开店成功"),
+        "open_shop_success_tips": m72,
+        "open_shop_tips": MessageLookupByLibrary.simpleMessage("我要开店"),
         "open_the_failure": MessageLookupByLibrary.simpleMessage("开通失败"),
         "open_the_failure_hint":
             MessageLookupByLibrary.simpleMessage("请核对并修改以下信息后，再重新提交审核"),
@@ -1319,7 +1524,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "orderCashier": MessageLookupByLibrary.simpleMessage("收银人员"),
         "orderCheck": MessageLookupByLibrary.simpleMessage("确认核销"),
         "orderCount": MessageLookupByLibrary.simpleMessage("订单笔数"),
-        "orderCountWith": m56,
+        "orderCountWith": m73,
         "orderDate": MessageLookupByLibrary.simpleMessage("订单时间"),
         "orderDetail": MessageLookupByLibrary.simpleMessage("订单详情"),
         "orderDiscount": MessageLookupByLibrary.simpleMessage("整单优惠"),
@@ -1332,7 +1537,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "orderNo": MessageLookupByLibrary.simpleMessage("订单编号"),
         "orderPeopleNumEnd": MessageLookupByLibrary.simpleMessage("位"),
         "orderPeopleNumStart": MessageLookupByLibrary.simpleMessage("用餐人数"),
-        "orderPeopleNumWithNum": m57,
+        "orderPeopleNumWithNum": m74,
         "orderRemark": MessageLookupByLibrary.simpleMessage("订单备注"),
         "orderStatus": MessageLookupByLibrary.simpleMessage("订单状态"),
         "orderStatusCanceled": MessageLookupByLibrary.simpleMessage("已撤单"),
@@ -1342,7 +1547,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "orderTime": MessageLookupByLibrary.simpleMessage("下单时间"),
         "orderType": MessageLookupByLibrary.simpleMessage("订单类型"),
         "order_amount": MessageLookupByLibrary.simpleMessage("订单金额"),
+        "order_and_pay":
+            MessageLookupByLibrary.simpleMessage("顾客完成付款后，收银端和后厨出单"),
         "order_and_payment": MessageLookupByLibrary.simpleMessage("付款+点餐"),
+        "order_and_print":
+            MessageLookupByLibrary.simpleMessage("顾客下单后，收银端和后厨出单，允许加菜"),
         "order_before_pay": MessageLookupByLibrary.simpleMessage("先就餐，后付款"),
         "order_flow": MessageLookupByLibrary.simpleMessage("订单流水"),
         "order_people_num": MessageLookupByLibrary.simpleMessage("用餐人数"),
@@ -1356,7 +1565,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "order_status": MessageLookupByLibrary.simpleMessage("订单状态"),
         "order_type": MessageLookupByLibrary.simpleMessage("点餐方式"),
         "order_volume": MessageLookupByLibrary.simpleMessage("订单(笔)"),
-        "orderedGoods": m58,
+        "orderedGoods": m75,
         "orders": MessageLookupByLibrary.simpleMessage("订单"),
         "originalPrice": MessageLookupByLibrary.simpleMessage("原价"),
         "other": MessageLookupByLibrary.simpleMessage("其他"),
@@ -1368,6 +1577,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "owner_of_account": MessageLookupByLibrary.simpleMessage("开户人姓名"),
         "packaging_association": MessageLookupByLibrary.simpleMessage("大包装"),
         "packingFee": MessageLookupByLibrary.simpleMessage("打包费"),
+        "packing_fee_settings": MessageLookupByLibrary.simpleMessage("打包费设置"),
         "paperCheck": MessageLookupByLibrary.simpleMessage("结账单"),
         "paperCount": MessageLookupByLibrary.simpleMessage("打印数量"),
         "paperCountSelecter": MessageLookupByLibrary.simpleMessage("选择打印数量"),
@@ -1376,14 +1586,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "paperSize": MessageLookupByLibrary.simpleMessage("小票尺寸"),
         "paperStyle": MessageLookupByLibrary.simpleMessage("小票样式"),
         "paperStyleSelecter": MessageLookupByLibrary.simpleMessage("请选择小票样式"),
-        "papers": m59,
+        "papers": m76,
         "party_and_government":
             MessageLookupByLibrary.simpleMessage("党政/机关及事业单位"),
         "pass": MessageLookupByLibrary.simpleMessage("通过"),
         "passApply": MessageLookupByLibrary.simpleMessage("已通过申请"),
         "password": MessageLookupByLibrary.simpleMessage("密码"),
+        "password_at_least_8_digits":
+            MessageLookupByLibrary.simpleMessage("密码至少为8位"),
         "password_hint": MessageLookupByLibrary.simpleMessage("8-16位包含数字和英文"),
         "password_login": MessageLookupByLibrary.simpleMessage("密码登录"),
+        "password_not_consistent":
+            MessageLookupByLibrary.simpleMessage("密码不一致请重新输入"),
         "payAmountInput": MessageLookupByLibrary.simpleMessage("输入收款金额"),
         "payAmountInputHint": MessageLookupByLibrary.simpleMessage("请输入收款金额"),
         "payByAliOrWx":
@@ -1405,7 +1619,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "paymentTotal": MessageLookupByLibrary.simpleMessage("收款总额"),
         "payment_amount": MessageLookupByLibrary.simpleMessage("收款金额"),
         "payment_failed": MessageLookupByLibrary.simpleMessage("支付失败"),
-        "payment_failed_reason_with": m60,
+        "payment_failed_reason_with": m77,
         "payment_failed_tips":
             MessageLookupByLibrary.simpleMessage("没有收款成功，请顾客检查付款码，并重新扫码收款"),
         "payment_method": MessageLookupByLibrary.simpleMessage("支付方式"),
@@ -1433,6 +1647,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "per_person": MessageLookupByLibrary.simpleMessage("/人"),
         "per_table": MessageLookupByLibrary.simpleMessage("/桌"),
         "permission": MessageLookupByLibrary.simpleMessage("权限"),
+        "person_num": MessageLookupByLibrary.simpleMessage("每人数量"),
         "personalPaymentCode": MessageLookupByLibrary.simpleMessage("个人收款码"),
         "personal_info": MessageLookupByLibrary.simpleMessage("个人资料"),
         "personal_info_message_info":
@@ -1457,18 +1672,20 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseSelectTable": MessageLookupByLibrary.simpleMessage("请选择桌台"),
         "please_bind_employee": MessageLookupByLibrary.simpleMessage("请先绑定员工"),
         "please_choose": MessageLookupByLibrary.simpleMessage("请选择"),
-        "please_choose_name": m61,
+        "please_choose_name": m78,
         "please_enter_8_digit_invitation_code":
             MessageLookupByLibrary.simpleMessage("请输入8位店铺邀请码"),
         "please_enter_correct_port":
             MessageLookupByLibrary.simpleMessage("请输入正确的端口"),
+        "please_enter_role_name":
+            MessageLookupByLibrary.simpleMessage("请填写角色名称"),
         "please_fill_contact_number":
             MessageLookupByLibrary.simpleMessage("请填写联系人电话"),
         "please_fill_contact_person":
             MessageLookupByLibrary.simpleMessage("请填写联系人"),
         "please_fill_detailed_address_shop":
             MessageLookupByLibrary.simpleMessage("请填写店铺详细地址"),
-        "please_fill_in": m62,
+        "please_fill_in": m79,
         "please_fill_in_the_ID_number_of_the_contact_person":
             MessageLookupByLibrary.simpleMessage("请填写联系人的身份证号"),
         "please_fill_in_the_full_name_of_your_organization":
@@ -1482,6 +1699,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "please_re_enter": MessageLookupByLibrary.simpleMessage("请检查后重新输入"),
         "please_scan_or_fill_barcode":
             MessageLookupByLibrary.simpleMessage("请扫描/填写条码"),
+        "please_select_activity_time":
+            MessageLookupByLibrary.simpleMessage("请先选择活动时间段"),
         "pluCode": MessageLookupByLibrary.simpleMessage("PLU码"),
         "pluCodeCannotBeGreaterThan4000":
             MessageLookupByLibrary.simpleMessage("PLU码不允许大于4000"),
@@ -1509,6 +1728,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "port": MessageLookupByLibrary.simpleMessage("端口"),
         "portHint": MessageLookupByLibrary.simpleMessage("请输入端口"),
         "posNo": MessageLookupByLibrary.simpleMessage("机器号"),
+        "position": MessageLookupByLibrary.simpleMessage("职位"),
         "preSettleOrder": MessageLookupByLibrary.simpleMessage("预结单"),
         "premium": MessageLookupByLibrary.simpleMessage("溢价"),
         "price": MessageLookupByLibrary.simpleMessage("价格"),
@@ -1521,15 +1741,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "printTest": MessageLookupByLibrary.simpleMessage("打印测试"),
         "print_category": MessageLookupByLibrary.simpleMessage("打印分类"),
         "print_error": MessageLookupByLibrary.simpleMessage("打印异常"),
-        "print_error_tips": m63,
+        "print_error_tips": m80,
         "print_instruction": MessageLookupByLibrary.simpleMessage("打印指令"),
         "print_management": MessageLookupByLibrary.simpleMessage("打印管理"),
         "print_quantity": MessageLookupByLibrary.simpleMessage("打印数量"),
         "print_task_pushed": MessageLookupByLibrary.simpleMessage("打印任务已推送"),
-        "print_task_pushed_tips": m64,
+        "print_task_pushed_tips": m81,
         "print_test": MessageLookupByLibrary.simpleMessage("打印测试"),
         "printerTips":
             MessageLookupByLibrary.simpleMessage("请确保打印机与收银设备处于同一网络下，且打印机已开机"),
+        "printer_settings": MessageLookupByLibrary.simpleMessage("打印机设置"),
         "printing": MessageLookupByLibrary.simpleMessage("打印中"),
         "privacy_policy": MessageLookupByLibrary.simpleMessage("《隐私政策》"),
         "privacy_policy_agreement_hint":
@@ -1547,8 +1768,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "purchaseWeight": MessageLookupByLibrary.simpleMessage("购买重量"),
         "purchase_quantity": MessageLookupByLibrary.simpleMessage("购买数量"),
         "purchase_storage": MessageLookupByLibrary.simpleMessage("采购入库"),
+        "purchase_the_first": MessageLookupByLibrary.simpleMessage("购买第"),
         "pushNotificationTips":
             MessageLookupByLibrary.simpleMessage("开启推送通知，及时查收消息"),
+        "qr_code_tips": MessageLookupByLibrary.simpleMessage(
+            "点餐码主要用于微信扫码点餐，未开通收款账户，顾客无法付款到您的账户上，您可以使用以下方式：\n1.使用点餐码点餐，让顾客到前台付款；\n2.在“我的-收款账户”开通收款账户；\n3.使用吉祥收银提供的点餐码，顾客扫码后，即可在桌台点餐，并完成支付。"),
         "qualification_certificate":
             MessageLookupByLibrary.simpleMessage("资质证明"),
         "quantity": MessageLookupByLibrary.simpleMessage("数量"),
@@ -1562,7 +1786,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "ready": MessageLookupByLibrary.simpleMessage("我准备好了"),
         "receipt": MessageLookupByLibrary.simpleMessage("收款"),
         "receiptSuccess": MessageLookupByLibrary.simpleMessage("收款成功"),
-        "receiptWithAmount": m65,
+        "receiptWithAmount": m82,
         "receiveSuccess": MessageLookupByLibrary.simpleMessage("收款成功"),
         "receiveSuccessTips": MessageLookupByLibrary.simpleMessage("收款后进行语音提示"),
         "received_amount": MessageLookupByLibrary.simpleMessage("已收金额"),
@@ -1578,7 +1802,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("充值金额(元)"),
         "rechargeCount": MessageLookupByLibrary.simpleMessage("充值笔数"),
         "rechargeGiftRules": MessageLookupByLibrary.simpleMessage("充值赠送规则"),
-        "rechargeGiftTitle": m66,
+        "rechargeGiftTitle": m83,
         "rechargeOrder": MessageLookupByLibrary.simpleMessage("充值订单"),
         "rechargeRulesSettings":
             MessageLookupByLibrary.simpleMessage("设置会员充赠规则"),
@@ -1593,19 +1817,20 @@ class MessageLookup extends MessageLookupByLibrary {
         "record": MessageLookupByLibrary.simpleMessage("消费记录"),
         "redeem": MessageLookupByLibrary.simpleMessage("兑现"),
         "redeemTips": MessageLookupByLibrary.simpleMessage("兑换现金或零钱"),
+        "reduction": MessageLookupByLibrary.simpleMessage("减(元)"),
         "refresh": MessageLookupByLibrary.simpleMessage("刷新"),
-        "refund": m67,
+        "refund": m84,
         "refundAmount": MessageLookupByLibrary.simpleMessage("退货数量"),
         "refundCost": MessageLookupByLibrary.simpleMessage("退款金额"),
         "refundDish": MessageLookupByLibrary.simpleMessage("退菜"),
         "refundDishAmountHint": MessageLookupByLibrary.simpleMessage("输入退菜数量"),
         "refundDishWeightHint": MessageLookupByLibrary.simpleMessage("输入退菜重量"),
         "refundFailed": MessageLookupByLibrary.simpleMessage("退款失败"),
-        "refundFailedTips": m68,
+        "refundFailedTips": m85,
         "refundIn": MessageLookupByLibrary.simpleMessage("退货入库"),
         "refundInfo": MessageLookupByLibrary.simpleMessage("退款信息"),
         "refundNo": MessageLookupByLibrary.simpleMessage("退款单号"),
-        "refundNow": m69,
+        "refundNow": m86,
         "refundOrder": MessageLookupByLibrary.simpleMessage("退菜单"),
         "refundOrders": MessageLookupByLibrary.simpleMessage("退款订单"),
         "refundOut": MessageLookupByLibrary.simpleMessage("退货出库"),
@@ -1646,30 +1871,34 @@ class MessageLookup extends MessageLookupByLibrary {
         "relatedOrUnrelated": MessageLookupByLibrary.simpleMessage("关联/解除箱装"),
         "related_products": MessageLookupByLibrary.simpleMessage("关联商品"),
         "reload": MessageLookupByLibrary.simpleMessage("重新加载"),
-        "remainingInventoryWithNumber": m70,
+        "remainingInventoryWithNumber": m87,
         "remark": MessageLookupByLibrary.simpleMessage("备注"),
         "remarkOrder": MessageLookupByLibrary.simpleMessage("整单备注"),
         "remarkOrderHint":
             MessageLookupByLibrary.simpleMessage("请输入整单备注（不超过48个字）"),
-        "remarkOrderWith": m71,
-        "remarkWith": m72,
+        "remarkOrderWith": m88,
+        "remarkWith": m89,
         "remark_name": MessageLookupByLibrary.simpleMessage("备注名称"),
         "remark_name_hint": MessageLookupByLibrary.simpleMessage("如结订单打印机"),
         "remarks_hint": MessageLookupByLibrary.simpleMessage("备注（限36字）"),
         "remove": MessageLookupByLibrary.simpleMessage("移除"),
         "rename": MessageLookupByLibrary.simpleMessage("重命名"),
         "rename_area": MessageLookupByLibrary.simpleMessage("重命名区域"),
-        "rename_category": m73,
+        "rename_category": m90,
         "rename_success": MessageLookupByLibrary.simpleMessage("重命名成功"),
         "repair_receipt": MessageLookupByLibrary.simpleMessage("补打小票"),
         "report": MessageLookupByLibrary.simpleMessage("报表"),
         "report_type": MessageLookupByLibrary.simpleMessage("报表类型"),
-        "reprintBil2": m74,
+        "reprintBil2": m91,
         "reprintBill": MessageLookupByLibrary.simpleMessage("补打小票"),
         "required_item": MessageLookupByLibrary.simpleMessage("必点商品"),
+        "required_item_name": MessageLookupByLibrary.simpleMessage("必点项名"),
+        "required_item_type": MessageLookupByLibrary.simpleMessage("必点类型"),
         "resend": MessageLookupByLibrary.simpleMessage("重新发送"),
+        "resend_code": MessageLookupByLibrary.simpleMessage("重新获取"),
         "reset": MessageLookupByLibrary.simpleMessage("重置"),
         "reset_password": MessageLookupByLibrary.simpleMessage("重置密码"),
+        "restore_default": MessageLookupByLibrary.simpleMessage("恢复默认"),
         "retail": MessageLookupByLibrary.simpleMessage("零售"),
         "retail_tips": MessageLookupByLibrary.simpleMessage("适用便利店/商超"),
         "retry_payment": MessageLookupByLibrary.simpleMessage("重新收款"),
@@ -1689,7 +1918,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "salePeriod": MessageLookupByLibrary.simpleMessage("售卖时段"),
         "salesOrder": MessageLookupByLibrary.simpleMessage("销售订单"),
         "salesOut": MessageLookupByLibrary.simpleMessage("销售出库"),
-        "salesPriceMustBeGreaterThanPrice": m75,
+        "salesPriceMustBeGreaterThanPrice": m92,
         "salesValue": MessageLookupByLibrary.simpleMessage("销售额"),
         "salesVolume": MessageLookupByLibrary.simpleMessage("销量"),
         "sales_analysis": MessageLookupByLibrary.simpleMessage("销售分析"),
@@ -1699,6 +1928,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("营业额=订单金额 - 优惠金额"),
         "sales_volume_unit": MessageLookupByLibrary.simpleMessage("营业额(元)"),
         "sameShopGoodsCopy": MessageLookupByLibrary.simpleMessage("同类店铺商品一键复制"),
+        "saturday": MessageLookupByLibrary.simpleMessage("六"),
         "save": MessageLookupByLibrary.simpleMessage("保存"),
         "save2": MessageLookupByLibrary.simpleMessage("保\n存"),
         "saveSuccess": MessageLookupByLibrary.simpleMessage("保存成功"),
@@ -1727,13 +1957,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "scan_code_payment": MessageLookupByLibrary.simpleMessage("扫码收款"),
         "scan_code_payment_alipay":
             MessageLookupByLibrary.simpleMessage("扫码 - 支付宝"),
-        "scan_code_payment_tips": m76,
+        "scan_code_payment_tips": m93,
         "scan_code_payment_wechat":
             MessageLookupByLibrary.simpleMessage("扫码 - 微信"),
         "scan_code_sign": MessageLookupByLibrary.simpleMessage("扫码签约"),
         "scan_code_start": MessageLookupByLibrary.simpleMessage("扫码开工"),
         "scan_customer_payment_code":
             MessageLookupByLibrary.simpleMessage("请扫顾客付款码"),
+        "scan_join_tips": MessageLookupByLibrary.simpleMessage("扫码加入"),
+        "scan_join_tips_desc":
+            MessageLookupByLibrary.simpleMessage("扫管理员二维码加入店铺"),
         "scan_order": MessageLookupByLibrary.simpleMessage("扫码点餐"),
         "scan_order_payment": MessageLookupByLibrary.simpleMessage("扫码点餐付款"),
         "scan_qr_code_download_app":
@@ -1757,7 +1990,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("正在搜索蓝牙设备..."),
         "searchingPrinter": MessageLookupByLibrary.simpleMessage("正在搜索打印设备..."),
         "seatTo": MessageLookupByLibrary.simpleMessage("拼桌"),
-        "seatToWithNum": m77,
+        "seatToWithNum": m94,
+        "second": MessageLookupByLibrary.simpleMessage("秒"),
+        "secondStr": m95,
         "see_details": MessageLookupByLibrary.simpleMessage("查看详情"),
         "selectComboCategory": MessageLookupByLibrary.simpleMessage("请输入套餐分类"),
         "selectDeviceType": MessageLookupByLibrary.simpleMessage("请选择设备类型"),
@@ -1774,6 +2009,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "selectStartDate": MessageLookupByLibrary.simpleMessage("请选择起始日期"),
         "selectSupplier": MessageLookupByLibrary.simpleMessage("请选择供应商"),
         "selectType": MessageLookupByLibrary.simpleMessage("选择类型"),
+        "select_activity_goods":
+            MessageLookupByLibrary.simpleMessage("请选择活动商品"),
         "select_activity_type": MessageLookupByLibrary.simpleMessage("选择活动类型"),
         "select_adjustment_method":
             MessageLookupByLibrary.simpleMessage("选择调整方式"),
@@ -1785,7 +2022,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "select_birthday": MessageLookupByLibrary.simpleMessage("请选择生日"),
         "select_bluetooth_printer":
             MessageLookupByLibrary.simpleMessage("请选择蓝牙打印机"),
+        "select_business_end_time":
+            MessageLookupByLibrary.simpleMessage("请选择营业结束时间"),
         "select_business_hours": MessageLookupByLibrary.simpleMessage("选择营业时间"),
+        "select_business_start_time":
+            MessageLookupByLibrary.simpleMessage("请选择营业开始时间"),
+        "select_category": MessageLookupByLibrary.simpleMessage("请选择分类"),
         "select_combo_goods": MessageLookupByLibrary.simpleMessage("选择套餐商品"),
         "select_combo_goods_hint":
             MessageLookupByLibrary.simpleMessage("请选择套餐菜品"),
@@ -1794,10 +2036,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "select_date": MessageLookupByLibrary.simpleMessage("选择日期"),
         "select_device_order_belong":
             MessageLookupByLibrary.simpleMessage("请选择设备接单归属"),
+        "select_dining_mode": MessageLookupByLibrary.simpleMessage("选择就餐方式"),
         "select_done": MessageLookupByLibrary.simpleMessage("选好了"),
         "select_from_album": MessageLookupByLibrary.simpleMessage("从相册中选择"),
+        "select_give_goods": MessageLookupByLibrary.simpleMessage("请选择赠送商品"),
         "select_goods": MessageLookupByLibrary.simpleMessage("选择商品"),
         "select_goods_type": MessageLookupByLibrary.simpleMessage("选择商品类型"),
+        "select_industry_type": MessageLookupByLibrary.simpleMessage("选择行业类型"),
         "select_inventory_type": MessageLookupByLibrary.simpleMessage("选择入库类型"),
         "select_log_type": MessageLookupByLibrary.simpleMessage("选择日志类型"),
         "select_login_account": MessageLookupByLibrary.simpleMessage("选择登录账号"),
@@ -1805,13 +2050,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "select_order_type": MessageLookupByLibrary.simpleMessage("选择点餐方式"),
         "select_outbound_type": MessageLookupByLibrary.simpleMessage("选择出库类型"),
         "select_payment_method": MessageLookupByLibrary.simpleMessage("选择收款方式"),
-        "select_practice": m78,
+        "select_position": MessageLookupByLibrary.simpleMessage("请选择员工职位"),
+        "select_practice": m96,
         "select_print_category": MessageLookupByLibrary.simpleMessage("选择打印分类"),
         "select_refund_method": MessageLookupByLibrary.simpleMessage("选择退款方式"),
         "select_report_type": MessageLookupByLibrary.simpleMessage("请选择报表类型"),
         "select_role": MessageLookupByLibrary.simpleMessage("选择角色"),
         "select_shelf_number": MessageLookupByLibrary.simpleMessage("选择货架号"),
         "select_shop": MessageLookupByLibrary.simpleMessage("请选择店铺"),
+        "select_specified_user":
+            MessageLookupByLibrary.simpleMessage("请选择指定用户"),
         "select_table_area": MessageLookupByLibrary.simpleMessage("请选择桌台区域"),
         "select_target_category":
             MessageLookupByLibrary.simpleMessage("选择目标分类"),
@@ -1824,8 +2072,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "selectedProductCannotBeCurrentProduct":
             MessageLookupByLibrary.simpleMessage("选择的商品不能是当前商品"),
         "selectedSpecs": MessageLookupByLibrary.simpleMessage("已选规格："),
-        "selectedTableWithNum": m79,
-        "selected_goods_with_num": m80,
+        "selectedTableWithNum": m97,
+        "selected_categories_with_num": m98,
+        "selected_goods_participate_promotion":
+            MessageLookupByLibrary.simpleMessage("选中的商品参与促销"),
+        "selected_goods_participate_promotion_with": m99,
+        "selected_goods_with_num": m100,
         "selected_practice": MessageLookupByLibrary.simpleMessage("已选择做法"),
         "selfPickup": MessageLookupByLibrary.simpleMessage("自提"),
         "self_delivery": MessageLookupByLibrary.simpleMessage("商家自配送"),
@@ -1846,6 +2098,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("已发送至邮箱，请注意查收"),
         "sendGoods": MessageLookupByLibrary.simpleMessage("送货"),
         "send_template": MessageLookupByLibrary.simpleMessage("发送模板"),
+        "send_to_email": MessageLookupByLibrary.simpleMessage("发送到邮箱"),
+        "sending": MessageLookupByLibrary.simpleMessage("发送中..."),
         "serviceAmount": MessageLookupByLibrary.simpleMessage("服务费"),
         "service_agreement_and_privacy_policy":
             MessageLookupByLibrary.simpleMessage("服务协议与隐私政策"),
@@ -1864,12 +2118,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "set_member_points_and_recharge_gift":
             MessageLookupByLibrary.simpleMessage("设置会员积分及充值赠送"),
         "set_password": MessageLookupByLibrary.simpleMessage("请设置密码"),
+        "set_password_success": MessageLookupByLibrary.simpleMessage("设置成功"),
+        "set_print_category": MessageLookupByLibrary.simpleMessage("设置打印分类"),
         "set_specification": MessageLookupByLibrary.simpleMessage("设置规格"),
         "settings": MessageLookupByLibrary.simpleMessage("设置"),
         "settlement": MessageLookupByLibrary.simpleMessage("结算"),
         "settlementDelTip": MessageLookupByLibrary.simpleMessage("是否删除该记账方式？"),
         "settlementMethod": MessageLookupByLibrary.simpleMessage("结算方式"),
         "settlementOrder": MessageLookupByLibrary.simpleMessage("记账"),
+        "settlement_info": MessageLookupByLibrary.simpleMessage("结算信息"),
         "settlement_time": MessageLookupByLibrary.simpleMessage("结算时间"),
         "share": MessageLookupByLibrary.simpleMessage("分享"),
         "shareTo": MessageLookupByLibrary.simpleMessage("分享至"),
@@ -1896,6 +2153,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "shop_order": MessageLookupByLibrary.simpleMessage("门店点餐"),
         "shop_order_tips":
             MessageLookupByLibrary.simpleMessage("无桌台点餐，顾客点餐后凭取餐码取餐"),
+        "shop_qr_code": MessageLookupByLibrary.simpleMessage("门店点餐二维码"),
         "shop_service_provider": MessageLookupByLibrary.simpleMessage("所属服务商"),
         "shop_setting": MessageLookupByLibrary.simpleMessage("店铺设置"),
         "shop_switch": MessageLookupByLibrary.simpleMessage("切换"),
@@ -1904,12 +2162,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "shut_flashlight": MessageLookupByLibrary.simpleMessage("关闭手电筒"),
         "sideBar": MessageLookupByLibrary.simpleMessage("侧边栏"),
         "sideBarTips": MessageLookupByLibrary.simpleMessage("开启后，显示侧边操作栏"),
+        "sign_board": MessageLookupByLibrary.simpleMessage("立牌"),
         "sign_out_of_account": MessageLookupByLibrary.simpleMessage("退出账号"),
         "singal": MessageLookupByLibrary.simpleMessage("信号强度"),
         "singleGoodsDiscount": MessageLookupByLibrary.simpleMessage("单品折扣"),
         "singleGoodsRemark": MessageLookupByLibrary.simpleMessage("单品备注"),
         "singleGoodsRemarkHint":
             MessageLookupByLibrary.simpleMessage("请输入单品备注（不超过48个字）"),
+        "small": MessageLookupByLibrary.simpleMessage("小"),
         "smallPic": MessageLookupByLibrary.simpleMessage("小图"),
         "small_micro_business": MessageLookupByLibrary.simpleMessage("小微商户"),
         "small_ticket_size": MessageLookupByLibrary.simpleMessage("小票尺寸"),
@@ -1920,19 +2180,23 @@ class MessageLookup extends MessageLookupByLibrary {
         "soldOutTag": MessageLookupByLibrary.simpleMessage("售罄"),
         "sold_out": MessageLookupByLibrary.simpleMessage("售罄"),
         "sold_out_hint": MessageLookupByLibrary.simpleMessage("商品库存为0时不可销售"),
-        "something_management": m81,
+        "something_management": m101,
         "sort": MessageLookupByLibrary.simpleMessage("排序"),
         "sortType": MessageLookupByLibrary.simpleMessage("排序方式"),
         "sortTypeTips":
             MessageLookupByLibrary.simpleMessage("开启后小票商品顺序按分类排序\n关闭后按照下单顺序排序"),
         "specification": MessageLookupByLibrary.simpleMessage("规格"),
         "specificationName": MessageLookupByLibrary.simpleMessage("规格名称"),
+        "specified_give_goods_with": m102,
+        "specified_goods": MessageLookupByLibrary.simpleMessage("指定商品"),
         "specified_price": MessageLookupByLibrary.simpleMessage("指定价格"),
+        "specified_user": MessageLookupByLibrary.simpleMessage("指定用户"),
         "ssid": MessageLookupByLibrary.simpleMessage("WiFi名称"),
         "ssidHint": MessageLookupByLibrary.simpleMessage("请输入网络名称"),
         "ssidPassword": MessageLookupByLibrary.simpleMessage("WiFi密码"),
         "ssidPasswordHint": MessageLookupByLibrary.simpleMessage("请输入密码"),
         "staff_management": MessageLookupByLibrary.simpleMessage("员工管理"),
+        "start": MessageLookupByLibrary.simpleMessage("开始"),
         "startDate": MessageLookupByLibrary.simpleMessage("起始日期"),
         "startTime": MessageLookupByLibrary.simpleMessage("起始时间"),
         "startTimeMustBeBeforeEndTime":
@@ -1945,8 +2209,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "start_number_hint": MessageLookupByLibrary.simpleMessage("如1、01"),
         "start_time": MessageLookupByLibrary.simpleMessage("有效期限自"),
         "start_time_": MessageLookupByLibrary.simpleMessage("开始时间"),
+        "start_time_must_be_before_end_time":
+            MessageLookupByLibrary.simpleMessage("开始时间必须先于结束时间"),
+        "start_time_must_be_greater_than_today":
+            MessageLookupByLibrary.simpleMessage("开始时间必须大于今日时间"),
         "status": MessageLookupByLibrary.simpleMessage("状态"),
-        "still_need_to_pay_with": m82,
+        "still_need_to_pay_with": m103,
         "stock": MessageLookupByLibrary.simpleMessage("库存"),
         "stockHint": MessageLookupByLibrary.simpleMessage("请输入库存"),
         "stockIn": MessageLookupByLibrary.simpleMessage("入库"),
@@ -1987,6 +2255,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "successfully_opened": MessageLookupByLibrary.simpleMessage("开店成功"),
         "successfully_opened_hint": MessageLookupByLibrary.simpleMessage(
             "恭喜审核通过，您可以开始使用吉祥管店\n祝你使用愉快，生意兴隆"),
+        "sunday": MessageLookupByLibrary.simpleMessage("日"),
         "supplier": MessageLookupByLibrary.simpleMessage("供应商"),
         "supplier_name": MessageLookupByLibrary.simpleMessage("供应商名称"),
         "support_alipay_wechat_cloud_payment":
@@ -1998,10 +2267,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "syncSuccess": MessageLookupByLibrary.simpleMessage("同步成功"),
         "table": MessageLookupByLibrary.simpleMessage("桌台"),
         "tableNumber": MessageLookupByLibrary.simpleMessage("桌台号"),
-        "tableWithNo": m83,
+        "tableWithNo": m104,
+        "table_code_tips": MessageLookupByLibrary.simpleMessage(
+            "桌台码主要用于微信扫码点餐，未开通收款账户，顾客无法付款到您的账户上，您可以使用以下方式：\n1.使用桌台点餐，让顾客到前台付款；\n2.在“我的-收款账户”开通收款账户；\n3.使用吉祥收银提供的桌台二维码，顾客扫码后，即可在桌台点餐，并完成支付。"),
         "table_management": MessageLookupByLibrary.simpleMessage("桌台管理"),
         "table_name": MessageLookupByLibrary.simpleMessage("桌台名称"),
         "table_name_required": MessageLookupByLibrary.simpleMessage("请输入桌台名称"),
+        "table_num": MessageLookupByLibrary.simpleMessage("每桌数量"),
         "table_order": MessageLookupByLibrary.simpleMessage("桌台点餐"),
         "table_order_tips":
             MessageLookupByLibrary.simpleMessage("顾客点餐后以桌号送餐到桌、取餐"),
@@ -2034,12 +2306,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "thermal_paper_width": MessageLookupByLibrary.simpleMessage("热敏打印纸宽度"),
         "thisShiftActualReceipt":
             MessageLookupByLibrary.simpleMessage("本班次实收(元)"),
+        "thursday": MessageLookupByLibrary.simpleMessage("四"),
         "ticket_has_been_printed":
             MessageLookupByLibrary.simpleMessage("小票已打印"),
         "ticket_has_been_printed_hint": MessageLookupByLibrary.simpleMessage(
             "请查看打印设备是否正常打印，如未正常连接：\n1.打印机机身标号和密钥是否正确；\n2.打印机是否连接网络"),
         "ticket_printer": MessageLookupByLibrary.simpleMessage("出票口"),
-        "timeStrWithHourAndMinute": m84,
+        "timeStrWithHourAndMinute": m105,
+        "time_interval_cannot_exceed_31_days":
+            MessageLookupByLibrary.simpleMessage("时间间隔不能超过31天"),
         "time_span": MessageLookupByLibrary.simpleMessage("时间跨度"),
         "tips": MessageLookupByLibrary.simpleMessage("提示"),
         "toConduct": MessageLookupByLibrary.simpleMessage("去办理"),
@@ -2049,10 +2324,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "total": MessageLookupByLibrary.simpleMessage("合计"),
         "totalConsume": MessageLookupByLibrary.simpleMessage("累计消费"),
         "totalCost": MessageLookupByLibrary.simpleMessage("合计"),
-        "totalGoodsWithNum": m85,
+        "totalGoodsWithNum": m106,
+        "total_store": MessageLookupByLibrary.simpleMessage("总店"),
         "touch_to_close": MessageLookupByLibrary.simpleMessage("轻触关闭"),
         "touch_to_light": MessageLookupByLibrary.simpleMessage("轻触照亮"),
         "transferScale": MessageLookupByLibrary.simpleMessage("传秤"),
+        "try_another_keyword": MessageLookupByLibrary.simpleMessage("换个关键字试试"),
+        "tuesday": MessageLookupByLibrary.simpleMessage("二"),
         "turnover": MessageLookupByLibrary.simpleMessage("今日营业额(元)"),
         "type_of_activity": MessageLookupByLibrary.simpleMessage("活动类型"),
         "unable": MessageLookupByLibrary.simpleMessage("未开通"),
@@ -2069,7 +2347,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "unconnected": MessageLookupByLibrary.simpleMessage("未连接"),
         "undefined": MessageLookupByLibrary.simpleMessage("未定义"),
         "under_review": MessageLookupByLibrary.simpleMessage("审核中"),
-        "under_review_hint": m86,
+        "under_review_hint": m107,
         "unfreeze": MessageLookupByLibrary.simpleMessage("解除冻结"),
         "unit": MessageLookupByLibrary.simpleMessage("单位"),
         "unit_certificate": MessageLookupByLibrary.simpleMessage("单位证明函"),
@@ -2080,8 +2358,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "unit_price": MessageLookupByLibrary.simpleMessage("单价"),
         "universal": MessageLookupByLibrary.simpleMessage("通用"),
         "unknownType": MessageLookupByLibrary.simpleMessage("未知类型"),
+        "unnamed": MessageLookupByLibrary.simpleMessage("未命名"),
         "unpack_the_size": MessageLookupByLibrary.simpleMessage("解除大小包装"),
-        "unpack_the_size_hint": m87,
+        "unpack_the_size_hint": m108,
         "updateInformation": MessageLookupByLibrary.simpleMessage("更新内容"),
         "updateSuccess": MessageLookupByLibrary.simpleMessage("更新成功"),
         "upgradeVersion": MessageLookupByLibrary.simpleMessage("立即更新"),
@@ -2102,8 +2381,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "usedMonth": MessageLookupByLibrary.simpleMessage("本月用量"),
         "usedToday": MessageLookupByLibrary.simpleMessage("今日用量"),
         "usedTotal": MessageLookupByLibrary.simpleMessage("总量"),
-        "user_member_no_with": m88,
-        "user_specified_price": m89,
+        "user_member_no_with": m109,
+        "user_specified_price": m110,
         "valueCard": MessageLookupByLibrary.simpleMessage("储值"),
         "value_consumption_verification":
             MessageLookupByLibrary.simpleMessage("储值消费验证"),
@@ -2113,7 +2392,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("验证码错误"),
         "verification_code_login":
             MessageLookupByLibrary.simpleMessage("验证码登录"),
-        "verification_code_sent_to": m90,
+        "verification_code_sent_to": m111,
         "verification_hint":
             MessageLookupByLibrary.simpleMessage("验证码已发送至下方手机号"),
         "verification_processing": MessageLookupByLibrary.simpleMessage("校验中"),
@@ -2123,7 +2402,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "viewOriginalOrder": MessageLookupByLibrary.simpleMessage("原订单"),
         "viewRefundOrder": MessageLookupByLibrary.simpleMessage("退款单"),
         "view_all": MessageLookupByLibrary.simpleMessage("查看全部"),
-        "view_all_with_skuNum": m91,
+        "view_all_with_skuNum": m112,
         "view_batch": MessageLookupByLibrary.simpleMessage("查看批次"),
         "voice": MessageLookupByLibrary.simpleMessage("语音播报"),
         "voiceSetting": MessageLookupByLibrary.simpleMessage("语音播报设置"),
@@ -2145,9 +2424,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "wechat_city_delivery_unavailable":
             MessageLookupByLibrary.simpleMessage("抱歉，微信同城配送服务尚未覆盖到您店铺所在位置"),
         "wechat_pay": MessageLookupByLibrary.simpleMessage("微信支付"),
+        "wednesday": MessageLookupByLibrary.simpleMessage("三"),
         "weighingGoods": MessageLookupByLibrary.simpleMessage("非标品"),
         "weighing_dish": MessageLookupByLibrary.simpleMessage("称重菜品"),
-        "weighing_goods_success": m92,
+        "weighing_goods_success": m113,
         "weighing_tag": MessageLookupByLibrary.simpleMessage("称重"),
         "weight": MessageLookupByLibrary.simpleMessage("重量"),
         "weightBy500G": MessageLookupByLibrary.simpleMessage("重量（斤）"),
@@ -2160,14 +2440,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "weight_ranking": MessageLookupByLibrary.simpleMessage("称重排行"),
         "weight_unit": MessageLookupByLibrary.simpleMessage("称重单位"),
         "welcomeTips": MessageLookupByLibrary.simpleMessage("随时随地经营店铺"),
-        "welcome_login": m93,
+        "welcome_login": m114,
         "welcome_to_use": MessageLookupByLibrary.simpleMessage("欢迎使用，"),
         "welcome_to_use_1": MessageLookupByLibrary.simpleMessage("欢迎使用吉祥收银"),
         "welcome_to_use_2": MessageLookupByLibrary.simpleMessage("吉祥收银系统"),
         "wetool_scan_code_start_hint":
             MessageLookupByLibrary.simpleMessage("请使用微兔收银枪扫码开始收银"),
         "wholesalePrice": MessageLookupByLibrary.simpleMessage("批发售价"),
-        "wholesalePriceMustBeGreaterThanPrice": m94,
+        "wholesalePriceMustBeGreaterThanPrice": m115,
         "wholesalePriceMustBeLessThanSalesPrice":
             MessageLookupByLibrary.simpleMessage("批发价必须小于销售价"),
         "wholesale_price": MessageLookupByLibrary.simpleMessage("批发价"),
@@ -2185,10 +2465,12 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("店铺邀请码错误"),
         "wxFriend": MessageLookupByLibrary.simpleMessage("微信好友"),
         "wxPay": MessageLookupByLibrary.simpleMessage("微信"),
+        "year": MessageLookupByLibrary.simpleMessage("年"),
         "yearInChart": MessageLookupByLibrary.simpleMessage("年"),
         "yesterday": MessageLookupByLibrary.simpleMessage("昨日"),
         "yuan": MessageLookupByLibrary.simpleMessage("元"),
         "yuan_per_piece": MessageLookupByLibrary.simpleMessage("元/份"),
+        "yuan_reduce": MessageLookupByLibrary.simpleMessage("元，减"),
         "zeroDeduction": MessageLookupByLibrary.simpleMessage("抹零金额")
       };
 }

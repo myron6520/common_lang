@@ -16930,6 +16930,1789 @@ class S {
       args: [],
     );
   }
+
+  /// `Connect via WiFi`
+  String get connect_via_wifi {
+    return Intl.message(
+      'Connect via WiFi',
+      name: 'connect_via_wifi',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Edit {title}`
+  String edit_something(Object title) {
+    return Intl.message(
+      'Edit $title',
+      name: 'edit_something',
+      desc: '',
+      args: [title],
+    );
+  }
+
+  /// `Label`
+  String get label {
+    return Intl.message(
+      'Label',
+      name: 'label',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Like mild, medium spicy`
+  String get hot_sauce {
+    return Intl.message(
+      'Like mild, medium spicy',
+      name: 'hot_sauce',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Add Label`
+  String get add_label {
+    return Intl.message(
+      'Add Label',
+      name: 'add_label',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Max Label Count`
+  String get max_label_count {
+    return Intl.message(
+      'Max Label Count',
+      name: 'max_label_count',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Delete Cooking Method`
+  String get delete_cooking_method {
+    return Intl.message(
+      'Delete Cooking Method',
+      name: 'delete_cooking_method',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Are you sure you want to delete this cooking method?`
+  String get delete_cooking_method_tips {
+    return Intl.message(
+      'Are you sure you want to delete this cooking method?',
+      name: 'delete_cooking_method_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Congratulations on opening the shop successfully`
+  String get open_shop_success {
+    return Intl.message(
+      'Congratulations on opening the shop successfully',
+      name: 'open_shop_success',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Thank you for choosing {appName}, you can open payment or directly enter the shop, wish you a successful use!`
+  String open_shop_success_tips(Object appName) {
+    return Intl.message(
+      'Thank you for choosing $appName, you can open payment or directly enter the shop, wish you a successful use!',
+      name: 'open_shop_success_tips',
+      desc: '',
+      args: [appName],
+    );
+  }
+
+  /// `Open Payment`
+  String get open_payment {
+    return Intl.message(
+      'Open Payment',
+      name: 'open_payment',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter Shop`
+  String get enter_shop {
+    return Intl.message(
+      'Enter Shop',
+      name: 'enter_shop',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Agree And Continue`
+  String get agree_and_continue {
+    return Intl.message(
+      'Agree And Continue',
+      name: 'agree_and_continue',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No Related Results Found`
+  String get no_related_results_found {
+    return Intl.message(
+      'No Related Results Found',
+      name: 'no_related_results_found',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Try Another Keyword`
+  String get try_another_keyword {
+    return Intl.message(
+      'Try Another Keyword',
+      name: 'try_another_keyword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `year`
+  String get year {
+    return Intl.message(
+      'year',
+      name: 'year',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `day`
+  String get day_ {
+    return Intl.message(
+      'day',
+      name: 'day_',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `hour`
+  String get hour {
+    return Intl.message(
+      'hour',
+      name: 'hour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `minute`
+  String get minute {
+    return Intl.message(
+      'minute',
+      name: 'minute',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `second`
+  String get second {
+    return Intl.message(
+      'second',
+      name: 'second',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `{year}/{month}/{day}`
+  String dayStr(Object year, Object month, Object day) {
+    return Intl.message(
+      '$year/$month/$day',
+      name: 'dayStr',
+      desc: '',
+      args: [year, month, day],
+    );
+  }
+
+  /// `{year}/{month}/{day} {hour}:00`
+  String hourStr(Object year, Object month, Object day, Object hour) {
+    return Intl.message(
+      '$year/$month/$day $hour:00',
+      name: 'hourStr',
+      desc: '',
+      args: [year, month, day, hour],
+    );
+  }
+
+  /// `{year}/{month}/{day} {hour}:{minute}`
+  String minuteStr(
+      Object year, Object month, Object day, Object hour, Object minute) {
+    return Intl.message(
+      '$year/$month/$day $hour:$minute',
+      name: 'minuteStr',
+      desc: '',
+      args: [year, month, day, hour, minute],
+    );
+  }
+
+  /// `{year}/{month}/{day} {hour}:{minute}:{second}`
+  String secondStr(Object year, Object month, Object day, Object hour,
+      Object minute, Object second) {
+    return Intl.message(
+      '$year/$month/$day $hour:$minute:$second',
+      name: 'secondStr',
+      desc: '',
+      args: [year, month, day, hour, minute, second],
+    );
+  }
+
+  /// `Mon`
+  String get monday {
+    return Intl.message(
+      'Mon',
+      name: 'monday',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tue`
+  String get tuesday {
+    return Intl.message(
+      'Tue',
+      name: 'tuesday',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Wed`
+  String get wednesday {
+    return Intl.message(
+      'Wed',
+      name: 'wednesday',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Thu`
+  String get thursday {
+    return Intl.message(
+      'Thu',
+      name: 'thursday',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Fri`
+  String get friday {
+    return Intl.message(
+      'Fri',
+      name: 'friday',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sat`
+  String get saturday {
+    return Intl.message(
+      'Sat',
+      name: 'saturday',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sun`
+  String get sunday {
+    return Intl.message(
+      'Sun',
+      name: 'sunday',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `End`
+  String get end {
+    return Intl.message(
+      'End',
+      name: 'end',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Start`
+  String get start {
+    return Intl.message(
+      'Start',
+      name: 'start',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Kitchen Receipt Settings`
+  String get kitchen_receipt_settings {
+    return Intl.message(
+      'Kitchen Receipt Settings',
+      name: 'kitchen_receipt_settings',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Selected {num} Categories`
+  String selected_categories_with_num(Object num) {
+    return Intl.message(
+      'Selected $num Categories',
+      name: 'selected_categories_with_num',
+      desc: '',
+      args: [num],
+    );
+  }
+
+  /// `Set Print Category`
+  String get set_print_category {
+    return Intl.message(
+      'Set Print Category',
+      name: 'set_print_category',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Batch Operation`
+  String get batch_operation {
+    return Intl.message(
+      'Batch Operation',
+      name: 'batch_operation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Settlement Info`
+  String get settlement_info {
+    return Intl.message(
+      'Settlement Info',
+      name: 'settlement_info',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Unnamed`
+  String get unnamed {
+    return Intl.message(
+      'Unnamed',
+      name: 'unnamed',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `You Don't Have Permission`
+  String get no_permission {
+    return Intl.message(
+      'You Don\'t Have Permission',
+      name: 'no_permission',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `File Limit 2M, Please Re-select File`
+  String get file_limit {
+    return Intl.message(
+      'File Limit 2M, Please Re-select File',
+      name: 'file_limit',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Click "Download Template" to enter product information by file\nClick "Select File" to import products`
+  String get download_template_desc {
+    return Intl.message(
+      'Click "Download Template" to enter product information by file\nClick "Select File" to import products',
+      name: 'download_template_desc',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Downloading Excel Template...`
+  String get excel_downloading {
+    return Intl.message(
+      'Downloading Excel Template...',
+      name: 'excel_downloading',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Importing Products...`
+  String get comm_importing {
+    return Intl.message(
+      'Importing Products...',
+      name: 'comm_importing',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Import Success`
+  String get import_success {
+    return Intl.message(
+      'Import Success',
+      name: 'import_success',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Imported {count} products, {successCount} products imported successfully, \n{failedCount} products failed`
+  String import_result_with(
+      Object count, Object successCount, Object failedCount) {
+    return Intl.message(
+      'Imported $count products, $successCount products imported successfully, \n$failedCount products failed',
+      name: 'import_result_with',
+      desc: '',
+      args: [count, successCount, failedCount],
+    );
+  }
+
+  /// `Please Select Category`
+  String get select_category {
+    return Intl.message(
+      'Please Select Category',
+      name: 'select_category',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Move Selected Goods To「{selectName}」`
+  String move_to_category_named(Object selectName) {
+    return Intl.message(
+      'Move Selected Goods To「$selectName」',
+      name: 'move_to_category_named',
+      desc: '',
+      args: [selectName],
+    );
+  }
+
+  /// `Please Input Goods Shelf Name`
+  String get input_goods_shelf_name {
+    return Intl.message(
+      'Please Input Goods Shelf Name',
+      name: 'input_goods_shelf_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `All Shop Goods Participate Promotion`
+  String get all_goods_participate_promotion {
+    return Intl.message(
+      'All Shop Goods Participate Promotion',
+      name: 'all_goods_participate_promotion',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Selected Goods Participate Promotion`
+  String get selected_goods_participate_promotion {
+    return Intl.message(
+      'Selected Goods Participate Promotion',
+      name: 'selected_goods_participate_promotion',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Selected {num} Goods Participate Promotion`
+  String selected_goods_participate_promotion_with(Object num) {
+    return Intl.message(
+      'Selected $num Goods Participate Promotion',
+      name: 'selected_goods_participate_promotion_with',
+      desc: '',
+      args: [num],
+    );
+  }
+
+  /// `Currently Do Not Support Creating Activities On The Same Day`
+  String get currently_do_not_support_creating_activities_on_the_same_day {
+    return Intl.message(
+      'Currently Do Not Support Creating Activities On The Same Day',
+      name: 'currently_do_not_support_creating_activities_on_the_same_day',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `End Time Must Be Greater Than Today`
+  String get end_time_must_be_greater_than_today {
+    return Intl.message(
+      'End Time Must Be Greater Than Today',
+      name: 'end_time_must_be_greater_than_today',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Start Time Must Be Greater Than Today`
+  String get start_time_must_be_greater_than_today {
+    return Intl.message(
+      'Start Time Must Be Greater Than Today',
+      name: 'start_time_must_be_greater_than_today',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Give Goods Empty`
+  String get give_goods_empty {
+    return Intl.message(
+      'Give Goods Empty',
+      name: 'give_goods_empty',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Activity Created Successfully`
+  String get activity_created_successfully {
+    return Intl.message(
+      'Activity Created Successfully',
+      name: 'activity_created_successfully',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Activity Updated Successfully`
+  String get activity_modified_successfully {
+    return Intl.message(
+      'Activity Updated Successfully',
+      name: 'activity_modified_successfully',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Activity Has Ended`
+  String get activity_has_ended {
+    return Intl.message(
+      'Activity Has Ended',
+      name: 'activity_has_ended',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Delete Activity`
+  String get delete_activity {
+    return Intl.message(
+      'Delete Activity',
+      name: 'delete_activity',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `After deleting, the activity will not be able to be recovered, are you sure you want to delete?`
+  String get delete_activity_tips {
+    return Intl.message(
+      'After deleting, the activity will not be able to be recovered, are you sure you want to delete?',
+      name: 'delete_activity_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Specified User`
+  String get specified_user {
+    return Intl.message(
+      'Specified User',
+      name: 'specified_user',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `All User`
+  String get all_user {
+    return Intl.message(
+      'All User',
+      name: 'all_user',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Specified Goods`
+  String get specified_goods {
+    return Intl.message(
+      'Specified Goods',
+      name: 'specified_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Only Member Participate`
+  String get only_member_participate {
+    return Intl.message(
+      'Only Member Participate',
+      name: 'only_member_participate',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please Select Activity Time`
+  String get please_select_activity_time {
+    return Intl.message(
+      'Please Select Activity Time',
+      name: 'please_select_activity_time',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Select Give Goods`
+  String get select_give_goods {
+    return Intl.message(
+      'Select Give Goods',
+      name: 'select_give_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Selected {num} Goods Participate`
+  String specified_give_goods_with(Object num) {
+    return Intl.message(
+      'Selected $num Goods Participate',
+      name: 'specified_give_goods_with',
+      desc: '',
+      args: [num],
+    );
+  }
+
+  /// `Give Goods`
+  String get give_goods {
+    return Intl.message(
+      'Give Goods',
+      name: 'give_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Circular Full Reduction`
+  String get circular_full_reduction {
+    return Intl.message(
+      'Circular Full Reduction',
+      name: 'circular_full_reduction',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `End Activity`
+  String get end_activity {
+    return Intl.message(
+      'End Activity',
+      name: 'end_activity',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `After the activity ends, the goods in the activity will no longer enjoy the discount`
+  String get activity_ended_tips {
+    return Intl.message(
+      'After the activity ends, the goods in the activity will no longer enjoy the discount',
+      name: 'activity_ended_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Buy Full Reduction`
+  String get buy_full_reduction {
+    return Intl.message(
+      'Buy Full Reduction',
+      name: 'buy_full_reduction',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Full Reduction`
+  String get full_reduction {
+    return Intl.message(
+      'Full Reduction',
+      name: 'full_reduction',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Buy Full Reduction Unit`
+  String get buy_full_reduction_unit {
+    return Intl.message(
+      'Buy Full Reduction Unit',
+      name: 'buy_full_reduction_unit',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Reduction`
+  String get reduction {
+    return Intl.message(
+      'Reduction',
+      name: 'reduction',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Give Goods Unit`
+  String get give_goods_unit {
+    return Intl.message(
+      'Give Goods Unit',
+      name: 'give_goods_unit',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `piece`
+  String get amount_unit {
+    return Intl.message(
+      'piece',
+      name: 'amount_unit',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Example: Buy full 10 reduce 5, Buy full 100 reduce 20`
+  String get circular_full_reduction_tips {
+    return Intl.message(
+      'Example: Buy full 10 reduce 5, Buy full 100 reduce 20',
+      name: 'circular_full_reduction_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Example: Buy full 100 give goods`
+  String get circular_give_goods_tips {
+    return Intl.message(
+      'Example: Buy full 100 give goods',
+      name: 'circular_give_goods_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Example: Buy 1 give 1, Buy 2 give 1`
+  String get circular_buy_one_give_one_tips {
+    return Intl.message(
+      'Example: Buy 1 give 1, Buy 2 give 1',
+      name: 'circular_buy_one_give_one_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Example: Buy 2 discount 80%, Buy 2 half price`
+  String get circular_buy_two_discount_tips {
+    return Intl.message(
+      'Example: Buy 2 discount 80%, Buy 2 half price',
+      name: 'circular_buy_two_discount_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Purchase the first`
+  String get purchase_the_first {
+    return Intl.message(
+      'Purchase the first',
+      name: 'purchase_the_first',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Edit the Nth Discount`
+  String get edit_the_nth_discount {
+    return Intl.message(
+      'Edit the Nth Discount',
+      name: 'edit_the_nth_discount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create the Nth Discount`
+  String get create_the_nth_discount {
+    return Intl.message(
+      'Create the Nth Discount',
+      name: 'create_the_nth_discount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please Select Activity Goods`
+  String get select_activity_goods {
+    return Intl.message(
+      'Please Select Activity Goods',
+      name: 'select_activity_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please Input Correct Discount Info`
+  String get correct_discount_info {
+    return Intl.message(
+      'Please Input Correct Discount Info',
+      name: 'correct_discount_info',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `The discount is set to be added in a circular manner based on the amount`
+  String get circular_full_reduction_tips2 {
+    return Intl.message(
+      'The discount is set to be added in a circular manner based on the amount',
+      name: 'circular_full_reduction_tips2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Each Full`
+  String get each_full {
+    return Intl.message(
+      'Each Full',
+      name: 'each_full',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¥, reduce`
+  String get yuan_reduce {
+    return Intl.message(
+      '¥, reduce',
+      name: 'yuan_reduce',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Edit Full Reduction`
+  String get edit_full_reduction {
+    return Intl.message(
+      'Edit Full Reduction',
+      name: 'edit_full_reduction',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create Full Reduction`
+  String get create_full_reduction {
+    return Intl.message(
+      'Create Full Reduction',
+      name: 'create_full_reduction',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please Input Correct Full Reduction Info`
+  String get correct_full_reduction_info {
+    return Intl.message(
+      'Please Input Correct Full Reduction Info',
+      name: 'correct_full_reduction_info',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Edit Full Reduction Gift`
+  String get edit_full_reduction_gift {
+    return Intl.message(
+      'Edit Full Reduction Gift',
+      name: 'edit_full_reduction_gift',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create Full Reduction Gift`
+  String get create_full_reduction_gift {
+    return Intl.message(
+      'Create Full Reduction Gift',
+      name: 'create_full_reduction_gift',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Edit Buy One Give One`
+  String get edit_buy_one_give_one {
+    return Intl.message(
+      'Edit Buy One Give One',
+      name: 'edit_buy_one_give_one',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create Buy One Give One`
+  String get create_buy_one_give_one {
+    return Intl.message(
+      'Create Buy One Give One',
+      name: 'create_buy_one_give_one',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please Select Specified User`
+  String get select_specified_user {
+    return Intl.message(
+      'Please Select Specified User',
+      name: 'select_specified_user',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Get Activity Goods Failed`
+  String get get_activity_goods_failed {
+    return Intl.message(
+      'Get Activity Goods Failed',
+      name: 'get_activity_goods_failed',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `{month}/{day}`
+  String monthAndDay(Object month, Object day) {
+    return Intl.message(
+      '$month/$day',
+      name: 'monthAndDay',
+      desc: '',
+      args: [month, day],
+    );
+  }
+
+  /// `Total Store`
+  String get total_store {
+    return Intl.message(
+      'Total Store',
+      name: 'total_store',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Branch Store`
+  String get branch_store {
+    return Intl.message(
+      'Branch Store',
+      name: 'branch_store',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `You Don't Have Permission To Operate Activity`
+  String get no_permission_tips {
+    return Intl.message(
+      'You Don\'t Have Permission To Operate Activity',
+      name: 'no_permission_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No Shop`
+  String get no_shop_tips {
+    return Intl.message(
+      'No Shop',
+      name: 'no_shop_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `You Can Create Shop Or Be Invited By Admin`
+  String get create_shop_tips {
+    return Intl.message(
+      'You Can Create Shop Or Be Invited By Admin',
+      name: 'create_shop_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Open Shop`
+  String get open_shop_tips {
+    return Intl.message(
+      'Open Shop',
+      name: 'open_shop_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Scan QR Code`
+  String get scan_join_tips {
+    return Intl.message(
+      'Scan QR Code',
+      name: 'scan_join_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Scan Admin QR Code To Join Shop`
+  String get scan_join_tips_desc {
+    return Intl.message(
+      'Scan Admin QR Code To Join Shop',
+      name: 'scan_join_tips_desc',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Input Shop Invitation Code To Join Shop`
+  String get input_join_tips {
+    return Intl.message(
+      'Input Shop Invitation Code To Join Shop',
+      name: 'input_join_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Join Shop Success`
+  String get join_success {
+    return Intl.message(
+      'Join Shop Success',
+      name: 'join_success',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Select Industry Type`
+  String get select_industry_type {
+    return Intl.message(
+      'Select Industry Type',
+      name: 'select_industry_type',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sending...`
+  String get sending {
+    return Intl.message(
+      'Sending...',
+      name: 'sending',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `{left}s later to get`
+  String get_code_tips(Object left) {
+    return Intl.message(
+      '${left}s later to get',
+      name: 'get_code_tips',
+      desc: '',
+      args: [left],
+    );
+  }
+
+  /// `Resend Code`
+  String get resend_code {
+    return Intl.message(
+      'Resend Code',
+      name: 'resend_code',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password Must Be At Least 8 Digits`
+  String get password_at_least_8_digits {
+    return Intl.message(
+      'Password Must Be At Least 8 Digits',
+      name: 'password_at_least_8_digits',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password Not Consistent, Please Re-enter`
+  String get password_not_consistent {
+    return Intl.message(
+      'Password Not Consistent, Please Re-enter',
+      name: 'password_not_consistent',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Set Password Success`
+  String get set_password_success {
+    return Intl.message(
+      'Set Password Success',
+      name: 'set_password_success',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Generate Table Code`
+  String get generate_table_code {
+    return Intl.message(
+      'Generate Table Code',
+      name: 'generate_table_code',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cannot Identify QR Code, Please Use The QR Code Provided By "吉祥收银"`
+  String get cannot_identify_qr_code {
+    return Intl.message(
+      'Cannot Identify QR Code, Please Use The QR Code Provided By "吉祥收银"',
+      name: 'cannot_identify_qr_code',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Are you sure you want to delete this table?`
+  String get delete_table_tips {
+    return Intl.message(
+      'Are you sure you want to delete this table?',
+      name: 'delete_table_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cannot Download Table Code`
+  String get cannot_download_table_code {
+    return Intl.message(
+      'Cannot Download Table Code',
+      name: 'cannot_download_table_code',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Table Code is mainly used for QR code scanning for ordering, without a payment account, customers cannot pay into your account, you can use the following methods:`
+  String get table_code_tips {
+    return Intl.message(
+      'Table Code is mainly used for QR code scanning for ordering, without a payment account, customers cannot pay into your account, you can use the following methods:',
+      name: 'table_code_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Dining People`
+  String get dining_people {
+    return Intl.message(
+      'Dining People',
+      name: 'dining_people',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `{num} people`
+  String dining_people_with(Object num) {
+    return Intl.message(
+      '$num people',
+      name: 'dining_people_with',
+      desc: '',
+      args: [num],
+    );
+  }
+
+  /// `Send To Email`
+  String get send_to_email {
+    return Intl.message(
+      'Send To Email',
+      name: 'send_to_email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please Select Business Start Time`
+  String get select_business_start_time {
+    return Intl.message(
+      'Please Select Business Start Time',
+      name: 'select_business_start_time',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please Select Business End Time`
+  String get select_business_end_time {
+    return Intl.message(
+      'Please Select Business End Time',
+      name: 'select_business_end_time',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Shop QR Code`
+  String get shop_qr_code {
+    return Intl.message(
+      'Shop QR Code',
+      name: 'shop_qr_code',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Not Open Online Payment`
+  String get not_open_online_payment {
+    return Intl.message(
+      'Not Open Online Payment',
+      name: 'not_open_online_payment',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign Board`
+  String get sign_board {
+    return Intl.message(
+      'Sign Board',
+      name: 'sign_board',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Only QR Code`
+  String get only_qr_code {
+    return Intl.message(
+      'Only QR Code',
+      name: 'only_qr_code',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cannot Generate QR Code`
+  String get cannot_generate_qr_code {
+    return Intl.message(
+      'Cannot Generate QR Code',
+      name: 'cannot_generate_qr_code',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `QR Code is mainly used for QR code scanning for ordering, without a payment account, customers cannot pay into your account, you can use the following methods:`
+  String get qr_code_tips {
+    return Intl.message(
+      'QR Code is mainly used for QR code scanning for ordering, without a payment account, customers cannot pay into your account, you can use the following methods:',
+      name: 'qr_code_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Select Dining Mode`
+  String get select_dining_mode {
+    return Intl.message(
+      'Select Dining Mode',
+      name: 'select_dining_mode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Customer orders after, the cashier and kitchen will issue the order, allowing for additional items`
+  String get order_and_print {
+    return Intl.message(
+      'Customer orders after, the cashier and kitchen will issue the order, allowing for additional items',
+      name: 'order_and_print',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Customer completes payment after, the cashier and kitchen will issue the order`
+  String get order_and_pay {
+    return Intl.message(
+      'Customer completes payment after, the cashier and kitchen will issue the order',
+      name: 'order_and_pay',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `{deviceName} Cashier`
+  String device_name(Object deviceName) {
+    return Intl.message(
+      '$deviceName Cashier',
+      name: 'device_name',
+      desc: '',
+      args: [deviceName],
+    );
+  }
+
+  /// `Custom Required Item`
+  String get custom_required_item {
+    return Intl.message(
+      'Custom Required Item',
+      name: 'custom_required_item',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Required Item Name`
+  String get required_item_name {
+    return Intl.message(
+      'Required Item Name',
+      name: 'required_item_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Required Item Type`
+  String get required_item_type {
+    return Intl.message(
+      'Required Item Type',
+      name: 'required_item_type',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `By Person`
+  String get by_person {
+    return Intl.message(
+      'By Person',
+      name: 'by_person',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `By Table`
+  String get by_table {
+    return Intl.message(
+      'By Table',
+      name: 'by_table',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Person Number`
+  String get person_num {
+    return Intl.message(
+      'Person Number',
+      name: 'person_num',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Table Number`
+  String get table_num {
+    return Intl.message(
+      'Table Number',
+      name: 'table_num',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¥{price} x {num} pieces/person`
+  String must_person_desc(Object price, Object num) {
+    return Intl.message(
+      '¥$price x $num pieces/person',
+      name: 'must_person_desc',
+      desc: '',
+      args: [price, num],
+    );
+  }
+
+  /// `¥{price} x {num} pieces/table`
+  String must_table_desc(Object price, Object num) {
+    return Intl.message(
+      '¥$price x $num pieces/table',
+      name: 'must_table_desc',
+      desc: '',
+      args: [price, num],
+    );
+  }
+
+  /// `Each Person`
+  String get each_person {
+    return Intl.message(
+      'Each Person',
+      name: 'each_person',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Packing Fee Settings`
+  String get packing_fee_settings {
+    return Intl.message(
+      'Packing Fee Settings',
+      name: 'packing_fee_settings',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Charge By Goods Cumulative`
+  String get charge_by_goods_desc {
+    return Intl.message(
+      'Charge By Goods Cumulative',
+      name: 'charge_by_goods_desc',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Charge By Order Fixed`
+  String get charge_by_order_desc {
+    return Intl.message(
+      'Charge By Order Fixed',
+      name: 'charge_by_order_desc',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Custom`
+  String get custom {
+    return Intl.message(
+      'Custom',
+      name: 'custom',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Start Time Must Be Before End Time`
+  String get start_time_must_be_before_end_time {
+    return Intl.message(
+      'Start Time Must Be Before End Time',
+      name: 'start_time_must_be_before_end_time',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Time Interval Cannot Exceed 31 Days`
+  String get time_interval_cannot_exceed_31_days {
+    return Intl.message(
+      'Time Interval Cannot Exceed 31 Days',
+      name: 'time_interval_cannot_exceed_31_days',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Location Permission Usage Instructions`
+  String get location_permission_usage_instructions {
+    return Intl.message(
+      'Location Permission Usage Instructions',
+      name: 'location_permission_usage_instructions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Used to locate the shop location`
+  String get location_permission_usage_instructions_desc {
+    return Intl.message(
+      'Used to locate the shop location',
+      name: 'location_permission_usage_instructions_desc',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Position`
+  String get position {
+    return Intl.message(
+      'Position',
+      name: 'position',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please Select Position`
+  String get select_position {
+    return Intl.message(
+      'Please Select Position',
+      name: 'select_position',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Join Time`
+  String get join_time {
+    return Intl.message(
+      'Join Time',
+      name: 'join_time',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Only Cashier Login`
+  String get only_cashier_login {
+    return Intl.message(
+      'Only Cashier Login',
+      name: 'only_cashier_login',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `After enabling, only cashier login is supported, cannot enter {appName}`
+  String only_cashier_login_tips(Object appName) {
+    return Intl.message(
+      'After enabling, only cashier login is supported, cannot enter $appName',
+      name: 'only_cashier_login_tips',
+      desc: '',
+      args: [appName],
+    );
+  }
+
+  /// `Device {name}`
+  String device_name_with(Object name) {
+    return Intl.message(
+      'Device $name',
+      name: 'device_name_with',
+      desc: '',
+      args: [name],
+    );
+  }
+
+  /// `Font Size`
+  String get font_size {
+    return Intl.message(
+      'Font Size',
+      name: 'font_size',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Small`
+  String get small {
+    return Intl.message(
+      'Small',
+      name: 'small',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Medium`
+  String get medium {
+    return Intl.message(
+      'Medium',
+      name: 'medium',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Large`
+  String get large {
+    return Intl.message(
+      'Large',
+      name: 'large',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Blank Line At End Of Receipt`
+  String get blank_line_at_end_of_receipt {
+    return Intl.message(
+      'Blank Line At End Of Receipt',
+      name: 'blank_line_at_end_of_receipt',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Some printers may print a blank line at the end of the receipt\nLeave a certain number of blank lines to ensure the receipt is complete`
+  String get blank_line_at_end_of_receipt_desc {
+    return Intl.message(
+      'Some printers may print a blank line at the end of the receipt\nLeave a certain number of blank lines to ensure the receipt is complete',
+      name: 'blank_line_at_end_of_receipt_desc',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Blank Line Count`
+  String get blank_line_count {
+    return Intl.message(
+      'Blank Line Count',
+      name: 'blank_line_count',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `line`
+  String get line {
+    return Intl.message(
+      'line',
+      name: 'line',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Restore Default`
+  String get restore_default {
+    return Intl.message(
+      'Restore Default',
+      name: 'restore_default',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please Connect Printer`
+  String get connect_printer {
+    return Intl.message(
+      'Please Connect Printer',
+      name: 'connect_printer',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Label Style`
+  String get label_style {
+    return Intl.message(
+      'Label Style',
+      name: 'label_style',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Device Bound To {shopName}, thank you for\nusing and supporting, wish you a successful business`
+  String device_bound_to_shop(Object shopName) {
+    return Intl.message(
+      'Device Bound To $shopName, thank you for\nusing and supporting, wish you a successful business',
+      name: 'device_bound_to_shop',
+      desc: '',
+      args: [shopName],
+    );
+  }
+
+  /// `Custom Order`
+  String get custom_order {
+    return Intl.message(
+      'Custom Order',
+      name: 'custom_order',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Order by the following order, long press and drag to adjust the order`
+  String get custom_order_desc {
+    return Intl.message(
+      'Order by the following order, long press and drag to adjust the order',
+      name: 'custom_order_desc',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Printer Settings`
+  String get printer_settings {
+    return Intl.message(
+      'Printer Settings',
+      name: 'printer_settings',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Invalid Time {time}`
+  String invalid_time(Object time) {
+    return Intl.message(
+      'Invalid Time $time',
+      name: 'invalid_time',
+      desc: '',
+      args: [time],
+    );
+  }
+
+  /// `Please Enter Role Name`
+  String get please_enter_role_name {
+    return Intl.message(
+      'Please Enter Role Name',
+      name: 'please_enter_role_name',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
