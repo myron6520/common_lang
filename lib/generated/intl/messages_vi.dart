@@ -2713,10 +2713,25 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "print_task_pushed_tips": m83,
     "print_test": MessageLookupByLibrary.simpleMessage("In thử"),
+    "print_test_result": MessageLookupByLibrary.simpleMessage(
+      "Kết quả kiểm tra: In thành công",
+    ),
+    "print_test_title": MessageLookupByLibrary.simpleMessage(
+      "Kiểm tra in hóa đơn",
+    ),
     "printerTips": MessageLookupByLibrary.simpleMessage(
       "Vui lòng đảm bảo máy in và thiết bị thanh toán cùng mạng",
     ),
+    "printer_connect_success": MessageLookupByLibrary.simpleMessage(
+      "Trạng thái kết nối: Máy in đã kết nối",
+    ),
     "printer_settings": MessageLookupByLibrary.simpleMessage("Cài đặt máy in"),
+    "printer_size_tips": MessageLookupByLibrary.simpleMessage(
+      "Kích thước hóa đơn thường \n là 58mm và 80mm",
+    ),
+    "printer_size_tips_desc": MessageLookupByLibrary.simpleMessage(
+      "Vui lòng cài đặt đúng theo kích thước giấy\nmà máy in hỗ trợ. Nếu nội dung in bị lệch,\nvui lòng chọn lại kích thước hóa đơn trong\ncài đặt hệ thống để đảm bảo in ấn bình thường.",
+    ),
     "printing": MessageLookupByLibrary.simpleMessage("Đang in"),
     "privacy_policy": MessageLookupByLibrary.simpleMessage(
       " Chính sách bảo mật ",

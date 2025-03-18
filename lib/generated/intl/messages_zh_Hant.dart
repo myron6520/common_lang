@@ -1692,10 +1692,21 @@ class MessageLookup extends MessageLookupByLibrary {
     "print_task_pushed": MessageLookupByLibrary.simpleMessage("打印任務已推送"),
     "print_task_pushed_tips": m83,
     "print_test": MessageLookupByLibrary.simpleMessage("打印測試"),
+    "print_test_result": MessageLookupByLibrary.simpleMessage("測試結果：打印成功"),
+    "print_test_title": MessageLookupByLibrary.simpleMessage("小票打印測試"),
     "printerTips": MessageLookupByLibrary.simpleMessage(
       "請確保打印機與收銀設備處於同一網絡下，且打印機已開機",
     ),
+    "printer_connect_success": MessageLookupByLibrary.simpleMessage(
+      "連接狀態：小票機連接成功",
+    ),
     "printer_settings": MessageLookupByLibrary.simpleMessage("打印機設置"),
+    "printer_size_tips": MessageLookupByLibrary.simpleMessage(
+      "常見小票尺寸為 58mm 和 80mm",
+    ),
+    "printer_size_tips_desc": MessageLookupByLibrary.simpleMessage(
+      "請根據小票機支持的紙張大小正確安\n裝，如打印內容出現偏移，請在系統\n相應小票機中重新選擇小票尺寸，以\n確保打印效果正常。",
+    ),
     "printing": MessageLookupByLibrary.simpleMessage("打印中"),
     "privacy_policy": MessageLookupByLibrary.simpleMessage("《隱私政策》"),
     "privacy_policy_agreement_hint": MessageLookupByLibrary.simpleMessage(

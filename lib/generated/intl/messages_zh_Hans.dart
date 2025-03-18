@@ -1857,10 +1857,21 @@ class MessageLookup extends MessageLookupByLibrary {
     "print_task_pushed": MessageLookupByLibrary.simpleMessage("打印任务已推送"),
     "print_task_pushed_tips": m83,
     "print_test": MessageLookupByLibrary.simpleMessage("打印测试"),
+    "print_test_result": MessageLookupByLibrary.simpleMessage("测试结果：打印成功"),
+    "print_test_title": MessageLookupByLibrary.simpleMessage("小票打印测试"),
     "printerTips": MessageLookupByLibrary.simpleMessage(
       "请确保打印机与收银设备处于同一网络下，且打印机已开机",
     ),
+    "printer_connect_success": MessageLookupByLibrary.simpleMessage(
+      "连接状态：小票机连接成功",
+    ),
     "printer_settings": MessageLookupByLibrary.simpleMessage("打印机设置"),
+    "printer_size_tips": MessageLookupByLibrary.simpleMessage(
+      "常见小票尺寸为 58mm 和 80mm",
+    ),
+    "printer_size_tips_desc": MessageLookupByLibrary.simpleMessage(
+      "请根据小票机支持的纸张大小正确安\n装，如打印内容出现偏移，请在系统\n相应小票机中重新选择小票尺寸，以\n确保打印效果正常。",
+    ),
     "printing": MessageLookupByLibrary.simpleMessage("打印中"),
     "privacy_policy": MessageLookupByLibrary.simpleMessage("《隐私政策》"),
     "privacy_policy_agreement_hint": MessageLookupByLibrary.simpleMessage(

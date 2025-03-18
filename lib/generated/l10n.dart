@@ -16534,6 +16534,56 @@ class S {
       args: [num],
     );
   }
+
+  /// `Print Test`
+  String get print_test_title {
+    return Intl.message(
+      'Print Test',
+      name: 'print_test_title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Test Result: Print Success`
+  String get print_test_result {
+    return Intl.message(
+      'Test Result: Print Success',
+      name: 'print_test_result',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Connection Status: Printer Connected`
+  String get printer_connect_success {
+    return Intl.message(
+      'Connection Status: Printer Connected',
+      name: 'printer_connect_success',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Common printer sizes are \n 58mm and 80mm`
+  String get printer_size_tips {
+    return Intl.message(
+      'Common printer sizes are \n 58mm and 80mm',
+      name: 'printer_size_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please select the correct paper size \n according to the printer's support, if the print content is offset, please select \n the printer size again in the system corresponding to the printer,\n to ensure normal printing.`
+  String get printer_size_tips_desc {
+    return Intl.message(
+      'Please select the correct paper size \n according to the printer\'s support, if the print content is offset, please select \n the printer size again in the system corresponding to the printer,\n to ensure normal printing.',
+      name: 'printer_size_tips_desc',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

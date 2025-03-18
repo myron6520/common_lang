@@ -1895,5 +1895,10 @@
     "no_update": "No Update",
     "give_goods_only_one": "Give Goods Only One",
     "goods_cannot_participate_activity": "Goods Cannot Participate Activity",
-    "select_special_industry_with_num": "Select Up To {num} Special Industries"
+    "select_special_industry_with_num": "Select Up To {num} Special Industries",
+    "print_test_title": "Print Test",
+    "print_test_result": "Test Result: Print Success",
+    "printer_connect_success": "Connection Status: Printer Connected",
+    "printer_size_tips": "Common printer sizes are \n 58mm and 80mm",
+    "printer_size_tips_desc": "Please select the correct paper size \n according to the printer's support, if the print content is offset, please select \n the printer size again in the system corresponding to the printer,\n to ensure normal printing."
 }

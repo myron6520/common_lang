@@ -1713,5 +1713,10 @@
     "no_update": "暫不更新",
     "give_goods_only_one": "贈送商品只能選擇1件",
     "goods_cannot_participate_activity": "該商品無法參與活動",
-    "select_special_industry_with_num": "最多選中{num}個特殊行業"
+    "select_special_industry_with_num": "最多選中{num}個特殊行業",
+    "print_test_title": "小票打印測試",
+    "print_test_result": "測試結果：打印成功",
+    "printer_connect_success": "連接狀態：小票機連接成功",
+    "printer_size_tips": "常見小票尺寸為 58mm 和 80mm",
+    "printer_size_tips_desc": "請根據小票機支持的紙張大小正確安\n裝，如打印內容出現偏移，請在系統\n相應小票機中重新選擇小票尺寸，以\n確保打印效果正常。"
 }

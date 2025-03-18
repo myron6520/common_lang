@@ -2639,11 +2639,24 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "print_task_pushed_tips": m83,
     "print_test": MessageLookupByLibrary.simpleMessage("Print Test"),
+    "print_test_result": MessageLookupByLibrary.simpleMessage(
+      "Test Result: Print Success",
+    ),
+    "print_test_title": MessageLookupByLibrary.simpleMessage("Print Test"),
     "printerTips": MessageLookupByLibrary.simpleMessage(
       "Please Ensure The Printer And The Cashier Device Are On The Same Network And The Printer Is Turned On",
     ),
+    "printer_connect_success": MessageLookupByLibrary.simpleMessage(
+      "Connection Status: Printer Connected",
+    ),
     "printer_settings": MessageLookupByLibrary.simpleMessage(
       "Printer Settings",
+    ),
+    "printer_size_tips": MessageLookupByLibrary.simpleMessage(
+      "Common printer sizes are \n 58mm and 80mm",
+    ),
+    "printer_size_tips_desc": MessageLookupByLibrary.simpleMessage(
+      "Please select the correct paper size \n according to the printer\'s support, if the print content is offset, please select \n the printer size again in the system corresponding to the printer,\n to ensure normal printing.",
     ),
     "printing": MessageLookupByLibrary.simpleMessage("Printing"),
     "privacy_policy": MessageLookupByLibrary.simpleMessage(" Privacy Policy "),
