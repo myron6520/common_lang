@@ -1513,7 +1513,7 @@
     "usb_printer": "USB Printer",
     "install_network_printer": "Install Network Printer",
     "install_network_printer_tips": "1. Connect the first network cable to the printer and the router; \n2. Connect the second network cable to the router and the cashier or the cashier connects to the Wi-Fi of this router, ensuring that they are in the same local network; ",
-    "install_network_printer_tips_2": "Note: \n1. The printer and router power must be on; \n2. Ensure that the network cable is not loose; \n3. Ensure that the printer and router are in the same local network; \n4. Ensure that the printer and cashier are in the same local network; \n5. Ensure that the printer and cashier are in the same local network; \n6. Ensure that the printer and cashier are in the same local network; \n7. Ensure that the printer and cashier are in the same local network; \n8. Ensure that the printer and cashier are in the same local network; \n9. Ensure that the printer and cashier are in the same local network; \n10. Ensure that the printer and cashier are in the same local network; ",
+    "install_network_printer_tips_2": "Note: \n1. The printer and router power must be on; \n2. Ensure that the network cable is not loose; \n3. Ensure that the printer and router are in the same local network; ",
     "next_step2": "I have connected, next step",
     "retail": "Retail",
     "catering": "Catering",
@@ -1900,5 +1900,16 @@
     "print_test_result": "Test Result: Print Success",
     "printer_connect_success": "Connection Status: Printer Connected",
     "printer_size_tips": "Common printer sizes are \n 58mm and 80mm",
-    "printer_size_tips_desc": "Please select the correct paper size \n according to the printer's support, if the print content is offset, please select \n the printer size again in the system corresponding to the printer,\n to ensure normal printing."
+    "printer_size_tips_desc": "Please select the correct paper size \n according to the printer's support, if the print content is offset, please select \n the printer size again in the system corresponding to the printer,\n to ensure normal printing.",
+    "table_info": "Table Info",
+    "show_table_number": "Show Table Number",
+    "show_takeout_number": "Show Takeout Number",
+    "show_table_number_and_takeout_number": "Show Table Number And Takeout Number",
+    "order_refund": "Order Refund",
+    "order_refund_tips": "Note: Please contact the customer to handle the refund after negotiation",
+    "by_goods": "By Goods",
+    "by_amount": "By Amount",
+    "please_input_refund_amount": "Please Input Refund Amount",
+    "goods_list": "Goods List",
+    "all_loaded": "All Loaded"
 }

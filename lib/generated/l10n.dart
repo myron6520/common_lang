@@ -13073,10 +13073,10 @@ class S {
     );
   }
 
-  /// `Note: \n1. The printer and router power must be on; \n2. Ensure that the network cable is not loose; \n3. Ensure that the printer and router are in the same local network; \n4. Ensure that the printer and cashier are in the same local network; \n5. Ensure that the printer and cashier are in the same local network; \n6. Ensure that the printer and cashier are in the same local network; \n7. Ensure that the printer and cashier are in the same local network; \n8. Ensure that the printer and cashier are in the same local network; \n9. Ensure that the printer and cashier are in the same local network; \n10. Ensure that the printer and cashier are in the same local network; `
+  /// `Note: \n1. The printer and router power must be on; \n2. Ensure that the network cable is not loose; \n3. Ensure that the printer and router are in the same local network; `
   String get install_network_printer_tips_2 {
     return Intl.message(
-      'Note: \n1. The printer and router power must be on; \n2. Ensure that the network cable is not loose; \n3. Ensure that the printer and router are in the same local network; \n4. Ensure that the printer and cashier are in the same local network; \n5. Ensure that the printer and cashier are in the same local network; \n6. Ensure that the printer and cashier are in the same local network; \n7. Ensure that the printer and cashier are in the same local network; \n8. Ensure that the printer and cashier are in the same local network; \n9. Ensure that the printer and cashier are in the same local network; \n10. Ensure that the printer and cashier are in the same local network; ',
+      'Note: \n1. The printer and router power must be on; \n2. Ensure that the network cable is not loose; \n3. Ensure that the printer and router are in the same local network; ',
       name: 'install_network_printer_tips_2',
       desc: '',
       args: [],
@@ -16583,6 +16583,91 @@ class S {
       desc: '',
       args: [],
     );
+  }
+
+  /// `Table Info`
+  String get table_info {
+    return Intl.message('Table Info', name: 'table_info', desc: '', args: []);
+  }
+
+  /// `Show Table Number`
+  String get show_table_number {
+    return Intl.message(
+      'Show Table Number',
+      name: 'show_table_number',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Show Takeout Number`
+  String get show_takeout_number {
+    return Intl.message(
+      'Show Takeout Number',
+      name: 'show_takeout_number',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Show Table Number And Takeout Number`
+  String get show_table_number_and_takeout_number {
+    return Intl.message(
+      'Show Table Number And Takeout Number',
+      name: 'show_table_number_and_takeout_number',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Order Refund`
+  String get order_refund {
+    return Intl.message(
+      'Order Refund',
+      name: 'order_refund',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Note: Please contact the customer to handle the refund after negotiation`
+  String get order_refund_tips {
+    return Intl.message(
+      'Note: Please contact the customer to handle the refund after negotiation',
+      name: 'order_refund_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `By Goods`
+  String get by_goods {
+    return Intl.message('By Goods', name: 'by_goods', desc: '', args: []);
+  }
+
+  /// `By Amount`
+  String get by_amount {
+    return Intl.message('By Amount', name: 'by_amount', desc: '', args: []);
+  }
+
+  /// `Please Input Refund Amount`
+  String get please_input_refund_amount {
+    return Intl.message(
+      'Please Input Refund Amount',
+      name: 'please_input_refund_amount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Goods List`
+  String get goods_list {
+    return Intl.message('Goods List', name: 'goods_list', desc: '', args: []);
+  }
+
+  /// `All Loaded`
+  String get all_loaded {
+    return Intl.message('All Loaded', name: 'all_loaded', desc: '', args: []);
   }
 }
 

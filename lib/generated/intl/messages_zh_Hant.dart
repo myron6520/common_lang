@@ -343,6 +343,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "all_goods_participate_promotion": MessageLookupByLibrary.simpleMessage(
       "全店所有商品參與促銷",
     ),
+    "all_loaded": MessageLookupByLibrary.simpleMessage("已全部加載完畢～"),
     "all_members_employees": MessageLookupByLibrary.simpleMessage(
       "● 名下所有會員、員工等",
     ),
@@ -458,6 +459,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "business_statistics": MessageLookupByLibrary.simpleMessage("營業統計"),
     "buy_full_reduction": MessageLookupByLibrary.simpleMessage("買滿"),
     "buy_full_reduction_unit": MessageLookupByLibrary.simpleMessage("買(件)"),
+    "by_amount": MessageLookupByLibrary.simpleMessage("按金額"),
+    "by_goods": MessageLookupByLibrary.simpleMessage("按商品"),
     "by_person": MessageLookupByLibrary.simpleMessage("按人數"),
     "by_table": MessageLookupByLibrary.simpleMessage("按桌數"),
     "call_phone": MessageLookupByLibrary.simpleMessage("呼叫"),
@@ -1003,6 +1006,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "條，導入需要一定加載時間，是否確認導入！",
     ),
     "goods_import_tip_start": MessageLookupByLibrary.simpleMessage("復用店鋪商品"),
+    "goods_list": MessageLookupByLibrary.simpleMessage("商品列表"),
     "goods_price_or_weight_change": MessageLookupByLibrary.simpleMessage(
       "商品改價/重量",
     ),
@@ -1123,7 +1127,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "1. 將第一根網線連接打印機與路由器；\n2. 將第二根網線連接路由器和收銀機或收銀機連接此路由器的Wi-Fi，確保在同一局域網內；",
     ),
     "install_network_printer_tips_2": MessageLookupByLibrary.simpleMessage(
-      "注意：\n1.打印機、路由器電源開啟；\n2.確保網線沒有鬆動；\n3.確保打印機與路由器在同一局域網內；\n4.確保打印機與收銀機在同一局域網內；\n5.確保打印機與收銀機在同一局域網內；\n6.確保打印機與收銀機在同一局域網內；\n7.確保打印機與收銀機在同一局域網內；\n8.確保打印機與收銀機在同一局域網內；\n9.確保打印機與收銀機在同一局域網內；\n10.確保打印機與收銀機在同一局域網內；",
+      "注意：\n1.打印機、路由器電源開啟；\n2.確保網線沒有鬆動；\n3.確保打印機與路由器在同一局域網內；",
     ),
     "insufficientBalance": MessageLookupByLibrary.simpleMessage("餘額不足"),
     "insufficientBalanceTips": MessageLookupByLibrary.simpleMessage(
@@ -1512,6 +1516,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "order_qr_code_tips": MessageLookupByLibrary.simpleMessage(
       "放置在收銀台方便顧客掃碼點餐",
     ),
+    "order_refund": MessageLookupByLibrary.simpleMessage("訂單退款"),
+    "order_refund_tips": MessageLookupByLibrary.simpleMessage(
+      "退款提示：請聯繫客戶協商後處理",
+    ),
     "order_settings": MessageLookupByLibrary.simpleMessage("點餐設置"),
     "order_type": MessageLookupByLibrary.simpleMessage("點餐方式"),
     "order_volume": MessageLookupByLibrary.simpleMessage("訂單(筆)"),
@@ -1639,6 +1647,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "請填寫店鋪詳細地址",
     ),
     "please_fill_shop_name": MessageLookupByLibrary.simpleMessage("請填寫店鋪名稱"),
+    "please_input_refund_amount": MessageLookupByLibrary.simpleMessage(
+      "請輸入退款金額",
+    ),
     "please_re_enter": MessageLookupByLibrary.simpleMessage("請檢查後重新輸入"),
     "please_select_activity_time": MessageLookupByLibrary.simpleMessage(
       "請先選擇活動時間段",
@@ -2082,6 +2093,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "shop_template_type": MessageLookupByLibrary.simpleMessage("店鋪類型"),
     "shop_template_type_name_category": m104,
     "should_refund_amount": MessageLookupByLibrary.simpleMessage("應退金額"),
+    "show_table_number": MessageLookupByLibrary.simpleMessage("顯示桌台號"),
+    "show_table_number_and_takeout_number":
+        MessageLookupByLibrary.simpleMessage("顯示桌台號、取餐號"),
+    "show_takeout_number": MessageLookupByLibrary.simpleMessage("顯示取餐號"),
     "show_unit_price": MessageLookupByLibrary.simpleMessage("顯示單價"),
     "shut_flashlight": MessageLookupByLibrary.simpleMessage("關閉手電筒"),
     "sideBar": MessageLookupByLibrary.simpleMessage("側邊欄"),
@@ -2194,15 +2209,16 @@ class MessageLookup extends MessageLookupByLibrary {
     "table_code_tips": MessageLookupByLibrary.simpleMessage(
       "桌台碼主要用於微信掃碼點餐，未開通收款帳戶，顧客無法付款到您的帳戶上，您可以使用以下方式：\n1.使用桌台點餐，讓顧客到前台付款；\n2.在“我的-收款帳戶”開通收款帳戶；\n3.使用吉祥收銀提供的桌台二維碼，顧客掃碼後，即可在桌台點餐，並完成支付。",
     ),
+    "table_info": MessageLookupByLibrary.simpleMessage("桌台信息"),
     "table_management": MessageLookupByLibrary.simpleMessage("桌台管理"),
     "table_name": MessageLookupByLibrary.simpleMessage("桌台名稱"),
     "table_name_required": MessageLookupByLibrary.simpleMessage("請輸入桌台名稱"),
     "table_num": MessageLookupByLibrary.simpleMessage("每桌數量"),
     "table_order": MessageLookupByLibrary.simpleMessage("桌台點餐"),
     "table_order_tips": MessageLookupByLibrary.simpleMessage("顧客點餐後以桌號送餐到桌、取餐"),
-    "table_order_together": MessageLookupByLibrary.simpleMessage("拼桌點餐"),
+    "table_order_together": MessageLookupByLibrary.simpleMessage("各自點餐"),
     "table_order_together_tips": MessageLookupByLibrary.simpleMessage(
-      "顧客拼桌點餐，以桌號送餐到桌、取餐",
+      "顧客掃同一個桌碼，彼此互相看不見",
     ),
     "table_prefix": MessageLookupByLibrary.simpleMessage("桌台前綴"),
     "table_prefix_hint": MessageLookupByLibrary.simpleMessage("如大桌、中桌、小桌"),

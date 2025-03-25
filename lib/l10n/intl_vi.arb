@@ -1899,5 +1899,16 @@
     "print_test_result": "Kết quả kiểm tra: In thành công",
     "printer_connect_success": "Trạng thái kết nối: Máy in đã kết nối",
     "printer_size_tips": "Kích thước hóa đơn thường \n là 58mm và 80mm",
-    "printer_size_tips_desc": "Vui lòng cài đặt đúng theo kích thước giấy\nmà máy in hỗ trợ. Nếu nội dung in bị lệch,\nvui lòng chọn lại kích thước hóa đơn trong\ncài đặt hệ thống để đảm bảo in ấn bình thường."
+    "printer_size_tips_desc": "Vui lòng cài đặt đúng theo kích thước giấy\nmà máy in hỗ trợ. Nếu nội dung in bị lệch,\nvui lòng chọn lại kích thước hóa đơn trong\ncài đặt hệ thống để đảm bảo in ấn bình thường.",
+    "table_info": "Thông tin bàn",
+    "show_table_number": "Hiển thị số bàn",
+    "show_takeout_number": "Hiển thị số đơn",
+    "show_table_number_and_takeout_number": "Hiển thị số bàn và số đơn",
+    "order_refund": "Hoàn trả đơn hàng",
+    "order_refund_tips": "Lưu ý: Vui lòng liên hệ khách hàng để thực hiện hoàn trả",
+    "by_goods": "Theo món",
+    "by_amount": "Theo số tiền",
+    "please_input_refund_amount": "Nhập số tiền hoàn trả",
+    "goods_list": "Danh sách món",
+    "all_loaded": "Đã tải xong"
 }

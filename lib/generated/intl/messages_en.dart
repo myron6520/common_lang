@@ -440,6 +440,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "all_goods_participate_promotion": MessageLookupByLibrary.simpleMessage(
       "All Shop Goods Participate Promotion",
     ),
+    "all_loaded": MessageLookupByLibrary.simpleMessage("All Loaded"),
     "all_members_employees": MessageLookupByLibrary.simpleMessage(
       "● All Members, Employees, etc.",
     ),
@@ -642,6 +643,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "buy_full_reduction_unit": MessageLookupByLibrary.simpleMessage(
       "Buy Full Reduction Unit",
     ),
+    "by_amount": MessageLookupByLibrary.simpleMessage("By Amount"),
+    "by_goods": MessageLookupByLibrary.simpleMessage("By Goods"),
     "by_person": MessageLookupByLibrary.simpleMessage("By Person"),
     "by_table": MessageLookupByLibrary.simpleMessage("By Table"),
     "call_phone": MessageLookupByLibrary.simpleMessage("Call"),
@@ -1538,6 +1541,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "goods_import_tip_start": MessageLookupByLibrary.simpleMessage(
       "Reuse Shop Goods",
     ),
+    "goods_list": MessageLookupByLibrary.simpleMessage("Goods List"),
     "goods_price_or_weight_change": MessageLookupByLibrary.simpleMessage(
       "Goods Price Or Weight Change",
     ),
@@ -1770,7 +1774,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "1. Connect the first network cable to the printer and the router; \n2. Connect the second network cable to the router and the cashier or the cashier connects to the Wi-Fi of this router, ensuring that they are in the same local network; ",
     ),
     "install_network_printer_tips_2": MessageLookupByLibrary.simpleMessage(
-      "Note: \n1. The printer and router power must be on; \n2. Ensure that the network cable is not loose; \n3. Ensure that the printer and router are in the same local network; \n4. Ensure that the printer and cashier are in the same local network; \n5. Ensure that the printer and cashier are in the same local network; \n6. Ensure that the printer and cashier are in the same local network; \n7. Ensure that the printer and cashier are in the same local network; \n8. Ensure that the printer and cashier are in the same local network; \n9. Ensure that the printer and cashier are in the same local network; \n10. Ensure that the printer and cashier are in the same local network; ",
+      "Note: \n1. The printer and router power must be on; \n2. Ensure that the network cable is not loose; \n3. Ensure that the printer and router are in the same local network; ",
     ),
     "insufficientBalance": MessageLookupByLibrary.simpleMessage(
       "Insufficient Balance",
@@ -2339,6 +2343,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "order_qr_code_tips": MessageLookupByLibrary.simpleMessage(
       "Place At The Cashier For Customers To Scan To Order",
     ),
+    "order_refund": MessageLookupByLibrary.simpleMessage("Order Refund"),
+    "order_refund_tips": MessageLookupByLibrary.simpleMessage(
+      "Note: Please contact the customer to handle the refund after negotiation",
+    ),
     "order_settings": MessageLookupByLibrary.simpleMessage("Order Settings"),
     "order_status": MessageLookupByLibrary.simpleMessage("Order status"),
     "order_type": MessageLookupByLibrary.simpleMessage("Order Type"),
@@ -2556,6 +2564,9 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
     "please_fill_shop_name": MessageLookupByLibrary.simpleMessage(
       "Please Enter Store Name",
+    ),
+    "please_input_refund_amount": MessageLookupByLibrary.simpleMessage(
+      "Please Input Refund Amount",
     ),
     "please_re_enter": MessageLookupByLibrary.simpleMessage(
       "Please Check And Re-Enter",
@@ -3331,6 +3342,16 @@ class MessageLookup extends MessageLookupByLibrary {
     "should_refund_amount": MessageLookupByLibrary.simpleMessage(
       "Should Refund Amount",
     ),
+    "show_table_number": MessageLookupByLibrary.simpleMessage(
+      "Show Table Number",
+    ),
+    "show_table_number_and_takeout_number":
+        MessageLookupByLibrary.simpleMessage(
+          "Show Table Number And Takeout Number",
+        ),
+    "show_takeout_number": MessageLookupByLibrary.simpleMessage(
+      "Show Takeout Number",
+    ),
     "show_unit_price": MessageLookupByLibrary.simpleMessage("Show Unit Price"),
     "shut_flashlight": MessageLookupByLibrary.simpleMessage(
       "Turn Off Flashlight",
@@ -3502,6 +3523,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "table_code_tips": MessageLookupByLibrary.simpleMessage(
       "Table Code is mainly used for QR code scanning for ordering, without a payment account, customers cannot pay into your account, you can use the following methods:",
     ),
+    "table_info": MessageLookupByLibrary.simpleMessage("Table Info"),
     "table_management": MessageLookupByLibrary.simpleMessage(
       "Table Management",
     ),

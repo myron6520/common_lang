@@ -368,6 +368,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "all_goods_participate_promotion": MessageLookupByLibrary.simpleMessage(
       "全店所有商品参与促销",
     ),
+    "all_loaded": MessageLookupByLibrary.simpleMessage("已全部加载完毕～"),
     "all_members_employees": MessageLookupByLibrary.simpleMessage(
       "● 名下所有会员、员工等",
     ),
@@ -496,6 +497,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "business_statistics": MessageLookupByLibrary.simpleMessage("营业统计"),
     "buy_full_reduction": MessageLookupByLibrary.simpleMessage("买满"),
     "buy_full_reduction_unit": MessageLookupByLibrary.simpleMessage("买(件)"),
+    "by_amount": MessageLookupByLibrary.simpleMessage("按金额"),
+    "by_goods": MessageLookupByLibrary.simpleMessage("按商品"),
     "by_person": MessageLookupByLibrary.simpleMessage("按人数"),
     "by_table": MessageLookupByLibrary.simpleMessage("按桌台"),
     "call_phone": MessageLookupByLibrary.simpleMessage("呼叫"),
@@ -650,10 +653,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "commodity_archive": MessageLookupByLibrary.simpleMessage("商品档案"),
     "commodity_batch": MessageLookupByLibrary.simpleMessage("商品批次"),
     "commodity_data_not_available": MessageLookupByLibrary.simpleMessage(
-      "暂无商品数据",
+      "暂无商品",
     ),
     "commodity_data_not_available_hint": MessageLookupByLibrary.simpleMessage(
-      "您可以将就收银机的数据导入或新增\n商品",
+      "您可以将就收银机的数据导入或手动\n新增商品",
     ),
     "commodity_import_process": MessageLookupByLibrary.simpleMessage("商品导入中"),
     "common_functions": MessageLookupByLibrary.simpleMessage("常用功能"),
@@ -1104,6 +1107,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "条，导入需要一定加载时间，是否确认导入！",
     ),
     "goods_import_tip_start": MessageLookupByLibrary.simpleMessage("复用店铺商品"),
+    "goods_list": MessageLookupByLibrary.simpleMessage("商品列表"),
     "goods_price_or_weight_change": MessageLookupByLibrary.simpleMessage(
       "商品改价/重量",
     ),
@@ -1240,7 +1244,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "1. 将第一根网线连接打印机与路由器；\n2. 将第二根网线连接路由器和收银机或收银机连接此路由器的Wi-Fi，确保在同一局域网内；",
     ),
     "install_network_printer_tips_2": MessageLookupByLibrary.simpleMessage(
-      "注意：\n1.打印机、路由器电源开启；\n2.确保网线没有松动；\n3.确保打印机与路由器在同一局域网内；\n4.确保打印机与收银机在同一局域网内；\n5.确保打印机与收银机在同一局域网内；\n6.确保打印机与收银机在同一局域网内；\n7.确保打印机与收银机在同一局域网内；\n8.确保打印机与收银机在同一局域网内；\n9.确保打印机与收银机在同一局域网内；\n10.确保打印机与收银机在同一局域网内；",
+      "注意：\n1.打印机、路由器电源开启；\n2.确保网线没有松动；\n3.确保打印机与路由器在同一局域网内；",
     ),
     "insufficientBalance": MessageLookupByLibrary.simpleMessage("余额不足"),
     "insufficientBalanceTips": MessageLookupByLibrary.simpleMessage(
@@ -1655,6 +1659,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "order_qr_code_tips": MessageLookupByLibrary.simpleMessage(
       "放置在收银台方便顾客扫码点餐",
     ),
+    "order_refund": MessageLookupByLibrary.simpleMessage("订单退款"),
+    "order_refund_tips": MessageLookupByLibrary.simpleMessage(
+      "退款提示：请联系客户协商后处理",
+    ),
     "order_settings": MessageLookupByLibrary.simpleMessage("点餐设置"),
     "order_status": MessageLookupByLibrary.simpleMessage("订单状态"),
     "order_type": MessageLookupByLibrary.simpleMessage("点餐方式"),
@@ -1799,6 +1807,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "please_fill_in_your_office_telephone_number":
         MessageLookupByLibrary.simpleMessage("请填写贵单位的办公电话"),
     "please_fill_shop_name": MessageLookupByLibrary.simpleMessage("请填写店铺名称"),
+    "please_input_refund_amount": MessageLookupByLibrary.simpleMessage(
+      "请输入退款金额",
+    ),
     "please_re_enter": MessageLookupByLibrary.simpleMessage("请检查后重新输入"),
     "please_scan_or_fill_barcode": MessageLookupByLibrary.simpleMessage(
       "请扫描/填写条码",
@@ -2283,6 +2294,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "shop_template_type": MessageLookupByLibrary.simpleMessage("店铺类型"),
     "shop_template_type_name_category": m104,
     "should_refund_amount": MessageLookupByLibrary.simpleMessage("应退金额"),
+    "show_table_number": MessageLookupByLibrary.simpleMessage("显示桌台号"),
+    "show_table_number_and_takeout_number":
+        MessageLookupByLibrary.simpleMessage("显示桌台号、取餐号"),
+    "show_takeout_number": MessageLookupByLibrary.simpleMessage("显示取餐号"),
     "show_unit_price": MessageLookupByLibrary.simpleMessage("显示单价"),
     "shut_flashlight": MessageLookupByLibrary.simpleMessage("关闭手电筒"),
     "sideBar": MessageLookupByLibrary.simpleMessage("侧边栏"),
@@ -2404,13 +2419,14 @@ class MessageLookup extends MessageLookupByLibrary {
     "table_code_tips": MessageLookupByLibrary.simpleMessage(
       "桌台码主要用于微信扫码点餐，未开通收款账户，顾客无法付款到您的账户上，您可以使用以下方式：\n1.使用桌台点餐，让顾客到前台付款；\n2.在“我的-收款账户”开通收款账户；\n3.使用吉祥收银提供的桌台二维码，顾客扫码后，即可在桌台点餐，并完成支付。",
     ),
+    "table_info": MessageLookupByLibrary.simpleMessage("桌台信息"),
     "table_management": MessageLookupByLibrary.simpleMessage("桌台管理"),
     "table_name": MessageLookupByLibrary.simpleMessage("桌台名称"),
     "table_name_required": MessageLookupByLibrary.simpleMessage("请输入桌台名称"),
     "table_num": MessageLookupByLibrary.simpleMessage("每桌数量"),
     "table_order": MessageLookupByLibrary.simpleMessage("桌台点餐"),
     "table_order_tips": MessageLookupByLibrary.simpleMessage("顾客点餐后以桌号送餐到桌、取餐"),
-    "table_order_together": MessageLookupByLibrary.simpleMessage("拼桌点餐"),
+    "table_order_together": MessageLookupByLibrary.simpleMessage("各自点餐"),
     "table_order_together_tips": MessageLookupByLibrary.simpleMessage(
       "顾客扫同一个桌码，彼此互相看不见",
     ),
@@ -2593,7 +2609,7 @@ class MessageLookup extends MessageLookupByLibrary {
         MessageLookupByLibrary.simpleMessage("批发价必须小于销售价"),
     "wholesale_price": MessageLookupByLibrary.simpleMessage("批发价"),
     "wholesale_prices": MessageLookupByLibrary.simpleMessage("批发价格"),
-    "wifiPrinter": MessageLookupByLibrary.simpleMessage("Wi-Fi打印机"),
+    "wifiPrinter": MessageLookupByLibrary.simpleMessage("网口打印机"),
     "wipeAngle": MessageLookupByLibrary.simpleMessage("抹角"),
     "wipeNone": MessageLookupByLibrary.simpleMessage("不抹"),
     "wipePoint": MessageLookupByLibrary.simpleMessage("抹分"),
