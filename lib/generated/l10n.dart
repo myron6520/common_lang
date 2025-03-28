@@ -55,6 +55,16 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
+  /// `JiXiang Guan Store`
+  String get store_app_name {
+    return Intl.message(
+      'JiXiang Guan Store',
+      name: 'store_app_name',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Commodity`
   String get goods {
     return Intl.message('Commodity', name: 'goods', desc: '', args: []);
@@ -16668,6 +16678,236 @@ class S {
   /// `All Loaded`
   String get all_loaded {
     return Intl.message('All Loaded', name: 'all_loaded', desc: '', args: []);
+  }
+
+  /// `Shop Name Cannot Be Less Than 4 Characters`
+  String get shop_name_cannot_be_less_than_4_characters {
+    return Intl.message(
+      'Shop Name Cannot Be Less Than 4 Characters',
+      name: 'shop_name_cannot_be_less_than_4_characters',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Branch Shop Name`
+  String get branch_shop_name {
+    return Intl.message(
+      'Branch Shop Name',
+      name: 'branch_shop_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Branch Shop Location`
+  String get branch_shop_location {
+    return Intl.message(
+      'Branch Shop Location',
+      name: 'branch_shop_location',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Branch Shop Address`
+  String get branch_shop_address {
+    return Intl.message(
+      'Branch Shop Address',
+      name: 'branch_shop_address',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Complete/Skip`
+  String get complete_skip {
+    return Intl.message(
+      'Complete/Skip',
+      name: 'complete_skip',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Meituan Group Buying`
+  String get mt_group_buying {
+    return Intl.message(
+      'Meituan Group Buying',
+      name: 'mt_group_buying',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Deauthorize`
+  String get deauthorize {
+    return Intl.message('Deauthorize', name: 'deauthorize', desc: '', args: []);
+  }
+
+  /// `Group Buying Record`
+  String get group_buying_record {
+    return Intl.message(
+      'Group Buying Record',
+      name: 'group_buying_record',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Group Buying Coupon`
+  String get group_buying_coupon {
+    return Intl.message(
+      'Group Buying Coupon',
+      name: 'group_buying_coupon',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Voucher`
+  String get voucher {
+    return Intl.message('Voucher', name: 'voucher', desc: '', args: []);
+  }
+
+  /// `Online`
+  String get group_buying_online {
+    return Intl.message(
+      'Online',
+      name: 'group_buying_online',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ready`
+  String get group_buying_ready {
+    return Intl.message(
+      'Ready',
+      name: 'group_buying_ready',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Offline`
+  String get group_buying_offline {
+    return Intl.message(
+      'Offline',
+      name: 'group_buying_offline',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No Related Goods, Cannot Verify`
+  String get no_related_goods {
+    return Intl.message(
+      'No Related Goods, Cannot Verify',
+      name: 'no_related_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Related Goods`
+  String get related_goods {
+    return Intl.message(
+      'Related Goods',
+      name: 'related_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Disassociate`
+  String get disassociate {
+    return Intl.message(
+      'Disassociate',
+      name: 'disassociate',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Detail`
+  String get group_buying_detail {
+    return Intl.message(
+      'Detail',
+      name: 'group_buying_detail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Group Buying Coupon Detail`
+  String get group_buying_detail_title {
+    return Intl.message(
+      'Group Buying Coupon Detail',
+      name: 'group_buying_detail_title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Select Existing Goods`
+  String get select_related_goods {
+    return Intl.message(
+      'Select Existing Goods',
+      name: 'select_related_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Customer Paid: ¥{amount}`
+  String customer_paid_with(Object amount) {
+    return Intl.message(
+      'Customer Paid: ¥$amount',
+      name: 'customer_paid_with',
+      desc: '',
+      args: [amount],
+    );
+  }
+
+  /// `Account Amount: ¥{amount}`
+  String account_amount_with(Object amount) {
+    return Intl.message(
+      'Account Amount: ¥$amount',
+      name: 'account_amount_with',
+      desc: '',
+      args: [amount],
+    );
+  }
+
+  /// `Deauthorize Meituan Shop`
+  String get deauthorize_mt_shop {
+    return Intl.message(
+      'Deauthorize Meituan Shop',
+      name: 'deauthorize_mt_shop',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `After deauthorizing, you will no longer be able to use the吉祥收银 system to verify Meituan Group Buying Coupons, are you sure to continue?`
+  String get deauthorize_mt_shop_tips {
+    return Intl.message(
+      'After deauthorizing, you will no longer be able to use the吉祥收银 system to verify Meituan Group Buying Coupons, are you sure to continue?',
+      name: 'deauthorize_mt_shop_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Shop ID: {shopId}`
+  String shop_id(Object shopId) {
+    return Intl.message(
+      'Shop ID: $shopId',
+      name: 'shop_id',
+      desc: '',
+      args: [shopId],
+    );
   }
 }
 

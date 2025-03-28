@@ -24,270 +24,276 @@ class MessageLookup extends MessageLookupByLibrary {
 
   static String m1(name) => "About ${name}";
 
-  static String m2(amount) => "Add ${amount}";
+  static String m2(amount) => "Account Amount: ¥${amount}";
 
-  static String m3(title) => "Add ${title}";
+  static String m3(amount) => "Add ${amount}";
 
-  static String m4(amount) => "Amount Paid: ${amount}";
+  static String m4(title) => "Add ${title}";
 
-  static String m5(amount) => "Amount: ${amount}";
+  static String m5(amount) => "Amount Paid: ${amount}";
 
-  static String m6(price) =>
-      "Each Time You Replenish, The System Automatically Covers The Latest Cost Price As ${price}";
+  static String m6(amount) => "Amount: ${amount}";
 
   static String m7(price) =>
+      "Each Time You Replenish, The System Automatically Covers The Latest Cost Price As ${price}";
+
+  static String m8(price) =>
       "The System Automatically Calculates And Updates ${price} According To The Formula: (Current Inventory x Average Unit Price) + (Replenishment Quantity x ${price}) / (Current Inventory + Replenishment Quantity)";
 
-  static String m8(balance) => "Balance ¥${balance}";
+  static String m9(balance) => "Balance ¥${balance}";
 
-  static String m9(time) => "Binding Time: ${time}";
+  static String m10(time) => "Binding Time: ${time}";
 
-  static String m10(phone) =>
+  static String m11(phone) =>
       "Before canceling your account, please cancel the store associated with ${phone}";
 
-  static String m11(shop) => "Cancel \"${shop}\" Shop";
+  static String m12(shop) => "Cancel \"${shop}\" Shop";
 
-  static String m12(receivedAmount) =>
+  static String m13(receivedAmount) =>
       "After closing, the transaction will be voided, and ¥${receivedAmount} will need to be manually refunded to the customer, continue to close";
 
-  static String m13(time) => "Done (${time}s)";
+  static String m14(time) => "Done (${time}s)";
 
-  static String m14(count) => "${count} Products";
+  static String m15(count) => "${count} Products";
 
-  static String m15(coupon) => "Coupon: ${coupon}";
+  static String m16(coupon) => "Coupon: ${coupon}";
 
-  static String m16(coupon) => "Offer ${coupon}";
+  static String m17(coupon) => "Offer ${coupon}";
 
-  static String m17(name) => "Create ${name}";
+  static String m18(name) => "Create ${name}";
 
-  static String m18(year, month, day) => "${year}/${month}/${day}";
+  static String m19(amount) => "Customer Paid: ¥${amount}";
 
-  static String m19(selectedNum) =>
+  static String m20(year, month, day) => "${year}/${month}/${day}";
+
+  static String m21(selectedNum) =>
       "Are You Sure You Want To Delete ${selectedNum} Tables?";
 
-  static String m20(title) =>
+  static String m22(title) =>
       "「${title}」deleted, goods will be moved to「Uncategorized」";
 
-  static String m21(no) => "Device No ${no}";
+  static String m23(no) => "Device No ${no}";
 
-  static String m22(shopName) =>
+  static String m24(shopName) =>
       "Device Bound To ${shopName}, thank you for\nusing and supporting, wish you a successful business";
 
-  static String m23(deviceName) => "${deviceName} Cashier";
+  static String m25(deviceName) => "${deviceName} Cashier";
 
-  static String m24(name) => "Device ${name}";
+  static String m26(name) => "Device ${name}";
 
-  static String m25(num) => "${num} people";
+  static String m27(num) => "${num} people";
 
-  static String m26(amount) => "Erasure ${amount}";
+  static String m28(amount) => "Erasure ${amount}";
 
-  static String m27(pro) => "Downloading ${pro}%";
+  static String m29(pro) => "Downloading ${pro}%";
 
-  static String m28(name) => "Edit ${name}";
+  static String m30(name) => "Edit ${name}";
 
-  static String m29(title) => "Edit ${title}";
+  static String m31(title) => "Edit ${title}";
 
-  static String m30(amountUp, amountSub) =>
+  static String m32(amountUp, amountSub) =>
       "Full ${amountUp} Yuan, Sub ${amountSub} Yuan";
 
-  static String m31(amountUp, amountSub) =>
+  static String m33(amountUp, amountSub) =>
       "Full ${amountUp} Yuan, ${amountSub}";
 
-  static String m32(amountUp, discount) =>
+  static String m34(amountUp, discount) =>
       "Full ${amountUp} Yuan, ${discount} Discount";
 
-  static String m33(amountUp, discount) =>
+  static String m35(amountUp, discount) =>
       "Full ${amountUp} Yuan, ${discount} Discount";
 
-  static String m34(amountUp) => "Full ${amountUp} Yuan, Gift";
+  static String m36(amountUp) => "Full ${amountUp} Yuan, Gift";
 
-  static String m35(amountUp) => "Full ${amountUp} Yuan, Gift";
+  static String m37(amountUp) => "Full ${amountUp} Yuan, Gift";
 
-  static String m36(amountUp, amountSub) =>
+  static String m38(amountUp, amountSub) =>
       "Full ${amountUp} Yuan, Gift ${amountSub}";
 
-  static String m37(amountUp) => "Full ${amountUp} Pieces, Gift";
+  static String m39(amountUp) => "Full ${amountUp} Pieces, Gift";
 
-  static String m38(left) => "${left}s later to get";
+  static String m40(left) => "${left}s later to get";
 
-  static String m39(amount) => "Gift ${amount} Yuan";
+  static String m41(amount) => "Gift ${amount} Yuan";
 
-  static String m40(amount) => "Product ${amount} SKU";
+  static String m42(amount) => "Product ${amount} SKU";
 
-  static String m41(value) => "Gross Profit ${value}";
+  static String m43(value) => "Gross Profit ${value}";
 
-  static String m42(name) => "Hello, ${name}";
+  static String m44(name) => "Hello, ${name}";
 
-  static String m43(year, month, day, hour) =>
+  static String m45(year, month, day, hour) =>
       "${year}/${month}/${day} ${hour}:00";
 
-  static String m44(count, successCount, failedCount) =>
+  static String m46(count, successCount, failedCount) =>
       "Imported ${count} products, ${successCount} products imported successfully, \n${failedCount} products failed";
 
-  static String m45(title) => "Please Input ${title} Name";
+  static String m47(title) => "Please Input ${title} Name";
 
-  static String m46(content) => "Please Input ${content}";
+  static String m48(content) => "Please Input ${content}";
 
-  static String m47(time) => "Invalid Time ${time}";
+  static String m49(time) => "Invalid Time ${time}";
 
-  static String m48(name) =>
+  static String m50(name) =>
       "You Are Using ${name} To Apply To Join, Submit Application?";
 
-  static String m49(name) => "Label Scale [${name}]";
+  static String m51(name) => "Label Scale [${name}]";
 
-  static String m50(date) => "Last Sync ${date}";
+  static String m52(date) => "Last Sync ${date}";
 
-  static String m51(loadTime) => "Last Update: ${loadTime}";
+  static String m53(loadTime) => "Last Update: ${loadTime}";
 
-  static String m52(num) => "Left ${num} Pieces";
+  static String m54(num) => "Left ${num} Pieces";
 
-  static String m53(weight, unit) => "Left ${weight}${unit}";
+  static String m55(weight, unit) => "Left ${weight}${unit}";
 
-  static String m54(len) => "${len}mm";
+  static String m56(len) => "${len}mm";
 
-  static String m55(shop) => "Logout \"${shop}\" Shop";
+  static String m57(shop) => "Logout \"${shop}\" Shop";
 
-  static String m56(name) => "Manual ${name}";
+  static String m58(name) => "Manual ${name}";
 
-  static String m57(materials) => "Materials: ${materials}";
+  static String m59(materials) => "Materials: ${materials}";
 
-  static String m58(phone) =>
+  static String m60(phone) =>
       "The Account ${phone} Has Not Become A Member Yet, Do You Want To Register For A Guest?";
 
-  static String m59(year, month, day, hour, minute) =>
+  static String m61(year, month, day, hour, minute) =>
       "${year}/${month}/${day} ${hour}:${minute}";
 
-  static String m60(name) => "Modify ${name}";
+  static String m62(name) => "Modify ${name}";
 
-  static String m61(month, day) => "${month}/${day}";
+  static String m63(month, day) => "${month}/${day}";
 
-  static String m62(year, month) => "${year}-${month}";
+  static String m64(year, month) => "${year}-${month}";
 
-  static String m63(name) => "Move (${name})";
+  static String m65(name) => "Move (${name})";
 
-  static String m64(selectName) => "Move Selected Goods To「${selectName}」";
+  static String m66(selectName) => "Move Selected Goods To「${selectName}」";
 
-  static String m65(price, num) => "¥${price} x ${num} pieces/person";
+  static String m67(price, num) => "¥${price} x ${num} pieces/person";
 
-  static String m66(price, num) => "¥${price} x ${num} pieces/table";
+  static String m68(price, num) => "¥${price} x ${num} pieces/table";
 
-  static String m67(title) => "${title} Name";
+  static String m69(title) => "${title} Name";
 
-  static String m68(name) =>
+  static String m70(name) =>
       "Product Barcode \'${name}\' Does Not Exist, Add New?";
 
-  static String m69(publisher) => "No ${publisher} Account?";
+  static String m71(publisher) => "No ${publisher} Account?";
 
-  static String m70(name) => "Orders ${name}";
+  static String m72(name) => "Orders ${name}";
 
-  static String m71(offDutyTime) => "Off Duty Time: ${offDutyTime}";
+  static String m73(offDutyTime) => "Off Duty Time: ${offDutyTime}";
 
-  static String m72(workTime) => "Work Time: ${workTime}";
+  static String m74(workTime) => "Work Time: ${workTime}";
 
-  static String m73(appName) =>
+  static String m75(appName) =>
       "After enabling, only cashier login is supported, cannot enter ${appName}";
 
-  static String m74(appName) =>
+  static String m76(appName) =>
       "Thank you for choosing ${appName}, you can open payment or directly enter the shop, wish you a successful use!";
 
-  static String m75(orderCount) => "Order: ${orderCount}";
+  static String m77(orderCount) => "Order: ${orderCount}";
 
-  static String m76(num) => "Order People ${num} People";
+  static String m78(num) => "Order People ${num} People";
 
-  static String m77(len) => "Ordered Goods (${len})";
+  static String m79(len) => "Ordered Goods (${len})";
 
-  static String m78(num) => "${num}";
+  static String m80(num) => "${num}";
 
-  static String m79(reason) => "Failure Reason: ${reason}";
+  static String m81(reason) => "Failure Reason: ${reason}";
 
-  static String m80(name) => "Please Select ${name}";
+  static String m82(name) => "Please Select ${name}";
 
-  static String m81(name) => "Please Enter ${name}";
+  static String m83(name) => "Please Enter ${name}";
 
-  static String m82(name) =>
+  static String m84(name) =>
       "Device \"${name}\" print error, please check if it is correctly connected, if the problem persists, please try to restart the device";
 
-  static String m83(len) =>
+  static String m85(len) =>
       "This print ${len} labels, has been pushed to the printer, please wait for the print to complete.";
 
-  static String m84(amount) => "Collection ${amount}）";
+  static String m86(amount) => "Collection ${amount}）";
 
-  static String m85(recharge, gift) =>
+  static String m87(recharge, gift) =>
       "Recharge ${recharge} Yuan Gift ${gift} Yuan";
 
-  static String m86(name) => "Refund ${name}";
+  static String m88(name) => "Refund ${name}";
 
-  static String m87(amount) =>
+  static String m89(amount) =>
       "Scan Payment ¥${amount}, Please Refund Manually To The Customer";
 
-  static String m88(amount) => "Immediate Refund ${amount}";
+  static String m90(amount) => "Immediate Refund ${amount}";
 
-  static String m89(number) => "Remaining Inventory: ${number}";
+  static String m91(number) => "Remaining Inventory: ${number}";
 
-  static String m90(remark) => "Order Remark: ${remark}";
+  static String m92(remark) => "Order Remark: ${remark}";
 
-  static String m91(remark) => "Remark: ${remark}";
+  static String m93(remark) => "Remark: ${remark}";
 
-  static String m92(name) => "Rename ${name}";
+  static String m94(name) => "Rename ${name}";
 
-  static String m93(time) => "Reprint Receipt(${time})";
+  static String m95(time) => "Reprint Receipt(${time})";
 
-  static String m94(price) => "Sales Price Must Be Greater Than ${price}";
+  static String m96(price) => "Sales Price Must Be Greater Than ${price}";
 
-  static String m95(scanAmount) =>
+  static String m97(scanAmount) =>
       "Scan Code Payment ¥${scanAmount}, Refunded To Customer Account";
 
-  static String m96(num) => "Seat To ${num}";
+  static String m98(num) => "Seat To ${num}";
 
-  static String m97(year, month, day, hour, minute, second) =>
+  static String m99(year, month, day, hour, minute, second) =>
       "${year}/${month}/${day} ${hour}:${minute}:${second}";
 
-  static String m98(practiceName) => "Please Select ${practiceName}";
+  static String m100(practiceName) => "Please Select ${practiceName}";
 
-  static String m99(num) => "Select Up To ${num} Special Industries";
+  static String m101(num) => "Select Up To ${num} Special Industries";
 
-  static String m100(selectedNum) => "Selected ${selectedNum} Tables";
+  static String m102(selectedNum) => "Selected ${selectedNum} Tables";
 
-  static String m101(num) => "Selected ${num} Categories";
+  static String m103(num) => "Selected ${num} Categories";
 
-  static String m102(num) => "Selected ${num} Goods Participate Promotion";
+  static String m104(num) => "Selected ${num} Goods Participate Promotion";
 
-  static String m103(num) => "Selected ${num} Goods";
+  static String m105(num) => "Selected ${num} Goods";
 
-  static String m104(shopTemplateType) => "${shopTemplateType} Category";
+  static String m106(shopId) => "Shop ID: ${shopId}";
 
-  static String m105(title) => "${title} Management";
+  static String m107(shopTemplateType) => "${shopTemplateType} Category";
 
-  static String m106(num) => "Selected ${num} Goods Participate";
+  static String m108(title) => "${title} Management";
 
-  static String m107(amount) => "Still Need To Pay With ¥${amount}";
+  static String m109(num) => "Selected ${num} Goods Participate";
 
-  static String m108(no) => "Table \$${no}";
+  static String m110(amount) => "Still Need To Pay With ¥${amount}";
 
-  static String m109(hour, minute) => "${hour}:${minute}";
+  static String m111(no) => "Table \$${no}";
 
-  static String m110(num) => "Total ${num} Goods";
+  static String m112(hour, minute) => "${hour}:${minute}";
 
-  static String m111(name) =>
+  static String m113(num) => "Total ${num} Goods";
+
+  static String m114(name) =>
       "Your Application Has Been Submitted For Payment Platform Review. We Will Notify You Of The Review Results Via SMS.\nFor Details, Please Contact: ${name}";
 
-  static String m112(name) =>
+  static String m115(name) =>
       "Unpacking Package Association Requires Entering Current Inventory Of Bulk Package Product, After Unpacking, Will Deduct Small Package Inventory According To ${name} Association Ratio.";
 
-  static String m113(no) => "User ${no}";
+  static String m116(no) => "User ${no}";
 
-  static String m114(price) => "User Specified Product ${price}";
+  static String m117(price) => "User Specified Product ${price}";
 
-  static String m115(name) => "Verification Code Sent To ${name}";
+  static String m118(name) => "Verification Code Sent To ${name}";
 
-  static String m116(skuNum) => "View All (${skuNum})";
+  static String m119(skuNum) => "View All (${skuNum})";
 
-  static String m117(count) =>
+  static String m120(count) =>
       "Weighing Goods Success, ${count} Goods Transferred";
 
-  static String m118(appName) => "Welcome Login, ${appName}";
+  static String m121(appName) => "Welcome Login, ${appName}";
 
-  static String m119(price) => "Wholesale Price Must Be Greater Than ${price}";
+  static String m122(price) => "Wholesale Price Must Be Greater Than ${price}";
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
@@ -312,6 +318,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "about": MessageLookupByLibrary.simpleMessage("About"),
     "about_with": m1,
     "accomplish": MessageLookupByLibrary.simpleMessage("Complete"),
+    "account_amount_with": m2,
     "account_holder": MessageLookupByLibrary.simpleMessage("Account Holder"),
     "account_info": MessageLookupByLibrary.simpleMessage("Account Information"),
     "account_login": MessageLookupByLibrary.simpleMessage("Account Login"),
@@ -363,7 +370,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "addToCart": MessageLookupByLibrary.simpleMessage("Add To Cart"),
     "addToList": MessageLookupByLibrary.simpleMessage("Join The List"),
-    "addWithAmount": m2,
+    "addWithAmount": m3,
     "add_area": MessageLookupByLibrary.simpleMessage("Add Area"),
     "add_association": MessageLookupByLibrary.simpleMessage("Add association"),
     "add_barcode": MessageLookupByLibrary.simpleMessage("Add barcode"),
@@ -389,7 +396,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "add_second_level_category": MessageLookupByLibrary.simpleMessage(
       "Add Second Level Category",
     ),
-    "add_something": m3,
+    "add_something": m4,
     "add_specification": MessageLookupByLibrary.simpleMessage(
       "Add Specification",
     ),
@@ -451,7 +458,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "amount": MessageLookupByLibrary.simpleMessage("Amount"),
     "amountFinalGot": MessageLookupByLibrary.simpleMessage("Amount Received"),
-    "amountFinalPaid": m4,
+    "amountFinalPaid": m5,
     "amountHint": MessageLookupByLibrary.simpleMessage(
       "Please Enter The Quantity",
     ),
@@ -462,7 +469,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Amount actually paid",
     ),
     "amount_unit": MessageLookupByLibrary.simpleMessage("piece"),
-    "amount_with": m5,
+    "amount_with": m6,
     "applicant": MessageLookupByLibrary.simpleMessage("Applicant:"),
     "applyInvalid": MessageLookupByLibrary.simpleMessage("Fail Apply"),
     "apply_failed": MessageLookupByLibrary.simpleMessage("Apply Failed"),
@@ -490,13 +497,13 @@ class MessageLookup extends MessageLookupByLibrary {
     "auto_add_to_cart": MessageLookupByLibrary.simpleMessage(
       "Select Dining People After, Automatically Add To Cart",
     ),
-    "auto_cover_cost_price": m6,
+    "auto_cover_cost_price": m7,
     "avatar": MessageLookupByLibrary.simpleMessage("Avatar"),
     "average_price": MessageLookupByLibrary.simpleMessage("Average Price"),
     "average_weighted": MessageLookupByLibrary.simpleMessage(
       "Average Weighted",
     ),
-    "average_weighted_tips": m7,
+    "average_weighted_tips": m8,
     "back_previous": MessageLookupByLibrary.simpleMessage("Back"),
     "balance": MessageLookupByLibrary.simpleMessage("Balance"),
     "balanceAfterRecharge": MessageLookupByLibrary.simpleMessage(
@@ -525,7 +532,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "balanceRefundTips": MessageLookupByLibrary.simpleMessage(
       "Please Confirm With The Customer, The Amount Will Be Deducted From The Member Balance, Refund Can Be Confirmed By Clicking",
     ),
-    "balanceWith": m8,
+    "balanceWith": m9,
     "bank_address": MessageLookupByLibrary.simpleMessage("Bank Branch Address"),
     "bank_card_number": MessageLookupByLibrary.simpleMessage(
       "Bank Card Number",
@@ -559,7 +566,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "bind": MessageLookupByLibrary.simpleMessage("Bind"),
     "bindCard": MessageLookupByLibrary.simpleMessage("Bind Card"),
     "bindDevice": MessageLookupByLibrary.simpleMessage("Bind Device"),
-    "bindTime": m9,
+    "bindTime": m10,
     "bind_employee": MessageLookupByLibrary.simpleMessage("Bind Employee"),
     "bind_failed": MessageLookupByLibrary.simpleMessage("Bind Failed"),
     "bind_order_qr_code": MessageLookupByLibrary.simpleMessage(
@@ -605,6 +612,15 @@ class MessageLookup extends MessageLookupByLibrary {
     "bonusAmount": MessageLookupByLibrary.simpleMessage("Bonus Amount"),
     "bottom_line": MessageLookupByLibrary.simpleMessage("I am a line of text"),
     "bound": MessageLookupByLibrary.simpleMessage("Bound"),
+    "branch_shop_address": MessageLookupByLibrary.simpleMessage(
+      "Branch Shop Address",
+    ),
+    "branch_shop_location": MessageLookupByLibrary.simpleMessage(
+      "Branch Shop Location",
+    ),
+    "branch_shop_name": MessageLookupByLibrary.simpleMessage(
+      "Branch Shop Name",
+    ),
     "branch_store": MessageLookupByLibrary.simpleMessage("Branch Store"),
     "break_table": MessageLookupByLibrary.simpleMessage("Break Table"),
     "break_table_success": MessageLookupByLibrary.simpleMessage(
@@ -656,7 +672,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "cancel": MessageLookupByLibrary.simpleMessage("Cancel"),
     "cancelAccount": MessageLookupByLibrary.simpleMessage("Cancel Account"),
-    "cancelAccountBeforeTips": m10,
+    "cancelAccountBeforeTips": m11,
     "cancelAccountTips": MessageLookupByLibrary.simpleMessage(
       "After canceling your account, all your information will be unrecoverable. Are you sure you want to cancel?",
     ),
@@ -669,7 +685,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "cancel_shop_hint": MessageLookupByLibrary.simpleMessage(
       "After canceling the shop, you will no longer be able to use the shop for operations, please confirm if you want to continue",
     ),
-    "cancel_shop_with": m11,
+    "cancel_shop_with": m12,
     "cancel_success": MessageLookupByLibrary.simpleMessage("Cancel Success"),
     "cannot_download_table_code": MessageLookupByLibrary.simpleMessage(
       "Cannot Download Table Code",
@@ -820,7 +836,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "close_combo_payment": MessageLookupByLibrary.simpleMessage(
       "Close Combo Payment",
     ),
-    "close_combo_payment_tips": m12,
+    "close_combo_payment_tips": m13,
     "cloudPrinter": MessageLookupByLibrary.simpleMessage("Cloud Printer"),
     "cloud_payment": MessageLookupByLibrary.simpleMessage("Cloud Payment"),
     "co_order": MessageLookupByLibrary.simpleMessage("Co-Order"),
@@ -875,10 +891,11 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "company_XXX": MessageLookupByLibrary.simpleMessage("XXX Company (Seal)"),
     "company_name": MessageLookupByLibrary.simpleMessage("Company name:"),
-    "complete2": m13,
+    "complete2": m14,
     "completeMemberInfo": MessageLookupByLibrary.simpleMessage(
       "Complete Member Info",
     ),
+    "complete_skip": MessageLookupByLibrary.simpleMessage("Complete/Skip"),
     "completed": MessageLookupByLibrary.simpleMessage("Completed"),
     "confirm": MessageLookupByLibrary.simpleMessage("Confirm"),
     "confirmOnKeyboard": MessageLookupByLibrary.simpleMessage("Confirm"),
@@ -954,9 +971,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "costPrice": MessageLookupByLibrary.simpleMessage("Cost Price"),
     "cost_accounting": MessageLookupByLibrary.simpleMessage("Cost Accounting"),
     "count": MessageLookupByLibrary.simpleMessage("Count"),
-    "count_goods": m14,
-    "coupon": m15,
-    "couponAmount": m16,
+    "count_goods": m15,
+    "coupon": m16,
+    "couponAmount": m17,
     "couponChart": MessageLookupByLibrary.simpleMessage("Coupon Report"),
     "couponFunction": MessageLookupByLibrary.simpleMessage("Coupon Function"),
     "couponRule": MessageLookupByLibrary.simpleMessage(
@@ -966,7 +983,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Coupons Sent Today",
     ),
     "couponSettings": MessageLookupByLibrary.simpleMessage("Coupon Activation"),
-    "create": m17,
+    "create": m18,
     "createStore": MessageLookupByLibrary.simpleMessage("Create Store"),
     "createSuccess": MessageLookupByLibrary.simpleMessage("Create Success"),
     "create_buy_one_give_one": MessageLookupByLibrary.simpleMessage(
@@ -1024,6 +1041,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "customer_cannot_pay_online": MessageLookupByLibrary.simpleMessage(
       "Customer cannot pay online, pay to your account",
     ),
+    "customer_paid_with": m19,
     "customer_payment_success": MessageLookupByLibrary.simpleMessage(
       "Customer Payment Success",
     ),
@@ -1046,8 +1064,15 @@ class MessageLookup extends MessageLookupByLibrary {
     "data_type": MessageLookupByLibrary.simpleMessage("Data Type"),
     "day": MessageLookupByLibrary.simpleMessage("Day"),
     "dayInChart": MessageLookupByLibrary.simpleMessage("Day"),
-    "dayStr": m18,
+    "dayStr": m20,
     "day_": MessageLookupByLibrary.simpleMessage("day"),
+    "deauthorize": MessageLookupByLibrary.simpleMessage("Deauthorize"),
+    "deauthorize_mt_shop": MessageLookupByLibrary.simpleMessage(
+      "Deauthorize Meituan Shop",
+    ),
+    "deauthorize_mt_shop_tips": MessageLookupByLibrary.simpleMessage(
+      "After deauthorizing, you will no longer be able to use the吉祥收银 system to verify Meituan Group Buying Coupons, are you sure to continue?",
+    ),
     "deduction": MessageLookupByLibrary.simpleMessage("Deduction"),
     "del": MessageLookupByLibrary.simpleMessage("Delete"),
     "delMember": MessageLookupByLibrary.simpleMessage("Delete Member"),
@@ -1073,7 +1098,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "deleteSuccess": MessageLookupByLibrary.simpleMessage("Delete Success"),
     "deleteTable": MessageLookupByLibrary.simpleMessage("Delete Table"),
-    "deleteTableTipsWithNum": m19,
+    "deleteTableTipsWithNum": m21,
     "delete_activity": MessageLookupByLibrary.simpleMessage("Delete Activity"),
     "delete_activity_tips": MessageLookupByLibrary.simpleMessage(
       "After deleting, the activity will not be able to be recovered, are you sure you want to delete?",
@@ -1098,7 +1123,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "delete_goods_tips": MessageLookupByLibrary.simpleMessage(
       "After deleting, the goods will not be able to be recovered, are you sure you want to delete?",
     ),
-    "delete_goods_tips_with": m20,
+    "delete_goods_tips_with": m22,
     "delete_printer_tips": MessageLookupByLibrary.simpleMessage(
       "After deleting, the printer will be disconnected from the device, and all custom configurations will be cleared, are you sure you want to delete it?",
     ),
@@ -1165,12 +1190,12 @@ class MessageLookup extends MessageLookupByLibrary {
       "Please Enter Device Name",
     ),
     "deviceNo": MessageLookupByLibrary.simpleMessage("Device No"),
-    "deviceNo2": m21,
+    "deviceNo2": m23,
     "device_ID": MessageLookupByLibrary.simpleMessage("Device ID"),
     "device_ID_hint": MessageLookupByLibrary.simpleMessage(
       "Enter The Device Number On The Printer Label",
     ),
-    "device_bound_to_shop": m22,
+    "device_bound_to_shop": m24,
     "device_cannot_be_identified": MessageLookupByLibrary.simpleMessage(
       "Device Cannot Be Identified, Please Scan Again",
     ),
@@ -1178,8 +1203,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "device_key_hint": MessageLookupByLibrary.simpleMessage(
       "Enter The Key On The Printer Label",
     ),
-    "device_name": m23,
-    "device_name_with": m24,
+    "device_name": m25,
+    "device_name_with": m26,
     "device_number_or_sn": MessageLookupByLibrary.simpleMessage(
       "Device Number/SN",
     ),
@@ -1197,8 +1222,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "diningIn": MessageLookupByLibrary.simpleMessage("Dining In"),
     "dining_people": MessageLookupByLibrary.simpleMessage("Dining People"),
-    "dining_people_with": m25,
+    "dining_people_with": m27,
     "disable_employees": MessageLookupByLibrary.simpleMessage("Disable Staff"),
+    "disassociate": MessageLookupByLibrary.simpleMessage("Disassociate"),
     "disconnect": MessageLookupByLibrary.simpleMessage("Disconnect"),
     "discount": MessageLookupByLibrary.simpleMessage("Discount"),
     "discountAmount": MessageLookupByLibrary.simpleMessage("Discount Amount"),
@@ -1206,7 +1232,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Discount Amount Receivable",
     ),
     "discountChargeNone": MessageLookupByLibrary.simpleMessage("No Erasure"),
-    "discountChargeWithAmount": m26,
+    "discountChargeWithAmount": m28,
     "discount_amount": MessageLookupByLibrary.simpleMessage("Discount"),
     "discounts": MessageLookupByLibrary.simpleMessage("Discount"),
     "dishCode": MessageLookupByLibrary.simpleMessage("Dish Code"),
@@ -1242,7 +1268,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "download_template_hint": MessageLookupByLibrary.simpleMessage(
       "Import template, fill in according to template to export original POS data",
     ),
-    "downloading": m27,
+    "downloading": m29,
     "each_full": MessageLookupByLibrary.simpleMessage("Each Full"),
     "each_person": MessageLookupByLibrary.simpleMessage("Each Person"),
     "early_warning_of_shelf_life": MessageLookupByLibrary.simpleMessage(
@@ -1255,7 +1281,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "editInfo": MessageLookupByLibrary.simpleMessage("Edit Information"),
     "editMaterial": MessageLookupByLibrary.simpleMessage("Edit Material"),
     "editUsbPrinter": MessageLookupByLibrary.simpleMessage("Edit USB Printer"),
-    "edit_": m28,
+    "edit_": m30,
     "edit_buy_one_give_one": MessageLookupByLibrary.simpleMessage(
       "Edit Buy One Give One",
     ),
@@ -1280,7 +1306,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "edit_shop_address": MessageLookupByLibrary.simpleMessage(
       "Edit Store Address",
     ),
-    "edit_something": m29,
+    "edit_something": m31,
     "edit_supplier": MessageLookupByLibrary.simpleMessage("Edit supplier"),
     "edit_table": MessageLookupByLibrary.simpleMessage("Edit Table"),
     "edit_the_nth_discount": MessageLookupByLibrary.simpleMessage(
@@ -1395,14 +1421,14 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "front_cashier": MessageLookupByLibrary.simpleMessage("Front Cashier"),
     "frozen": MessageLookupByLibrary.simpleMessage("Frozen"),
-    "fullAmount": m30,
-    "fullAmountCouponName": m31,
-    "fullAmountWithDiscount": m32,
-    "fullAmountWithDiscountCouponName": m33,
-    "fullAmountWithGift": m34,
-    "fullAmountWithGiftCouponName": m35,
-    "fullAmountWithGiftCouponNameWithAmount": m36,
-    "fullAmountWithGiftWithAmount": m37,
+    "fullAmount": m32,
+    "fullAmountCouponName": m33,
+    "fullAmountWithDiscount": m34,
+    "fullAmountWithDiscountCouponName": m35,
+    "fullAmountWithGift": m36,
+    "fullAmountWithGiftCouponName": m37,
+    "fullAmountWithGiftCouponNameWithAmount": m38,
+    "fullAmountWithGiftWithAmount": m39,
     "full_gift_1_activity": MessageLookupByLibrary.simpleMessage(
       "Buy And Gift",
     ),
@@ -1462,7 +1488,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "get_activity_goods_failed": MessageLookupByLibrary.simpleMessage(
       "Get Activity Goods Failed",
     ),
-    "get_code_tips": m38,
+    "get_code_tips": m40,
     "geterTel": MessageLookupByLibrary.simpleMessage("Pickup Person Phone"),
     "gift": MessageLookupByLibrary.simpleMessage("Gift"),
     "giftAmount": MessageLookupByLibrary.simpleMessage("Gift Amount"),
@@ -1478,7 +1504,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Completed Orders (Count)",
     ),
     "giftRefundCount": MessageLookupByLibrary.simpleMessage("Returned Coupons"),
-    "giftWithAmount": m39,
+    "giftWithAmount": m41,
     "give_goods": MessageLookupByLibrary.simpleMessage("Give Goods"),
     "give_goods_empty": MessageLookupByLibrary.simpleMessage(
       "Give Goods Empty",
@@ -1498,7 +1524,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "goods": MessageLookupByLibrary.simpleMessage("Commodity"),
     "goodsAdjustment": MessageLookupByLibrary.simpleMessage("Goods Adjustment"),
     "goodsCardStyle": MessageLookupByLibrary.simpleMessage("Goods Card Style"),
-    "goodsCatFlag": m40,
+    "goodsCatFlag": m42,
     "goodsInfo": MessageLookupByLibrary.simpleMessage("Commodity Information"),
     "goodsInfoUnSaveMakeSureLeave": MessageLookupByLibrary.simpleMessage(
       "Product Information Not Saved, Please Confirm If You Want To Leave",
@@ -1560,7 +1586,20 @@ class MessageLookup extends MessageLookupByLibrary {
     "gross_profit_rate": MessageLookupByLibrary.simpleMessage(
       "Gross Profit Rate",
     ),
-    "gross_profit_with": m41,
+    "gross_profit_with": m43,
+    "group_buying_coupon": MessageLookupByLibrary.simpleMessage(
+      "Group Buying Coupon",
+    ),
+    "group_buying_detail": MessageLookupByLibrary.simpleMessage("Detail"),
+    "group_buying_detail_title": MessageLookupByLibrary.simpleMessage(
+      "Group Buying Coupon Detail",
+    ),
+    "group_buying_offline": MessageLookupByLibrary.simpleMessage("Offline"),
+    "group_buying_online": MessageLookupByLibrary.simpleMessage("Online"),
+    "group_buying_ready": MessageLookupByLibrary.simpleMessage("Ready"),
+    "group_buying_record": MessageLookupByLibrary.simpleMessage(
+      "Group Buying Record",
+    ),
     "guestOrder": MessageLookupByLibrary.simpleMessage("Guest Order"),
     "handover": MessageLookupByLibrary.simpleMessage("Shift Handover"),
     "hangUpOrder": MessageLookupByLibrary.simpleMessage("Pending Order"),
@@ -1580,7 +1619,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "have_been_voided_hint": MessageLookupByLibrary.simpleMessage(
       "Your Application Has Been Cancelled, You Can Initiate A New Application",
     ),
-    "hello_name": m42,
+    "hello_name": m44,
     "home": MessageLookupByLibrary.simpleMessage("Home"),
     "horizontal_offset": MessageLookupByLibrary.simpleMessage(
       "Horizontal Offset",
@@ -1590,7 +1629,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "hour": MessageLookupByLibrary.simpleMessage("hour"),
     "hourInChart": MessageLookupByLibrary.simpleMessage("Hour"),
-    "hourStr": m43,
+    "hourStr": m45,
     "idNo": MessageLookupByLibrary.simpleMessage("ID Number"),
     "id_card": MessageLookupByLibrary.simpleMessage("ID Card"),
     "idle": MessageLookupByLibrary.simpleMessage("Idle"),
@@ -1604,7 +1643,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "import_or_add_goods": MessageLookupByLibrary.simpleMessage(
       "You Can Import Data From Old Cashier Or Manually\nAdd Goods",
     ),
-    "import_result_with": m44,
+    "import_result_with": m46,
     "import_success": MessageLookupByLibrary.simpleMessage("Import Success"),
     "in_progress": MessageLookupByLibrary.simpleMessage("In Progress"),
     "in_stock": MessageLookupByLibrary.simpleMessage("In stock"),
@@ -1696,7 +1735,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "inputMerchantName": MessageLookupByLibrary.simpleMessage(
       "Please Input Merchant Name",
     ),
-    "inputNameOf": m45,
+    "inputNameOf": m47,
     "inputNewPhoneNumber": MessageLookupByLibrary.simpleMessage(
       "Please Input New Phone Number",
     ),
@@ -1730,7 +1769,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "inputWholesaleMinimumWeight": MessageLookupByLibrary.simpleMessage(
       "Please Enter Wholesale Minimum Weight",
     ),
-    "inputWithContent": m46,
+    "inputWithContent": m48,
     "input_area_name": MessageLookupByLibrary.simpleMessage(
       "Please Enter Area Name",
     ),
@@ -1784,7 +1823,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "intoAmount": MessageLookupByLibrary.simpleMessage("Net Business Amount"),
     "invalid": MessageLookupByLibrary.simpleMessage("Invalid"),
-    "invalid_time": m47,
+    "invalid_time": m49,
     "inventory": MessageLookupByLibrary.simpleMessage("Inventory"),
     "inventoryAdjust": MessageLookupByLibrary.simpleMessage("Inventory Adjust"),
     "inventoryCheck": MessageLookupByLibrary.simpleMessage("Inventory Check"),
@@ -1832,7 +1871,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "isPaying": MessageLookupByLibrary.simpleMessage("Customer Payment..."),
     "job_title": MessageLookupByLibrary.simpleMessage("Position"),
     "join_shop": MessageLookupByLibrary.simpleMessage("Join Store"),
-    "join_shop_hint": m48,
+    "join_shop_hint": m50,
     "join_success": MessageLookupByLibrary.simpleMessage("Join Shop Success"),
     "join_time": MessageLookupByLibrary.simpleMessage("Join Time"),
     "just_now": MessageLookupByLibrary.simpleMessage("Just Now"),
@@ -1847,7 +1886,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "label": MessageLookupByLibrary.simpleMessage("Label"),
     "labelPrinter": MessageLookupByLibrary.simpleMessage("Label Printer"),
     "labelScaler": MessageLookupByLibrary.simpleMessage("Barcode Scale"),
-    "label_scale": m49,
+    "label_scale": m51,
     "label_size": MessageLookupByLibrary.simpleMessage("Label Size"),
     "label_style": MessageLookupByLibrary.simpleMessage("Label Style"),
     "large": MessageLookupByLibrary.simpleMessage("Large"),
@@ -1855,11 +1894,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "large_package_goods": MessageLookupByLibrary.simpleMessage(
       "Product is a large package, please split before operation",
     ),
-    "lastSync": m50,
+    "lastSync": m52,
     "last_120_days": MessageLookupByLibrary.simpleMessage("Last 120 Days"),
     "last_30_days": MessageLookupByLibrary.simpleMessage("Last 30 Days"),
     "last_7_days": MessageLookupByLibrary.simpleMessage("Last 7 Days"),
-    "last_update": m51,
+    "last_update": m53,
     "leave": MessageLookupByLibrary.simpleMessage("Leave"),
     "leaveOrNot": MessageLookupByLibrary.simpleMessage("Leave Or Not"),
     "leavePageTips": MessageLookupByLibrary.simpleMessage(
@@ -1868,11 +1907,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "leftDay": MessageLookupByLibrary.simpleMessage(
       "The Remaining Number Of Days",
     ),
-    "leftNumWith": m52,
+    "leftNumWith": m54,
     "leftPoints": MessageLookupByLibrary.simpleMessage("Left Points"),
     "leftTime": MessageLookupByLibrary.simpleMessage("Time Remaining"),
-    "leftWeightWith": m53,
-    "lenMm": m54,
+    "leftWeightWith": m55,
+    "lenMm": m56,
     "line": MessageLookupByLibrary.simpleMessage("line"),
     "loaded": MessageLookupByLibrary.simpleMessage("Loaded"),
     "loaded_all_data": MessageLookupByLibrary.simpleMessage("Loaded All Data"),
@@ -1897,7 +1936,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "logout_shop_hint": MessageLookupByLibrary.simpleMessage(
       "After logging out, you will no longer be an employee of the store, and all data will be cleared",
     ),
-    "logout_shop_with": m55,
+    "logout_shop_with": m57,
     "logout_success": MessageLookupByLibrary.simpleMessage("Logout Success"),
     "long_press_to_identify_mini_program_code":
         MessageLookupByLibrary.simpleMessage(
@@ -1928,14 +1967,14 @@ class MessageLookup extends MessageLookupByLibrary {
       "Manage Tables And Table Codes",
     ),
     "management_type": MessageLookupByLibrary.simpleMessage("Management Type"),
-    "manual": m56,
+    "manual": m58,
     "marketing": MessageLookupByLibrary.simpleMessage("Marketing"),
     "marketing_activity": MessageLookupByLibrary.simpleMessage(
       "Marketing Activity",
     ),
     "materialName": MessageLookupByLibrary.simpleMessage("Material Name"),
     "materials": MessageLookupByLibrary.simpleMessage("Materials"),
-    "materialsWith": m57,
+    "materialsWith": m59,
     "maxCost": MessageLookupByLibrary.simpleMessage(
       "The Order Amount Cannot Exceed 50,000 Yuan",
     ),
@@ -1966,7 +2005,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Please Enter The Member Name",
     ),
     "memberNotFound": MessageLookupByLibrary.simpleMessage("No Member Found"),
-    "memberNotFoundTips": m58,
+    "memberNotFoundTips": m60,
     "memberPayment": MessageLookupByLibrary.simpleMessage("Member Collection"),
     "memberPrice": MessageLookupByLibrary.simpleMessage("Member Price"),
     "memberRecharge": MessageLookupByLibrary.simpleMessage("Member Recharge"),
@@ -2010,7 +2049,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Mini Program Code Generating...",
     ),
     "minute": MessageLookupByLibrary.simpleMessage("minute"),
-    "minuteStr": m59,
+    "minuteStr": m61,
     "mobile": MessageLookupByLibrary.simpleMessage("Phone Number"),
     "mobileHint": MessageLookupByLibrary.simpleMessage(
       "Please Enter The Mobile Phone",
@@ -2025,7 +2064,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Mobile Payment Opened",
     ),
     "model": MessageLookupByLibrary.simpleMessage("Model"),
-    "modify": m60,
+    "modify": m62,
     "modifyPhoneNumber": MessageLookupByLibrary.simpleMessage(
       "Modify Phone Number",
     ),
@@ -2048,24 +2087,27 @@ class MessageLookup extends MessageLookupByLibrary {
     "monday": MessageLookupByLibrary.simpleMessage("Mon"),
     "money": MessageLookupByLibrary.simpleMessage("Money"),
     "month": MessageLookupByLibrary.simpleMessage("Month"),
-    "monthAndDay": m61,
+    "monthAndDay": m63,
     "monthInChart": MessageLookupByLibrary.simpleMessage("Month"),
-    "monthStr": m62,
+    "monthStr": m64,
     "more": MessageLookupByLibrary.simpleMessage("More"),
     "moreSetting": MessageLookupByLibrary.simpleMessage("More Setting"),
     "more_function": MessageLookupByLibrary.simpleMessage("More Function"),
-    "moveWithName": m63,
+    "moveWithName": m65,
     "move_category": MessageLookupByLibrary.simpleMessage("Move Category"),
-    "move_to_category_named": m64,
+    "move_to_category_named": m66,
+    "mt_group_buying": MessageLookupByLibrary.simpleMessage(
+      "Meituan Group Buying",
+    ),
     "multi_specifications_settings": MessageLookupByLibrary.simpleMessage(
       "Multi Specifications Settings",
     ),
-    "must_person_desc": m65,
-    "must_table_desc": m66,
+    "must_person_desc": m67,
+    "must_table_desc": m68,
     "my": MessageLookupByLibrary.simpleMessage("My"),
     "my_message": MessageLookupByLibrary.simpleMessage("My Messages"),
     "name": MessageLookupByLibrary.simpleMessage("Name"),
-    "nameOf": m67,
+    "nameOf": m69,
     "name_legal_person": MessageLookupByLibrary.simpleMessage(
       "Legal Person Name",
     ),
@@ -2101,7 +2143,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Please enter the category name you want",
     ),
     "new_goods": MessageLookupByLibrary.simpleMessage("Add new product"),
-    "new_goods_hint_1": m68,
+    "new_goods_hint_1": m70,
     "new_goods_hint_2": MessageLookupByLibrary.simpleMessage(
       "Product Information Exists In Archive, Add New?",
     ),
@@ -2146,7 +2188,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "noTable": MessageLookupByLibrary.simpleMessage("No Table"),
     "noUpload": MessageLookupByLibrary.simpleMessage("Not Uploaded"),
     "noValidBarcode": MessageLookupByLibrary.simpleMessage("No Valid Barcode!"),
-    "no_account": m69,
+    "no_account": m71,
     "no_barcode_detected": MessageLookupByLibrary.simpleMessage(
       "No Barcode Detected",
     ),
@@ -2177,6 +2219,9 @@ class MessageLookup extends MessageLookupByLibrary {
           "You Don\'t Have Permission To Operate Goods File",
         ),
     "no_price": MessageLookupByLibrary.simpleMessage("No Price"),
+    "no_related_goods": MessageLookupByLibrary.simpleMessage(
+      "No Related Goods, Cannot Verify",
+    ),
     "no_related_results_found": MessageLookupByLibrary.simpleMessage(
       "No Related Results Found",
     ),
@@ -2225,18 +2270,18 @@ class MessageLookup extends MessageLookupByLibrary {
     "nthItemDiscount": MessageLookupByLibrary.simpleMessage(
       "Nth Item Discount",
     ),
-    "number_order": m70,
+    "number_order": m72,
     "oddChange": MessageLookupByLibrary.simpleMessage("Give Change"),
     "offDuty": MessageLookupByLibrary.simpleMessage("Off Duty"),
     "offDutyDetail": MessageLookupByLibrary.simpleMessage("Off Duty Detail"),
-    "offDutyTimeWith": m71,
+    "offDutyTimeWith": m73,
     "offer_stacking": MessageLookupByLibrary.simpleMessage("Offer Stacking"),
     "offline": MessageLookupByLibrary.simpleMessage("Offline"),
     "offline_order": MessageLookupByLibrary.simpleMessage("Offline Order"),
     "offline_simple": MessageLookupByLibrary.simpleMessage("Offline"),
     "onDuty": MessageLookupByLibrary.simpleMessage("On Duty"),
     "onDutyDetail": MessageLookupByLibrary.simpleMessage("On Duty Detail"),
-    "onDutyWith": m72,
+    "onDutyWith": m74,
     "one_dish_one_cut": MessageLookupByLibrary.simpleMessage(
       "One Dish One Cut",
     ),
@@ -2250,7 +2295,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "only_cashier_login": MessageLookupByLibrary.simpleMessage(
       "Only Cashier Login",
     ),
-    "only_cashier_login_tips": m73,
+    "only_cashier_login_tips": m75,
     "only_member_participate": MessageLookupByLibrary.simpleMessage(
       "Only Member Participate",
     ),
@@ -2276,7 +2321,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "open_shop_success": MessageLookupByLibrary.simpleMessage(
       "Congratulations on opening the shop successfully",
     ),
-    "open_shop_success_tips": m74,
+    "open_shop_success_tips": m76,
     "open_shop_tips": MessageLookupByLibrary.simpleMessage("Open Shop"),
     "open_the_failure": MessageLookupByLibrary.simpleMessage("Opening Failed"),
     "open_the_failure_hint": MessageLookupByLibrary.simpleMessage(
@@ -2293,7 +2338,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "orderCashier": MessageLookupByLibrary.simpleMessage("Cashier"),
     "orderCheck": MessageLookupByLibrary.simpleMessage("Confirm Verification"),
     "orderCount": MessageLookupByLibrary.simpleMessage("Order Count"),
-    "orderCountWith": m75,
+    "orderCountWith": m77,
     "orderDate": MessageLookupByLibrary.simpleMessage("Order Time"),
     "orderDetail": MessageLookupByLibrary.simpleMessage("Order Details"),
     "orderDiscount": MessageLookupByLibrary.simpleMessage("Order Discount"),
@@ -2310,7 +2355,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "orderNo": MessageLookupByLibrary.simpleMessage("Order No"),
     "orderPeopleNumEnd": MessageLookupByLibrary.simpleMessage("People"),
     "orderPeopleNumStart": MessageLookupByLibrary.simpleMessage("Order People"),
-    "orderPeopleNumWithNum": m76,
+    "orderPeopleNumWithNum": m78,
     "orderRemark": MessageLookupByLibrary.simpleMessage("Order Remark"),
     "orderStatus": MessageLookupByLibrary.simpleMessage("Order Status"),
     "orderStatusCanceled": MessageLookupByLibrary.simpleMessage("Canceled"),
@@ -2351,7 +2396,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "order_status": MessageLookupByLibrary.simpleMessage("Order status"),
     "order_type": MessageLookupByLibrary.simpleMessage("Order Type"),
     "order_volume": MessageLookupByLibrary.simpleMessage("Order(Count)"),
-    "orderedGoods": m77,
+    "orderedGoods": m79,
     "orders": MessageLookupByLibrary.simpleMessage("Order"),
     "originalPrice": MessageLookupByLibrary.simpleMessage("Original Price"),
     "other": MessageLookupByLibrary.simpleMessage("Other"),
@@ -2386,7 +2431,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "paperStyleSelecter": MessageLookupByLibrary.simpleMessage(
       "Please Select Receipt Style",
     ),
-    "papers": m78,
+    "papers": m80,
     "party_and_government": MessageLookupByLibrary.simpleMessage(
       "Party And Government",
     ),
@@ -2437,7 +2482,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "paymentTotal": MessageLookupByLibrary.simpleMessage("Total Payments"),
     "payment_amount": MessageLookupByLibrary.simpleMessage("Payment Amount"),
     "payment_failed": MessageLookupByLibrary.simpleMessage("Payment Failed"),
-    "payment_failed_reason_with": m79,
+    "payment_failed_reason_with": m81,
     "payment_failed_tips": MessageLookupByLibrary.simpleMessage(
       "Payment failed, please check the customer\'s payment code and try again",
     ),
@@ -2525,7 +2570,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Please Bind Employee First",
     ),
     "please_choose": MessageLookupByLibrary.simpleMessage("Please Select"),
-    "please_choose_name": m80,
+    "please_choose_name": m82,
     "please_enter_8_digit_invitation_code":
         MessageLookupByLibrary.simpleMessage(
           "Please Enter 8-Digit Store Invitation Code",
@@ -2545,7 +2590,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "please_fill_detailed_address_shop": MessageLookupByLibrary.simpleMessage(
       "Please Enter Detailed Store Address",
     ),
-    "please_fill_in": m81,
+    "please_fill_in": m83,
     "please_fill_in_the_ID_number_of_the_contact_person":
         MessageLookupByLibrary.simpleMessage(
           "Please enter contact person\'s ID number",
@@ -2637,7 +2682,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "printTest": MessageLookupByLibrary.simpleMessage("Print Test"),
     "print_category": MessageLookupByLibrary.simpleMessage("Print Category"),
     "print_error": MessageLookupByLibrary.simpleMessage("Print Error"),
-    "print_error_tips": m82,
+    "print_error_tips": m84,
     "print_instruction": MessageLookupByLibrary.simpleMessage(
       "Print Instruction",
     ),
@@ -2648,7 +2693,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "print_task_pushed": MessageLookupByLibrary.simpleMessage(
       "Print Task Pushed",
     ),
-    "print_task_pushed_tips": m83,
+    "print_task_pushed_tips": m85,
     "print_test": MessageLookupByLibrary.simpleMessage("Print Test"),
     "print_test_result": MessageLookupByLibrary.simpleMessage(
       "Test Result: Print Success",
@@ -2728,7 +2773,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "receiptSuccess": MessageLookupByLibrary.simpleMessage(
       "Payment Successful",
     ),
-    "receiptWithAmount": m84,
+    "receiptWithAmount": m86,
     "receiveSuccess": MessageLookupByLibrary.simpleMessage("Receive Success"),
     "receiveSuccessTips": MessageLookupByLibrary.simpleMessage(
       "Receive Success Tips",
@@ -2758,7 +2803,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "rechargeGiftRules": MessageLookupByLibrary.simpleMessage(
       "Recharge Gift Rules",
     ),
-    "rechargeGiftTitle": m85,
+    "rechargeGiftTitle": m87,
     "rechargeOrder": MessageLookupByLibrary.simpleMessage("Recharge Order"),
     "rechargeRulesSettings": MessageLookupByLibrary.simpleMessage(
       "Set Member Recharge Gift Rules",
@@ -2781,7 +2826,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "redeemTips": MessageLookupByLibrary.simpleMessage("Redeem Tips"),
     "reduction": MessageLookupByLibrary.simpleMessage("Reduction"),
     "refresh": MessageLookupByLibrary.simpleMessage("Refresh"),
-    "refund": m86,
+    "refund": m88,
     "refundAmount": MessageLookupByLibrary.simpleMessage("Return Quantity"),
     "refundCost": MessageLookupByLibrary.simpleMessage("Refund Amount"),
     "refundDish": MessageLookupByLibrary.simpleMessage("Refund Dish"),
@@ -2792,11 +2837,11 @@ class MessageLookup extends MessageLookupByLibrary {
       "Input Refund Dish Weight",
     ),
     "refundFailed": MessageLookupByLibrary.simpleMessage("Refund Failed"),
-    "refundFailedTips": m87,
+    "refundFailedTips": m89,
     "refundIn": MessageLookupByLibrary.simpleMessage("Refund In"),
     "refundInfo": MessageLookupByLibrary.simpleMessage("Refund Info"),
     "refundNo": MessageLookupByLibrary.simpleMessage("Refund Number"),
-    "refundNow": m88,
+    "refundNow": m90,
     "refundOrder": MessageLookupByLibrary.simpleMessage("Refund Order"),
     "refundOrders": MessageLookupByLibrary.simpleMessage("Refund Order"),
     "refundOut": MessageLookupByLibrary.simpleMessage("Refund Out"),
@@ -2857,18 +2902,19 @@ class MessageLookup extends MessageLookupByLibrary {
     "relatedOrUnrelated": MessageLookupByLibrary.simpleMessage(
       "Related Or Unrelated",
     ),
+    "related_goods": MessageLookupByLibrary.simpleMessage("Related Goods"),
     "related_products": MessageLookupByLibrary.simpleMessage(
       "Related products",
     ),
     "reload": MessageLookupByLibrary.simpleMessage("Reload"),
-    "remainingInventoryWithNumber": m89,
+    "remainingInventoryWithNumber": m91,
     "remark": MessageLookupByLibrary.simpleMessage("Remark"),
     "remarkOrder": MessageLookupByLibrary.simpleMessage("Order Remark"),
     "remarkOrderHint": MessageLookupByLibrary.simpleMessage(
       "Please Enter Order Remark (Not More Than 48 Characters)",
     ),
-    "remarkOrderWith": m90,
-    "remarkWith": m91,
+    "remarkOrderWith": m92,
+    "remarkWith": m93,
     "remark_name": MessageLookupByLibrary.simpleMessage("Note Name"),
     "remark_name_hint": MessageLookupByLibrary.simpleMessage(
       "Such As Order Printer",
@@ -2879,12 +2925,12 @@ class MessageLookup extends MessageLookupByLibrary {
     "remove": MessageLookupByLibrary.simpleMessage("Remove"),
     "rename": MessageLookupByLibrary.simpleMessage("Rename"),
     "rename_area": MessageLookupByLibrary.simpleMessage("Rename Area"),
-    "rename_category": m92,
+    "rename_category": m94,
     "rename_success": MessageLookupByLibrary.simpleMessage("Rename Success"),
     "repair_receipt": MessageLookupByLibrary.simpleMessage("Reprint receipt"),
     "report": MessageLookupByLibrary.simpleMessage("Reports"),
     "report_type": MessageLookupByLibrary.simpleMessage("Report Type"),
-    "reprintBil2": m93,
+    "reprintBil2": m95,
     "reprintBill": MessageLookupByLibrary.simpleMessage("Reprint Receipt"),
     "required_item": MessageLookupByLibrary.simpleMessage("Required Item"),
     "required_item_name": MessageLookupByLibrary.simpleMessage(
@@ -2924,7 +2970,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "salePeriod": MessageLookupByLibrary.simpleMessage("Sale Period"),
     "salesOrder": MessageLookupByLibrary.simpleMessage("Sales Order"),
     "salesOut": MessageLookupByLibrary.simpleMessage("Sales Out"),
-    "salesPriceMustBeGreaterThanPrice": m94,
+    "salesPriceMustBeGreaterThanPrice": m96,
     "salesValue": MessageLookupByLibrary.simpleMessage("Sales Value"),
     "salesVolume": MessageLookupByLibrary.simpleMessage("Sales Volume"),
     "sales_analysis": MessageLookupByLibrary.simpleMessage("Sales analysis"),
@@ -2985,7 +3031,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "scan_code_payment_alipay": MessageLookupByLibrary.simpleMessage(
       "Scan Code Payment - Alipay",
     ),
-    "scan_code_payment_tips": m95,
+    "scan_code_payment_tips": m97,
     "scan_code_payment_wechat": MessageLookupByLibrary.simpleMessage(
       "Scan Code Payment - Wechat",
     ),
@@ -3033,9 +3079,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "Searching Printer...",
     ),
     "seatTo": MessageLookupByLibrary.simpleMessage("Seat To"),
-    "seatToWithNum": m96,
+    "seatToWithNum": m98,
     "second": MessageLookupByLibrary.simpleMessage("second"),
-    "secondStr": m97,
+    "secondStr": m99,
     "see_details": MessageLookupByLibrary.simpleMessage("View details"),
     "selectComboCategory": MessageLookupByLibrary.simpleMessage(
       "Please Input Combo Category",
@@ -3159,12 +3205,15 @@ class MessageLookup extends MessageLookupByLibrary {
     "select_position": MessageLookupByLibrary.simpleMessage(
       "Please Select Position",
     ),
-    "select_practice": m98,
+    "select_practice": m100,
     "select_print_category": MessageLookupByLibrary.simpleMessage(
       "Select Print Category",
     ),
     "select_refund_method": MessageLookupByLibrary.simpleMessage(
       "Select Refund Method",
+    ),
+    "select_related_goods": MessageLookupByLibrary.simpleMessage(
+      "Select Existing Goods",
     ),
     "select_report_type": MessageLookupByLibrary.simpleMessage(
       "Please Select Report Type",
@@ -3177,7 +3226,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Select shelf number",
     ),
     "select_shop": MessageLookupByLibrary.simpleMessage("Select Store"),
-    "select_special_industry_with_num": m99,
+    "select_special_industry_with_num": m101,
     "select_specified_user": MessageLookupByLibrary.simpleMessage(
       "Please Select Specified User",
     ),
@@ -3202,14 +3251,14 @@ class MessageLookup extends MessageLookupByLibrary {
           "Selected Product Cannot Be Current Product",
         ),
     "selectedSpecs": MessageLookupByLibrary.simpleMessage("Selected Specs: "),
-    "selectedTableWithNum": m100,
-    "selected_categories_with_num": m101,
+    "selectedTableWithNum": m102,
+    "selected_categories_with_num": m103,
     "selected_goods_participate_promotion":
         MessageLookupByLibrary.simpleMessage(
           "Selected Goods Participate Promotion",
         ),
-    "selected_goods_participate_promotion_with": m102,
-    "selected_goods_with_num": m103,
+    "selected_goods_participate_promotion_with": m104,
+    "selected_goods_with_num": m105,
     "selected_practice": MessageLookupByLibrary.simpleMessage(
       "Selected Practice",
     ),
@@ -3317,6 +3366,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "shopReuse": MessageLookupByLibrary.simpleMessage("Shop Reuse"),
     "shop_address": MessageLookupByLibrary.simpleMessage("Store Address"),
+    "shop_id": m106,
     "shop_info": MessageLookupByLibrary.simpleMessage("Shop Information"),
     "shop_invitation_code": MessageLookupByLibrary.simpleMessage(
       "Store Invitation Code",
@@ -3327,6 +3377,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Shop Miniapp QR Code",
     ),
     "shop_name": MessageLookupByLibrary.simpleMessage("Store Name"),
+    "shop_name_cannot_be_less_than_4_characters":
+        MessageLookupByLibrary.simpleMessage(
+          "Shop Name Cannot Be Less Than 4 Characters",
+        ),
     "shop_order": MessageLookupByLibrary.simpleMessage("Shop Order"),
     "shop_order_tips": MessageLookupByLibrary.simpleMessage(
       "No table order, customer orders after pickup by takeout code",
@@ -3338,7 +3392,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "shop_setting": MessageLookupByLibrary.simpleMessage("Store settings"),
     "shop_switch": MessageLookupByLibrary.simpleMessage("Switch"),
     "shop_template_type": MessageLookupByLibrary.simpleMessage("Shop Type"),
-    "shop_template_type_name_category": m104,
+    "shop_template_type_name_category": m107,
     "should_refund_amount": MessageLookupByLibrary.simpleMessage(
       "Should Refund Amount",
     ),
@@ -3384,7 +3438,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "sold_out_hint": MessageLookupByLibrary.simpleMessage(
       "Products Cannot Be Sold When Inventory Is 0",
     ),
-    "something_management": m105,
+    "something_management": m108,
     "sort": MessageLookupByLibrary.simpleMessage("Sort"),
     "sortType": MessageLookupByLibrary.simpleMessage("Sort Type"),
     "sortTypeTips": MessageLookupByLibrary.simpleMessage(
@@ -3394,7 +3448,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "specificationName": MessageLookupByLibrary.simpleMessage(
       "Specification Name",
     ),
-    "specified_give_goods_with": m106,
+    "specified_give_goods_with": m109,
     "specified_goods": MessageLookupByLibrary.simpleMessage("Specified Goods"),
     "specified_price": MessageLookupByLibrary.simpleMessage("Specified Price"),
     "specified_user": MessageLookupByLibrary.simpleMessage("Specified User"),
@@ -3436,7 +3490,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Start Time Must Be Greater Than Today",
         ),
     "status": MessageLookupByLibrary.simpleMessage("Status"),
-    "still_need_to_pay_with": m107,
+    "still_need_to_pay_with": m110,
     "stock": MessageLookupByLibrary.simpleMessage("Stock"),
     "stockHint": MessageLookupByLibrary.simpleMessage("Please Enter Inventory"),
     "stockIn": MessageLookupByLibrary.simpleMessage("Increase"),
@@ -3471,6 +3525,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "store_abbreviation": MessageLookupByLibrary.simpleMessage(
       "Store Abbreviation",
+    ),
+    "store_app_name": MessageLookupByLibrary.simpleMessage(
+      "JiXiang Guan Store",
     ),
     "store_door_photo": MessageLookupByLibrary.simpleMessage(
       "Store Front Photo",
@@ -3519,7 +3576,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "syncSuccess": MessageLookupByLibrary.simpleMessage("Sync Successfully"),
     "table": MessageLookupByLibrary.simpleMessage("Table"),
     "tableNumber": MessageLookupByLibrary.simpleMessage("Table Number"),
-    "tableWithNo": m108,
+    "tableWithNo": m111,
     "table_code_tips": MessageLookupByLibrary.simpleMessage(
       "Table Code is mainly used for QR code scanning for ordering, without a payment account, customers cannot pay into your account, you can use the following methods:",
     ),
@@ -3587,7 +3644,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Please Check If The Printing Device Is Printing Normally. If Not Connected Normally:\n1. Check If Printer Body Number And Key Are Correct;\n2. Check If Printer Is Connected To Network",
     ),
     "ticket_printer": MessageLookupByLibrary.simpleMessage("Ticket Printer"),
-    "timeStrWithHourAndMinute": m109,
+    "timeStrWithHourAndMinute": m112,
     "time_interval_cannot_exceed_31_days": MessageLookupByLibrary.simpleMessage(
       "Time Interval Cannot Exceed 31 Days",
     ),
@@ -3604,7 +3661,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Cumulative Consumption",
     ),
     "totalCost": MessageLookupByLibrary.simpleMessage("Total"),
-    "totalGoodsWithNum": m110,
+    "totalGoodsWithNum": m113,
     "total_store": MessageLookupByLibrary.simpleMessage("Total Store"),
     "touch_to_close": MessageLookupByLibrary.simpleMessage("Touch To Close"),
     "touch_to_light": MessageLookupByLibrary.simpleMessage("Touch To Light"),
@@ -3634,7 +3691,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "unconnected": MessageLookupByLibrary.simpleMessage("Not Connected"),
     "undefined": MessageLookupByLibrary.simpleMessage("Undefined"),
     "under_review": MessageLookupByLibrary.simpleMessage("Under Review"),
-    "under_review_hint": m111,
+    "under_review_hint": m114,
     "unfreeze": MessageLookupByLibrary.simpleMessage("Unfreeze"),
     "unit": MessageLookupByLibrary.simpleMessage("Unit"),
     "unit_certificate": MessageLookupByLibrary.simpleMessage(
@@ -3653,7 +3710,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "unpack_the_size": MessageLookupByLibrary.simpleMessage(
       "Unpack Bulk Package",
     ),
-    "unpack_the_size_hint": m112,
+    "unpack_the_size_hint": m115,
     "updateInformation": MessageLookupByLibrary.simpleMessage("Update Content"),
     "updateSuccess": MessageLookupByLibrary.simpleMessage("Update Success"),
     "upgradeVersion": MessageLookupByLibrary.simpleMessage("Upgrade"),
@@ -3689,8 +3746,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "usedMonth": MessageLookupByLibrary.simpleMessage("Month\'s Usage"),
     "usedToday": MessageLookupByLibrary.simpleMessage("Today\'s Usage"),
     "usedTotal": MessageLookupByLibrary.simpleMessage("Total"),
-    "user_member_no_with": m113,
-    "user_specified_price": m114,
+    "user_member_no_with": m116,
+    "user_specified_price": m117,
     "valueCard": MessageLookupByLibrary.simpleMessage("Value Card"),
     "value_consumption_verification": MessageLookupByLibrary.simpleMessage(
       "Value Consumption Verification",
@@ -3705,7 +3762,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "verification_code_login": MessageLookupByLibrary.simpleMessage(
       "Verification Code Login",
     ),
-    "verification_code_sent_to": m115,
+    "verification_code_sent_to": m118,
     "verification_hint": MessageLookupByLibrary.simpleMessage(
       "Verification Code Has Been Sent To The Phone Number Below",
     ),
@@ -3718,10 +3775,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "viewOriginalOrder": MessageLookupByLibrary.simpleMessage("Original Order"),
     "viewRefundOrder": MessageLookupByLibrary.simpleMessage("Refund Order"),
     "view_all": MessageLookupByLibrary.simpleMessage("View all"),
-    "view_all_with_skuNum": m116,
+    "view_all_with_skuNum": m119,
     "view_batch": MessageLookupByLibrary.simpleMessage("View Batch"),
     "voice": MessageLookupByLibrary.simpleMessage("Voice Broadcast"),
     "voiceSetting": MessageLookupByLibrary.simpleMessage("Voice Setting"),
+    "voucher": MessageLookupByLibrary.simpleMessage("Voucher"),
     "waitOffDuty": MessageLookupByLibrary.simpleMessage(
       "Waiting For Off Duty...",
     ),
@@ -3759,7 +3817,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "wednesday": MessageLookupByLibrary.simpleMessage("Wed"),
     "weighingGoods": MessageLookupByLibrary.simpleMessage("Non-Standard"),
     "weighing_dish": MessageLookupByLibrary.simpleMessage("Weighing Dish"),
-    "weighing_goods_success": m117,
+    "weighing_goods_success": m120,
     "weighing_tag": MessageLookupByLibrary.simpleMessage("Weighing"),
     "weight": MessageLookupByLibrary.simpleMessage("Weight"),
     "weightBy500G": MessageLookupByLibrary.simpleMessage("Weight(500g)"),
@@ -3776,7 +3834,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "welcomeTips": MessageLookupByLibrary.simpleMessage(
       "Run Your Store Anytime, Anywhere",
     ),
-    "welcome_login": m118,
+    "welcome_login": m121,
     "welcome_to_use": MessageLookupByLibrary.simpleMessage("Welcome to use, "),
     "welcome_to_use_1": MessageLookupByLibrary.simpleMessage(
       "Welcome to use吉祥收银",
@@ -3786,7 +3844,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Please Use WeTools Cashier Gun To Scan And Start Cashiering",
     ),
     "wholesalePrice": MessageLookupByLibrary.simpleMessage("Wholesale Price"),
-    "wholesalePriceMustBeGreaterThanPrice": m119,
+    "wholesalePriceMustBeGreaterThanPrice": m122,
     "wholesalePriceMustBeLessThanSalesPrice":
         MessageLookupByLibrary.simpleMessage(
           "Wholesale Price Must Be Less Than Sales Price",
