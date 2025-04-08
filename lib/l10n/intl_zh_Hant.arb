@@ -1754,5 +1754,18 @@
     "account_amount_with": "到賬金額：¥{amount}",
     "deauthorize_mt_shop": "解除美團門店授權",
     "deauthorize_mt_shop_tips": "解除授權後，將無法使用吉祥收銀系統核銷美團團購券，是否繼續？",
-    "shop_id": "門店ID：{shopId}"
+    "shop_id": "門店ID：{shopId}",
+    "group_buying_verify": "團購驗券",
+    "group_buying_query": "團購查詢",
+    "group_buying_code": "券碼",
+    "manual_input_group_buying_code": "手動輸入券碼",
+    "code_verify": "驗券",
+    "code_verify_success": "已驗團購券",
+    "please_scan_customer_group_buying_code": "請掃顧客券碼",
+    "group_buying_verify_tips": "支持團購套餐/商品兌換券，直接掃即可\n核銷並自動加入商品",
+    "group_buying_mt": "美團團購",
+    "group_buying_dy": "抖音團購",
+    "group_buying_price": "團購價：¥{price}",
+    "group_buying_code_with": "券碼：{code}",
+    "group_buying_valid_period": "有效期：{startDate}——{endDate}"
 }

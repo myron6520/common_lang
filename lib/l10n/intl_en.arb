@@ -1936,5 +1936,18 @@
     "account_amount_with": "Account Amount: ¥{amount}",
     "deauthorize_mt_shop": "Deauthorize Meituan Shop",
     "deauthorize_mt_shop_tips": "After deauthorizing, you will no longer be able to use the吉祥收银 system to verify Meituan Group Buying Coupons, are you sure to continue?",
-    "shop_id": "Shop ID: {shopId}"
+    "shop_id": "Shop ID: {shopId}",
+    "group_buying_verify": "Group Buying Verify",
+    "group_buying_query": "Group Buying Query",
+    "group_buying_code": "Coupon Code",
+    "manual_input_group_buying_code": "Manual Input Coupon Code",
+    "code_verify": "Verify",
+    "code_verify_success": "Verified Group Buying Coupon",
+    "please_scan_customer_group_buying_code": "Please Scan Customer Coupon Code",
+    "group_buying_verify_tips": "Support Group Buying Package/Goods Coupon, scan directly\nVerify and automatically add goods",
+    "group_buying_mt": "Meituan Group Buying",
+    "group_buying_dy": "Douyin Group Buying",
+    "group_buying_price": "Group Buying Price: ¥{price}",
+    "group_buying_code_with": "Coupon Code: {code}",
+    "group_buying_valid_period": "Valid Period: {startDate}——{endDate}"
 }

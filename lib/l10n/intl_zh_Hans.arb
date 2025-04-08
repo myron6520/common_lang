@@ -1936,5 +1936,18 @@
     "account_amount_with": "到账金额：¥{amount}",
     "deauthorize_mt_shop": "解除美团门店授权",
     "deauthorize_mt_shop_tips": "解除授权后，将无法使用吉祥收银系统核销美团团购券，是否继续？",
-    "shop_id": "门店ID：{shopId}"
+    "shop_id": "门店ID：{shopId}",
+    "group_buying_verify": "团购验券",
+    "group_buying_query": "团购券查询",
+    "group_buying_code": "券码",
+    "manual_input_group_buying_code": "手动输入券码",
+    "code_verify": "验券",
+    "code_verify_success": "已验团购券",
+    "please_scan_customer_group_buying_code": "请扫顾客券码",
+    "group_buying_verify_tips": "支持团购套餐/商品兑换券，直接扫即可\n核销并自动加入商品",
+    "group_buying_mt": "美团团购",
+    "group_buying_dy": "抖音团购",
+    "group_buying_price": "团购价：¥{price}",
+    "group_buying_code_with": "券码：{code}",
+    "group_buying_valid_period": "有效期：{startDate}——{endDate}"
 }

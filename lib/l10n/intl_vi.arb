@@ -1935,5 +1935,18 @@
     "account_amount_with": "Số tiền vào tài khoản: {amount}đ",
     "deauthorize_mt_shop": "Hủy liên kết cửa hàng美团",
     "deauthorize_mt_shop_tips": "Sau khi hủy liên kết, bạn sẽ không thể sử dụng hệ thống thanh toán của吉祥收银 để xác minh đơn hàng nhóm美团, bạn có chắc chắn muốn tiếp tục không?",
-    "shop_id": "ID cửa hàng: {shopId}"
+    "shop_id": "ID cửa hàng: {shopId}",
+    "group_buying_verify": "Đơn hàng nhóm xác minh",
+    "group_buying_query": "Đơn hàng nhóm tìm kiếm",
+    "group_buying_code": "Mã đơn hàng",
+    "manual_input_group_buying_code": "Nhập mã đơn hàng",
+    "code_verify": "Xác minh",
+    "code_verify_success": "Đã xác minh đơn hàng nhóm",
+    "please_scan_customer_group_buying_code": "Quét mã đơn hàng của khách hàng",
+    "group_buying_verify_tips": "Hỗ trợ đơn hàng nhóm/món ăn, quét trực tiếp\nXác minh và tự động thêm món",
+    "group_buying_mt": "Đơn hàng nhóm美团",
+    "group_buying_dy": "Đơn hàng nhóm抖音",
+    "group_buying_price": "Giá đơn hàng nhóm: {price}đ",
+    "group_buying_code_with": "Mã đơn hàng: {code}",
+    "group_buying_valid_period": "Thời hạn: {startDate}——{endDate}"
 }
