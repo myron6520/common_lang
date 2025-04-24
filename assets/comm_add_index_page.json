@@ -1,0 +1,38 @@
+{
+    "bg_normal_comm": {
+        "type": "svgAsset",
+        "soruce": "assets/bg_normal_comm.svg"
+    },
+    "bg_weight_comm": {
+        "type": "svgAsset",
+        "soruce": "assets/bg_weight_comm.svg"
+    },
+    "bg_set_comm": {
+        "type": "svgAsset",
+        "soruce": "assets/bg_set_comm.svg"
+    },
+    "bg_dish_comm": {
+        "type": "svgAsset",
+        "soruce": "assets/bg_dish_comm.svg"
+    },
+    "comm_import": {
+        "type": "svgAsset",
+        "soruce": "assets/comm_import.svg"
+    },
+    "comm_reuse": {
+        "type": "svgAsset",
+        "soruce": "assets/comm_import.svg"
+    },
+    "comm_add_batch": {
+        "type": "svgAsset",
+        "soruce": "assets/comm_add_batch.svg"
+    },
+    "comm_category": {
+        "type": "svgAsset",
+        "soruce": "assets/comm_category.svg"
+    },
+    "make_method": {
+        "type": "svgAsset",
+        "soruce": "assets/make_method.svg"
+    }
+}

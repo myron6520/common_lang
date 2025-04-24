@@ -16491,10 +16491,10 @@ class S {
     );
   }
 
-  /// `Search Goods Name`
+  /// `Search Goods Name/Barcode`
   String get search_goods_name {
     return Intl.message(
-      'Search Goods Name',
+      'Search Goods Name/Barcode',
       name: 'search_goods_name',
       desc: '',
       args: [],
@@ -19324,10 +19324,10 @@ class S {
     );
   }
 
-  /// `No Related Goods, Cannot Verify`
+  /// `No Related Goods`
   String get no_related_goods {
     return Intl.message(
-      'No Related Goods, Cannot Verify',
+      'No Related Goods',
       name: 'no_related_goods',
       desc: '',
       args: [],
@@ -19561,6 +19561,196 @@ class S {
       name: 'group_buying_valid_period',
       desc: '',
       args: [startDate, endDate],
+    );
+  }
+
+  /// `Please Select Goods To Verify`
+  String get please_select_comm_to_verify {
+    return Intl.message(
+      'Please Select Goods To Verify',
+      name: 'please_select_comm_to_verify',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `The Group Buying Coupon Is Not Related To Any Goods In The Shop`
+  String get group_buying_not_related_goods {
+    return Intl.message(
+      'The Group Buying Coupon Is Not Related To Any Goods In The Shop',
+      name: 'group_buying_not_related_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please Select Goods Info`
+  String get please_select_goods_info {
+    return Intl.message(
+      'Please Select Goods Info',
+      name: 'please_select_goods_info',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Consume Number (Max {max} pieces)`
+  String consume_num_max(Object max) {
+    return Intl.message(
+      'Consume Number (Max $max pieces)',
+      name: 'consume_num_max',
+      desc: '',
+      args: [max],
+    );
+  }
+
+  /// `Combo Goods`
+  String get combo_goods {
+    return Intl.message(
+      'Combo Goods',
+      name: 'combo_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Negative`
+  String get negative_inventory_goods {
+    return Intl.message(
+      'Negative',
+      name: 'negative_inventory_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Zero`
+  String get zero_inventory_goods {
+    return Intl.message(
+      'Zero',
+      name: 'zero_inventory_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Warning`
+  String get inventory_warning_goods {
+    return Intl.message(
+      'Warning',
+      name: 'inventory_warning_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Filter Goods`
+  String get filter_goods {
+    return Intl.message(
+      'Filter Goods',
+      name: 'filter_goods',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Inventory Status`
+  String get inventory_status {
+    return Intl.message(
+      'Inventory Status',
+      name: 'inventory_status',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Combo Goods, e.g. Burger, Fries and Drink Combo`
+  String get combo_goods_desc {
+    return Intl.message(
+      'Combo Goods, e.g. Burger, Fries and Drink Combo',
+      name: 'combo_goods_desc',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `SMS Service`
+  String get sms_service {
+    return Intl.message(
+      'SMS Service',
+      name: 'sms_service',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Recharge Plan`
+  String get recharge_plan {
+    return Intl.message(
+      'Recharge Plan',
+      name: 'recharge_plan',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Shop Management`
+  String get shop_management {
+    return Intl.message(
+      'Shop Management',
+      name: 'shop_management',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Group Buying Service`
+  String get group_buying_service {
+    return Intl.message(
+      'Group Buying Service',
+      name: 'group_buying_service',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Goods Selection`
+  String get goods_selection {
+    return Intl.message(
+      'Goods Selection',
+      name: 'goods_selection',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Search Order No`
+  String get search_order_no {
+    return Intl.message(
+      'Search Order No',
+      name: 'search_order_no',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Business Settings`
+  String get business_settings {
+    return Intl.message(
+      'Business Settings',
+      name: 'business_settings',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Goods Attribute`
+  String get goods_attribute {
+    return Intl.message(
+      'Goods Attribute',
+      name: 'goods_attribute',
+      desc: '',
+      args: [],
     );
   }
 }
