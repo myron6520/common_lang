@@ -531,6 +531,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("注销店铺后以下信息将清空无法找回"),
         "cancel_shop_with": m12,
         "cancel_success": MessageLookupByLibrary.simpleMessage("注销成功"),
+        "cancel_verify": MessageLookupByLibrary.simpleMessage("撤销验券"),
         "cannot_download_table_code":
             MessageLookupByLibrary.simpleMessage("无法下载桌台码"),
         "cannot_generate_qr_code":
@@ -679,8 +680,12 @@ class MessageLookup extends MessageLookupByLibrary {
             "发起反结账后可以退菜、修改付款方式、订单优惠等操作；储值付款/扫码收款，反结账将自动退还已支付金额！"),
         "confirmSend": MessageLookupByLibrary.simpleMessage("确定发送"),
         "confirm_bind": MessageLookupByLibrary.simpleMessage("确认绑定"),
+        "confirm_cancel_verify":
+            MessageLookupByLibrary.simpleMessage("是否撤销该团购券？"),
         "confirm_change_table": MessageLookupByLibrary.simpleMessage("确认换桌"),
         "confirm_changes": MessageLookupByLibrary.simpleMessage("确认修改"),
+        "confirm_consume": MessageLookupByLibrary.simpleMessage("确认消费"),
+        "confirm_refund": MessageLookupByLibrary.simpleMessage("确定退款"),
         "confirmation_letter": MessageLookupByLibrary.simpleMessage("确认函"),
         "connect": MessageLookupByLibrary.simpleMessage("连接"),
         "connect_external_device":
@@ -912,6 +917,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "download_template_hint":
             MessageLookupByLibrary.simpleMessage("导入模板，按照模板填写将原有POS数据导出"),
         "downloading": m30,
+        "dy_group_buying": MessageLookupByLibrary.simpleMessage("抖音团购券"),
         "each_full": MessageLookupByLibrary.simpleMessage("每满"),
         "each_person": MessageLookupByLibrary.simpleMessage("每位"),
         "early_warning_of_shelf_life":
@@ -1126,6 +1132,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "gross_profit": MessageLookupByLibrary.simpleMessage("毛利"),
         "gross_profit_rate": MessageLookupByLibrary.simpleMessage("毛利率"),
         "gross_profit_with": m44,
+        "group_buying_cancel_verify_failed":
+            MessageLookupByLibrary.simpleMessage("团购券撤销失败"),
+        "group_buying_cancel_verify_success":
+            MessageLookupByLibrary.simpleMessage("团购券撤销成功"),
         "group_buying_code": MessageLookupByLibrary.simpleMessage("券码"),
         "group_buying_code_with": m45,
         "group_buying_coupon": MessageLookupByLibrary.simpleMessage("团购券"),
@@ -1143,6 +1153,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "group_buying_ready": MessageLookupByLibrary.simpleMessage("待上线"),
         "group_buying_record": MessageLookupByLibrary.simpleMessage("团购核销明细"),
         "group_buying_service": MessageLookupByLibrary.simpleMessage("团购服务"),
+        "group_buying_status": MessageLookupByLibrary.simpleMessage("团购券状态"),
         "group_buying_valid_period": m47,
         "group_buying_verify": MessageLookupByLibrary.simpleMessage("团购验券"),
         "group_buying_verify_tips": MessageLookupByLibrary.simpleMessage(
@@ -1158,6 +1169,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "has_no_delivery": MessageLookupByLibrary.simpleMessage("店铺暂无配送员"),
         "has_not_opened": MessageLookupByLibrary.simpleMessage("未开启"),
         "has_opened": MessageLookupByLibrary.simpleMessage("已开启"),
+        "haveNoPrinter": MessageLookupByLibrary.simpleMessage("您还未配置任何打印机"),
         "have_been_voided": MessageLookupByLibrary.simpleMessage("已作废"),
         "have_been_voided_hint":
             MessageLookupByLibrary.simpleMessage("您的申请单已撤销，您可以重新发起入驻申\n请"),
@@ -1602,6 +1614,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "onlineDevice": MessageLookupByLibrary.simpleMessage("在线设备"),
         "onlineOrder": MessageLookupByLibrary.simpleMessage("外卖"),
         "online_order": MessageLookupByLibrary.simpleMessage("线上订单"),
+        "only_cancel_verify": MessageLookupByLibrary.simpleMessage("仅撤销验券"),
         "only_cashier_login": MessageLookupByLibrary.simpleMessage("仅限收银登录"),
         "only_cashier_login_tips": m79,
         "only_member_participate":
@@ -1610,6 +1623,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "only_qr_code": MessageLookupByLibrary.simpleMessage("仅二维码"),
         "only_show_non_standard_goods":
             MessageLookupByLibrary.simpleMessage("仅显示非标品"),
+        "only_support_group_buying_code":
+            MessageLookupByLibrary.simpleMessage("只支持团购券"),
+        "only_support_voucher": MessageLookupByLibrary.simpleMessage("只支持代金券"),
         "openCashDrawer": MessageLookupByLibrary.simpleMessage("开钱箱"),
         "openCashDrawerTips": MessageLookupByLibrary.simpleMessage("一键开钱箱"),
         "openPersonalPaymentCode":
@@ -1625,6 +1641,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "open_the_failure": MessageLookupByLibrary.simpleMessage("开通失败"),
         "open_the_failure_hint":
             MessageLookupByLibrary.simpleMessage("请核对并修改以下信息后，再重新提交审核"),
+        "operation": MessageLookupByLibrary.simpleMessage("操作"),
         "operationSuccess": MessageLookupByLibrary.simpleMessage("操作成功"),
         "operation_log": MessageLookupByLibrary.simpleMessage("操作日志"),
         "operator": MessageLookupByLibrary.simpleMessage("当前网络"),
@@ -1782,6 +1799,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("请输入手机号后4位"),
         "pleaseSelectDish": MessageLookupByLibrary.simpleMessage("请选择菜品"),
         "pleaseSelectTable": MessageLookupByLibrary.simpleMessage("请选择桌台"),
+        "please_add_printer":
+            MessageLookupByLibrary.simpleMessage("请在「设置-设备管理」页面添加打印\n设备"),
         "please_bind_employee": MessageLookupByLibrary.simpleMessage("请先绑定员工"),
         "please_choose": MessageLookupByLibrary.simpleMessage("请选择"),
         "please_choose_name": m86,
@@ -1850,12 +1869,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "port": MessageLookupByLibrary.simpleMessage("端口"),
         "portHint": MessageLookupByLibrary.simpleMessage("请输入端口"),
         "posNo": MessageLookupByLibrary.simpleMessage("机器号"),
+        "pos_app_name": MessageLookupByLibrary.simpleMessage("吉祥收银"),
         "position": MessageLookupByLibrary.simpleMessage("职位"),
         "preSettleOrder": MessageLookupByLibrary.simpleMessage("预结单"),
         "premium": MessageLookupByLibrary.simpleMessage("溢价"),
         "price": MessageLookupByLibrary.simpleMessage("价格"),
         "priceHint": MessageLookupByLibrary.simpleMessage("请输入价格"),
         "price_label_print": MessageLookupByLibrary.simpleMessage("价签打印"),
+        "print": MessageLookupByLibrary.simpleMessage("打印"),
         "printBill": MessageLookupByLibrary.simpleMessage("打印小票"),
         "printFailure": MessageLookupByLibrary.simpleMessage("打印失败"),
         "printPriceLabel": MessageLookupByLibrary.simpleMessage("打印价签"),
@@ -1867,11 +1888,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "print_instruction": MessageLookupByLibrary.simpleMessage("打印指令"),
         "print_management": MessageLookupByLibrary.simpleMessage("打印管理"),
         "print_quantity": MessageLookupByLibrary.simpleMessage("打印数量"),
+        "print_record": MessageLookupByLibrary.simpleMessage("打印记录"),
+        "print_result": MessageLookupByLibrary.simpleMessage("打印结果"),
+        "print_status": MessageLookupByLibrary.simpleMessage("状态"),
+        "print_task": MessageLookupByLibrary.simpleMessage("打印任务"),
         "print_task_pushed": MessageLookupByLibrary.simpleMessage("打印任务已推送"),
         "print_task_pushed_tips": m89,
         "print_test": MessageLookupByLibrary.simpleMessage("打印测试"),
         "print_test_result": MessageLookupByLibrary.simpleMessage("测试结果：打印成功"),
         "print_test_title": MessageLookupByLibrary.simpleMessage("小票打印测试"),
+        "print_time": MessageLookupByLibrary.simpleMessage("打印时间"),
         "printerTips":
             MessageLookupByLibrary.simpleMessage("请确保打印机与收银设备处于同一网络下，且打印机已开机"),
         "printer_connect_success":
@@ -1973,7 +1999,11 @@ class MessageLookup extends MessageLookupByLibrary {
             "剩余商品不满足满减条件，退货商品无法抵扣优惠金额，退款将为您带来负利润，是否继续退款？"),
         "refundToAccount": MessageLookupByLibrary.simpleMessage("已原路退款到顾客支付账户"),
         "refundVolume": MessageLookupByLibrary.simpleMessage("退货"),
+        "refund_all": MessageLookupByLibrary.simpleMessage("整单退款"),
         "refund_apply_success": MessageLookupByLibrary.simpleMessage("退款申请已提交"),
+        "refund_confirm": MessageLookupByLibrary.simpleMessage("退款确认"),
+        "refund_confirm_tips":
+            MessageLookupByLibrary.simpleMessage("退款后，将退还团购券/代金券，金额将原路返回顾客账户"),
         "refund_failed": MessageLookupByLibrary.simpleMessage("退款失败"),
         "refund_flow": MessageLookupByLibrary.simpleMessage("退款流水"),
         "refund_form": MessageLookupByLibrary.simpleMessage("退款单"),
@@ -2021,8 +2051,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "repair_receipt": MessageLookupByLibrary.simpleMessage("补打小票"),
         "report": MessageLookupByLibrary.simpleMessage("报表"),
         "report_type": MessageLookupByLibrary.simpleMessage("报表类型"),
+        "reprint": MessageLookupByLibrary.simpleMessage("补打"),
         "reprintBil2": m99,
         "reprintBill": MessageLookupByLibrary.simpleMessage("补打小票"),
+        "reprint_success": MessageLookupByLibrary.simpleMessage("补打成功"),
         "required_item": MessageLookupByLibrary.simpleMessage("必点商品"),
         "required_item_name": MessageLookupByLibrary.simpleMessage("必点项名"),
         "required_item_type": MessageLookupByLibrary.simpleMessage("必点类型"),
@@ -2215,6 +2247,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "selected_goods_participate_promotion_with": m108,
         "selected_goods_with_num": m109,
         "selected_practice": MessageLookupByLibrary.simpleMessage("已选择做法"),
+        "selected_value_total": MessageLookupByLibrary.simpleMessage("已选面值共计"),
         "selfPickup": MessageLookupByLibrary.simpleMessage("自提"),
         "self_delivery": MessageLookupByLibrary.simpleMessage("商家自配送"),
         "self_encoding": MessageLookupByLibrary.simpleMessage("自编码"),
@@ -2424,6 +2457,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "table_name": MessageLookupByLibrary.simpleMessage("桌台名称"),
         "table_name_required": MessageLookupByLibrary.simpleMessage("请输入桌台名称"),
         "table_num": MessageLookupByLibrary.simpleMessage("每桌数量"),
+        "table_number_or_takeout_number":
+            MessageLookupByLibrary.simpleMessage("桌台号/取餐号"),
         "table_order": MessageLookupByLibrary.simpleMessage("桌台点餐"),
         "table_order_tips":
             MessageLookupByLibrary.simpleMessage("顾客点餐后以桌号送餐到桌、取餐"),
@@ -2482,6 +2517,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "try_another_keyword": MessageLookupByLibrary.simpleMessage("换个关键字试试"),
         "tuesday": MessageLookupByLibrary.simpleMessage("二"),
         "turnover": MessageLookupByLibrary.simpleMessage("今日营业额(元)"),
+        "type": MessageLookupByLibrary.simpleMessage("类型"),
         "type_of_activity": MessageLookupByLibrary.simpleMessage("活动类型"),
         "unable": MessageLookupByLibrary.simpleMessage("未开通"),
         "unbind": MessageLookupByLibrary.simpleMessage("解除绑定"),
@@ -2548,6 +2584,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "verification_hint":
             MessageLookupByLibrary.simpleMessage("验证码已发送至下方手机号"),
         "verification_processing": MessageLookupByLibrary.simpleMessage("校验中"),
+        "verify_code": MessageLookupByLibrary.simpleMessage("验券"),
         "versionNo": MessageLookupByLibrary.simpleMessage("版本号"),
         "version_update": MessageLookupByLibrary.simpleMessage("版本更新"),
         "vertical_offset": MessageLookupByLibrary.simpleMessage("垂直偏移"),

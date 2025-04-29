@@ -638,6 +638,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "cancel_shop_with": m12,
         "cancel_success":
             MessageLookupByLibrary.simpleMessage("Cancel Success"),
+        "cancel_verify": MessageLookupByLibrary.simpleMessage("Cancel Verify"),
         "cannot_download_table_code":
             MessageLookupByLibrary.simpleMessage("Cannot Download Table Code"),
         "cannot_generate_qr_code":
@@ -828,10 +829,16 @@ class MessageLookup extends MessageLookupByLibrary {
             "After Confirming The Reverse, You Can退菜、修改付款方式、订单优惠等操作；储值付款/扫码收款，反结账将自动退还已支付金额！"),
         "confirmSend": MessageLookupByLibrary.simpleMessage("Confirm Send"),
         "confirm_bind": MessageLookupByLibrary.simpleMessage("Confirm Bind"),
+        "confirm_cancel_verify": MessageLookupByLibrary.simpleMessage(
+            "Are you sure you want to cancel the group buying coupon?"),
         "confirm_change_table":
             MessageLookupByLibrary.simpleMessage("Confirm Change Table"),
         "confirm_changes":
             MessageLookupByLibrary.simpleMessage("Confirm Changes"),
+        "confirm_consume":
+            MessageLookupByLibrary.simpleMessage("Confirm Consume"),
+        "confirm_refund":
+            MessageLookupByLibrary.simpleMessage("Confirm Refund"),
         "confirmation_letter":
             MessageLookupByLibrary.simpleMessage("Confirmation Letter"),
         "connect": MessageLookupByLibrary.simpleMessage("Connect"),
@@ -1136,6 +1143,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "download_template_hint": MessageLookupByLibrary.simpleMessage(
             "Import template, fill in according to template to export original POS data"),
         "downloading": m30,
+        "dy_group_buying":
+            MessageLookupByLibrary.simpleMessage("Douyin Group Buying"),
         "each_full": MessageLookupByLibrary.simpleMessage("Each Full"),
         "each_person": MessageLookupByLibrary.simpleMessage("Each Person"),
         "early_warning_of_shelf_life":
@@ -1410,6 +1419,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "gross_profit_rate":
             MessageLookupByLibrary.simpleMessage("Gross Profit Rate"),
         "gross_profit_with": m44,
+        "group_buying_cancel_verify_failed":
+            MessageLookupByLibrary.simpleMessage(
+                "Group Buying Coupon Cancel Verify Failed"),
+        "group_buying_cancel_verify_success":
+            MessageLookupByLibrary.simpleMessage(
+                "Group Buying Coupon Cancel Verify Success"),
         "group_buying_code":
             MessageLookupByLibrary.simpleMessage("Coupon Code"),
         "group_buying_code_with": m45,
@@ -1434,6 +1449,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Group Buying Record"),
         "group_buying_service":
             MessageLookupByLibrary.simpleMessage("Group Buying Service"),
+        "group_buying_status":
+            MessageLookupByLibrary.simpleMessage("Group Buying Status"),
         "group_buying_valid_period": m47,
         "group_buying_verify":
             MessageLookupByLibrary.simpleMessage("Group Buying Verify"),
@@ -1454,6 +1471,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("No Deliveryman"),
         "has_not_opened": MessageLookupByLibrary.simpleMessage("Not Opened"),
         "has_opened": MessageLookupByLibrary.simpleMessage("Opened"),
+        "haveNoPrinter": MessageLookupByLibrary.simpleMessage(
+            "You have not configured any printer"),
         "have_been_voided": MessageLookupByLibrary.simpleMessage("Voided"),
         "have_been_voided_hint": MessageLookupByLibrary.simpleMessage(
             "Your Application Has Been Cancelled, You Can Initiate A New Application"),
@@ -2025,6 +2044,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "onlineDevice": MessageLookupByLibrary.simpleMessage("Online Device"),
         "onlineOrder": MessageLookupByLibrary.simpleMessage("Online Order"),
         "online_order": MessageLookupByLibrary.simpleMessage("Online Order"),
+        "only_cancel_verify":
+            MessageLookupByLibrary.simpleMessage("Only Cancel Verify"),
         "only_cashier_login":
             MessageLookupByLibrary.simpleMessage("Only Cashier Login"),
         "only_cashier_login_tips": m79,
@@ -2034,6 +2055,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "only_qr_code": MessageLookupByLibrary.simpleMessage("Only QR Code"),
         "only_show_non_standard_goods": MessageLookupByLibrary.simpleMessage(
             "Only Show Non-Standard Goods"),
+        "only_support_group_buying_code": MessageLookupByLibrary.simpleMessage(
+            "Only Support Group Buying Code"),
+        "only_support_voucher":
+            MessageLookupByLibrary.simpleMessage("Only Support Voucher"),
         "openCashDrawer":
             MessageLookupByLibrary.simpleMessage("Open Cash Drawer"),
         "openCashDrawerTips":
@@ -2056,6 +2081,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Opening Failed"),
         "open_the_failure_hint": MessageLookupByLibrary.simpleMessage(
             "Please Verify And Modify The Following Information Before Resubmitting For Review"),
+        "operation": MessageLookupByLibrary.simpleMessage("Operation"),
         "operationSuccess":
             MessageLookupByLibrary.simpleMessage("Operation Success"),
         "operation_log": MessageLookupByLibrary.simpleMessage("Operation Log"),
@@ -2255,6 +2281,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Please Select Dish"),
         "pleaseSelectTable":
             MessageLookupByLibrary.simpleMessage("Please Select Table"),
+        "please_add_printer": MessageLookupByLibrary.simpleMessage(
+            "Please add printer in \"Settings-Device Management\" page"),
         "please_bind_employee":
             MessageLookupByLibrary.simpleMessage("Please Bind Employee First"),
         "please_choose": MessageLookupByLibrary.simpleMessage("Please Select"),
@@ -2336,6 +2364,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "port": MessageLookupByLibrary.simpleMessage("Port"),
         "portHint": MessageLookupByLibrary.simpleMessage("Please Enter Port"),
         "posNo": MessageLookupByLibrary.simpleMessage("Machine Number"),
+        "pos_app_name": MessageLookupByLibrary.simpleMessage("UNI POS"),
         "position": MessageLookupByLibrary.simpleMessage("Position"),
         "preSettleOrder":
             MessageLookupByLibrary.simpleMessage("Pre Settle Order"),
@@ -2345,6 +2374,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Please Enter A Price"),
         "price_label_print":
             MessageLookupByLibrary.simpleMessage("Price Label Print"),
+        "print": MessageLookupByLibrary.simpleMessage("Print"),
         "printBill": MessageLookupByLibrary.simpleMessage("Print Bill"),
         "printFailure": MessageLookupByLibrary.simpleMessage("Print Failed"),
         "printPriceLabel":
@@ -2362,6 +2392,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Print Management"),
         "print_quantity":
             MessageLookupByLibrary.simpleMessage("Print Quantity"),
+        "print_record": MessageLookupByLibrary.simpleMessage("Print Record"),
+        "print_result": MessageLookupByLibrary.simpleMessage("Print Result"),
+        "print_status": MessageLookupByLibrary.simpleMessage("Print Status"),
+        "print_task": MessageLookupByLibrary.simpleMessage("Print Task"),
         "print_task_pushed":
             MessageLookupByLibrary.simpleMessage("Print Task Pushed"),
         "print_task_pushed_tips": m89,
@@ -2369,6 +2403,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "print_test_result":
             MessageLookupByLibrary.simpleMessage("Test Result: Print Success"),
         "print_test_title": MessageLookupByLibrary.simpleMessage("Print Test"),
+        "print_time": MessageLookupByLibrary.simpleMessage("Print Time"),
         "printerTips": MessageLookupByLibrary.simpleMessage(
             "Please Ensure The Printer And The Cashier Device Are On The Same Network And The Printer Is Turned On"),
         "printer_connect_success": MessageLookupByLibrary.simpleMessage(
@@ -2504,8 +2539,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "refundToAccount": MessageLookupByLibrary.simpleMessage(
             "Refunded To The Customer\'s Payment Account"),
         "refundVolume": MessageLookupByLibrary.simpleMessage("Refund Volume"),
+        "refund_all": MessageLookupByLibrary.simpleMessage("Refund All"),
         "refund_apply_success": MessageLookupByLibrary.simpleMessage(
             "Refund Application Submitted Successfully"),
+        "refund_confirm":
+            MessageLookupByLibrary.simpleMessage("Refund Confirm"),
+        "refund_confirm_tips": MessageLookupByLibrary.simpleMessage(
+            "After refund, the group buying coupon/voucher will be returned, and the amount will be returned to the customer\'s account"),
         "refund_failed": MessageLookupByLibrary.simpleMessage("Refund Failed"),
         "refund_flow": MessageLookupByLibrary.simpleMessage("Refund Flow"),
         "refund_form": MessageLookupByLibrary.simpleMessage("Refund Receipt"),
@@ -2564,8 +2604,11 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Reprint receipt"),
         "report": MessageLookupByLibrary.simpleMessage("Reports"),
         "report_type": MessageLookupByLibrary.simpleMessage("Report Type"),
+        "reprint": MessageLookupByLibrary.simpleMessage("Reprint"),
         "reprintBil2": m99,
         "reprintBill": MessageLookupByLibrary.simpleMessage("Reprint Receipt"),
+        "reprint_success":
+            MessageLookupByLibrary.simpleMessage("Reprint Success"),
         "required_item": MessageLookupByLibrary.simpleMessage("Required Item"),
         "required_item_name":
             MessageLookupByLibrary.simpleMessage("Required Item Name"),
@@ -2832,6 +2875,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "selected_goods_with_num": m109,
         "selected_practice":
             MessageLookupByLibrary.simpleMessage("Selected Practice"),
+        "selected_value_total":
+            MessageLookupByLibrary.simpleMessage("Selected Value Total"),
         "selfPickup": MessageLookupByLibrary.simpleMessage("Self Pickup"),
         "self_delivery": MessageLookupByLibrary.simpleMessage("Self-Delivery"),
         "self_encoding": MessageLookupByLibrary.simpleMessage("Self-Encoding"),
@@ -3056,8 +3101,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Storage Permission Tips"),
         "store_abbreviation":
             MessageLookupByLibrary.simpleMessage("Store Abbreviation"),
-        "store_app_name":
-            MessageLookupByLibrary.simpleMessage("JiXiang Guan Store"),
+        "store_app_name": MessageLookupByLibrary.simpleMessage("UNI ADMIN"),
         "store_door_photo":
             MessageLookupByLibrary.simpleMessage("Store Front Photo"),
         "store_door_photo_hint": MessageLookupByLibrary.simpleMessage(
@@ -3107,6 +3151,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "table_name_required":
             MessageLookupByLibrary.simpleMessage("Please Enter Table Name"),
         "table_num": MessageLookupByLibrary.simpleMessage("Table Number"),
+        "table_number_or_takeout_number":
+            MessageLookupByLibrary.simpleMessage("Table Number/Takeout Number"),
         "table_order": MessageLookupByLibrary.simpleMessage("Table Order"),
         "table_order_tips": MessageLookupByLibrary.simpleMessage(
             "Customer orders after table number delivery and pickup"),
@@ -3178,6 +3224,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "tuesday": MessageLookupByLibrary.simpleMessage("Tue"),
         "turnover":
             MessageLookupByLibrary.simpleMessage("Today\'s Turnover (Yuan)"),
+        "type": MessageLookupByLibrary.simpleMessage("Type"),
         "type_of_activity":
             MessageLookupByLibrary.simpleMessage("Activity Type"),
         "unable": MessageLookupByLibrary.simpleMessage("Nonactivated"),
@@ -3255,6 +3302,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Verification Code Has Been Sent To The Phone Number Below"),
         "verification_processing":
             MessageLookupByLibrary.simpleMessage("Verification Processing"),
+        "verify_code": MessageLookupByLibrary.simpleMessage("Verify Code"),
         "versionNo": MessageLookupByLibrary.simpleMessage("Version Number"),
         "version_update":
             MessageLookupByLibrary.simpleMessage("Version Update"),

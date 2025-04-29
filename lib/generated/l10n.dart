@@ -50,10 +50,20 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `JiXiang Guan Store`
+  /// `UNI POS`
+  String get pos_app_name {
+    return Intl.message(
+      'UNI POS',
+      name: 'pos_app_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `UNI ADMIN`
   String get store_app_name {
     return Intl.message(
-      'JiXiang Guan Store',
+      'UNI ADMIN',
       name: 'store_app_name',
       desc: '',
       args: [],
@@ -19254,6 +19264,16 @@ class S {
     );
   }
 
+  /// `Douyin Group Buying`
+  String get dy_group_buying {
+    return Intl.message(
+      'Douyin Group Buying',
+      name: 'dy_group_buying',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Deauthorize`
   String get deauthorize {
     return Intl.message(
@@ -19749,6 +19769,286 @@ class S {
     return Intl.message(
       'Goods Attribute',
       name: 'goods_attribute',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `You have not configured any printer`
+  String get haveNoPrinter {
+    return Intl.message(
+      'You have not configured any printer',
+      name: 'haveNoPrinter',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Verify Code`
+  String get verify_code {
+    return Intl.message(
+      'Verify Code',
+      name: 'verify_code',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Only Support Group Buying Code`
+  String get only_support_group_buying_code {
+    return Intl.message(
+      'Only Support Group Buying Code',
+      name: 'only_support_group_buying_code',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Only Support Voucher`
+  String get only_support_voucher {
+    return Intl.message(
+      'Only Support Voucher',
+      name: 'only_support_voucher',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Selected Value Total`
+  String get selected_value_total {
+    return Intl.message(
+      'Selected Value Total',
+      name: 'selected_value_total',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm Consume`
+  String get confirm_consume {
+    return Intl.message(
+      'Confirm Consume',
+      name: 'confirm_consume',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Group Buying Status`
+  String get group_buying_status {
+    return Intl.message(
+      'Group Buying Status',
+      name: 'group_buying_status',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Print`
+  String get print {
+    return Intl.message(
+      'Print',
+      name: 'print',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Print Task`
+  String get print_task {
+    return Intl.message(
+      'Print Task',
+      name: 'print_task',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please add printer in "Settings-Device Management" page`
+  String get please_add_printer {
+    return Intl.message(
+      'Please add printer in "Settings-Device Management" page',
+      name: 'please_add_printer',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Reprint`
+  String get reprint {
+    return Intl.message(
+      'Reprint',
+      name: 'reprint',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Reprint Success`
+  String get reprint_success {
+    return Intl.message(
+      'Reprint Success',
+      name: 'reprint_success',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Print Record`
+  String get print_record {
+    return Intl.message(
+      'Print Record',
+      name: 'print_record',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Table Number/Takeout Number`
+  String get table_number_or_takeout_number {
+    return Intl.message(
+      'Table Number/Takeout Number',
+      name: 'table_number_or_takeout_number',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Type`
+  String get type {
+    return Intl.message(
+      'Type',
+      name: 'type',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Print Time`
+  String get print_time {
+    return Intl.message(
+      'Print Time',
+      name: 'print_time',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Print Status`
+  String get print_status {
+    return Intl.message(
+      'Print Status',
+      name: 'print_status',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Print Result`
+  String get print_result {
+    return Intl.message(
+      'Print Result',
+      name: 'print_result',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Operation`
+  String get operation {
+    return Intl.message(
+      'Operation',
+      name: 'operation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cancel Verify`
+  String get cancel_verify {
+    return Intl.message(
+      'Cancel Verify',
+      name: 'cancel_verify',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Are you sure you want to cancel the group buying coupon?`
+  String get confirm_cancel_verify {
+    return Intl.message(
+      'Are you sure you want to cancel the group buying coupon?',
+      name: 'confirm_cancel_verify',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Group Buying Coupon Cancel Verify Success`
+  String get group_buying_cancel_verify_success {
+    return Intl.message(
+      'Group Buying Coupon Cancel Verify Success',
+      name: 'group_buying_cancel_verify_success',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Group Buying Coupon Cancel Verify Failed`
+  String get group_buying_cancel_verify_failed {
+    return Intl.message(
+      'Group Buying Coupon Cancel Verify Failed',
+      name: 'group_buying_cancel_verify_failed',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Only Cancel Verify`
+  String get only_cancel_verify {
+    return Intl.message(
+      'Only Cancel Verify',
+      name: 'only_cancel_verify',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Refund Confirm`
+  String get refund_confirm {
+    return Intl.message(
+      'Refund Confirm',
+      name: 'refund_confirm',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `After refund, the group buying coupon/voucher will be returned, and the amount will be returned to the customer's account`
+  String get refund_confirm_tips {
+    return Intl.message(
+      'After refund, the group buying coupon/voucher will be returned, and the amount will be returned to the customer\'s account',
+      name: 'refund_confirm_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm Refund`
+  String get confirm_refund {
+    return Intl.message(
+      'Confirm Refund',
+      name: 'confirm_refund',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Refund All`
+  String get refund_all {
+    return Intl.message(
+      'Refund All',
+      name: 'refund_all',
       desc: '',
       args: [],
     );
