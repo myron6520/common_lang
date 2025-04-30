@@ -1998,5 +1998,11 @@
     "refund_confirm": "Refund Confirm",
     "refund_confirm_tips": "After refund, the group buying coupon/voucher will be returned, and the amount will be returned to the customer's account",
     "confirm_refund": "Confirm Refund",
-    "refund_all": "Refund All"
+    "refund_all": "Refund All",
+    "invoke_success": "Invoke Success",
+    "cancel_voucher": "Cancel Voucher",
+    "cancel_order_with_voucher": "Return will cancel the order, and return the voucher to the customer, continue?",
+    "refunded_voucher": "Refunded Voucher",
+    "refund_dish_success": "Refund Dish Success",
+    "refund_dish_with_voucher_success": "Refund Dish With Voucher Success"
 }

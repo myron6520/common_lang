@@ -20053,6 +20053,66 @@ class S {
       args: [],
     );
   }
+
+  /// `Invoke Success`
+  String get invoke_success {
+    return Intl.message(
+      'Invoke Success',
+      name: 'invoke_success',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cancel Voucher`
+  String get cancel_voucher {
+    return Intl.message(
+      'Cancel Voucher',
+      name: 'cancel_voucher',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Return will cancel the order, and return the voucher to the customer, continue?`
+  String get cancel_order_with_voucher {
+    return Intl.message(
+      'Return will cancel the order, and return the voucher to the customer, continue?',
+      name: 'cancel_order_with_voucher',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Refunded Voucher`
+  String get refunded_voucher {
+    return Intl.message(
+      'Refunded Voucher',
+      name: 'refunded_voucher',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Refund Dish Success`
+  String get refund_dish_success {
+    return Intl.message(
+      'Refund Dish Success',
+      name: 'refund_dish_success',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Refund Dish With Voucher Success`
+  String get refund_dish_with_voucher_success {
+    return Intl.message(
+      'Refund Dish With Voucher Success',
+      name: 'refund_dish_with_voucher_success',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

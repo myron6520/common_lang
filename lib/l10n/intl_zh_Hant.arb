@@ -1816,5 +1816,11 @@
     "refund_confirm": "退款確認",
     "refund_confirm_tips": "退款後，將退還團購券/代金券，金額將原路返回顧客帳戶",
     "confirm_refund": "確認退款",
-    "refund_all": "整單退款"
+    "refund_all": "整單退款",
+    "invoke_success": "撤銷成功",
+    "cancel_voucher": "撤銷代金券",
+    "cancel_order_with_voucher": "返回將撤銷訂單，並返還顧客代金券，是否繼續",
+    "refunded_voucher": "已退券",
+    "refund_dish_success": "退菜成功",
+    "refund_dish_with_voucher_success": "退菜退券成功"
 }

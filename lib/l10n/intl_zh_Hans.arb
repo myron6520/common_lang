@@ -1998,5 +1998,11 @@
     "refund_confirm": "退款确认",
     "refund_confirm_tips": "退款后，将退还团购券/代金券，金额将原路返回顾客账户",
     "confirm_refund": "确定退款",
-    "refund_all": "整单退款"
+    "refund_all": "整单退款",
+    "invoke_success": "撤销成功",
+    "cancel_voucher": "撤销代金券",
+    "cancel_order_with_voucher": "返回将撤销订单，并返还顾客代金券，是否继续",
+    "refunded_voucher": "已退券",
+    "refund_dish_success": "退菜成功",
+    "refund_dish_with_voucher_success": "退菜退券成功"
 }

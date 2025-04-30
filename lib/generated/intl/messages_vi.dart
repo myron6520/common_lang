@@ -595,6 +595,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "cancel_account": MessageLookupByLibrary.simpleMessage("Hủy tài khoản"),
         "cancel_all_select":
             MessageLookupByLibrary.simpleMessage("Bỏ chọn tất cả"),
+        "cancel_order_with_voucher": MessageLookupByLibrary.simpleMessage(
+            "Hủy đơn hàng nhóm và trả lại tiền vào tài khoản khách hàng"),
         "cancel_shop": MessageLookupByLibrary.simpleMessage("Hủy cửa hàng"),
         "cancel_shop_hint":
             MessageLookupByLibrary.simpleMessage("Hủy sẽ xóa mọi thông tin"),
@@ -602,6 +604,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "cancel_success":
             MessageLookupByLibrary.simpleMessage("Hủy thành công"),
         "cancel_verify": MessageLookupByLibrary.simpleMessage("Hủy xác minh"),
+        "cancel_voucher":
+            MessageLookupByLibrary.simpleMessage("Hủy đơn hàng nhóm"),
         "cannot_download_table_code":
             MessageLookupByLibrary.simpleMessage("Không thể tải mã"),
         "cannot_generate_qr_code":
@@ -1589,6 +1593,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "invite_employees":
             MessageLookupByLibrary.simpleMessage("Mời nhân viên"),
         "inviting": MessageLookupByLibrary.simpleMessage("Đang mời"),
+        "invoke_success":
+            MessageLookupByLibrary.simpleMessage("Hủy xác minh thành công"),
         "ipAddr": MessageLookupByLibrary.simpleMessage("Địa chỉ IP"),
         "ipAddrError":
             MessageLookupByLibrary.simpleMessage("Nhập đúng định dạng IP"),
@@ -2449,6 +2455,11 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Xác nhận hoàn trả"),
         "refund_confirm_tips": MessageLookupByLibrary.simpleMessage(
             "Hoàn trả đơn hàng nhóm/món ăn, sẽ trả lại tiền vào tài khoản khách hàng"),
+        "refund_dish_success":
+            MessageLookupByLibrary.simpleMessage("Hoàn trả món ăn thành công"),
+        "refund_dish_with_voucher_success":
+            MessageLookupByLibrary.simpleMessage(
+                "Hoàn trả món ăn và đơn hàng nhóm thành công"),
         "refund_failed": MessageLookupByLibrary.simpleMessage("Hoàn thất bại"),
         "refund_flow": MessageLookupByLibrary.simpleMessage("Lịch sử hoàn"),
         "refund_form": MessageLookupByLibrary.simpleMessage("Hóa đơn hoàn"),
@@ -2460,6 +2471,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Hoàn vào tài khoản"),
         "refund_volume": MessageLookupByLibrary.simpleMessage("Đơn hoàn"),
         "refunded": MessageLookupByLibrary.simpleMessage("Đã hoàn"),
+        "refunded_voucher": MessageLookupByLibrary.simpleMessage("Đã hoàn trả"),
         "refunding": MessageLookupByLibrary.simpleMessage("Đang hoàn"),
         "refunds": MessageLookupByLibrary.simpleMessage("Hoàn tiền"),
         "refuse": MessageLookupByLibrary.simpleMessage("Từ chối"),

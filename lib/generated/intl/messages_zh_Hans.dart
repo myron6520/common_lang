@@ -526,12 +526,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "cancelSoldOut": MessageLookupByLibrary.simpleMessage("一键取消沽清"),
         "cancel_account": MessageLookupByLibrary.simpleMessage("注销"),
         "cancel_all_select": MessageLookupByLibrary.simpleMessage("取消全选"),
+        "cancel_order_with_voucher":
+            MessageLookupByLibrary.simpleMessage("返回将撤销订单，并返还顾客代金券，是否继续"),
         "cancel_shop": MessageLookupByLibrary.simpleMessage("注销店铺"),
         "cancel_shop_hint":
             MessageLookupByLibrary.simpleMessage("注销店铺后以下信息将清空无法找回"),
         "cancel_shop_with": m12,
         "cancel_success": MessageLookupByLibrary.simpleMessage("注销成功"),
         "cancel_verify": MessageLookupByLibrary.simpleMessage("撤销验券"),
+        "cancel_voucher": MessageLookupByLibrary.simpleMessage("撤销代金券"),
         "cannot_download_table_code":
             MessageLookupByLibrary.simpleMessage("无法下载桌台码"),
         "cannot_generate_qr_code":
@@ -1313,6 +1316,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "invite_employee": MessageLookupByLibrary.simpleMessage("邀请员工"),
         "invite_employees": MessageLookupByLibrary.simpleMessage("邀请员工"),
         "inviting": MessageLookupByLibrary.simpleMessage("邀请中"),
+        "invoke_success": MessageLookupByLibrary.simpleMessage("撤销成功"),
         "ipAddr": MessageLookupByLibrary.simpleMessage("IP地址"),
         "ipAddrError": MessageLookupByLibrary.simpleMessage("请输入规范的IP地址"),
         "ipAddrHint": MessageLookupByLibrary.simpleMessage("请输入IP地址"),
@@ -2004,6 +2008,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "refund_confirm": MessageLookupByLibrary.simpleMessage("退款确认"),
         "refund_confirm_tips":
             MessageLookupByLibrary.simpleMessage("退款后，将退还团购券/代金券，金额将原路返回顾客账户"),
+        "refund_dish_success": MessageLookupByLibrary.simpleMessage("退菜成功"),
+        "refund_dish_with_voucher_success":
+            MessageLookupByLibrary.simpleMessage("退菜退券成功"),
         "refund_failed": MessageLookupByLibrary.simpleMessage("退款失败"),
         "refund_flow": MessageLookupByLibrary.simpleMessage("退款流水"),
         "refund_form": MessageLookupByLibrary.simpleMessage("退款单"),
@@ -2014,6 +2021,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "refund_to_account": MessageLookupByLibrary.simpleMessage("退还账户"),
         "refund_volume": MessageLookupByLibrary.simpleMessage("退款笔数"),
         "refunded": MessageLookupByLibrary.simpleMessage("已退款"),
+        "refunded_voucher": MessageLookupByLibrary.simpleMessage("已退券"),
         "refunding": MessageLookupByLibrary.simpleMessage("退款中"),
         "refunds": MessageLookupByLibrary.simpleMessage("退款"),
         "refuse": MessageLookupByLibrary.simpleMessage("拒绝"),

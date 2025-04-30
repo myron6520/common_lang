@@ -632,6 +632,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Cancel Account"),
         "cancel_all_select":
             MessageLookupByLibrary.simpleMessage("Cancel All Select"),
+        "cancel_order_with_voucher": MessageLookupByLibrary.simpleMessage(
+            "Return will cancel the order, and return the voucher to the customer, continue?"),
         "cancel_shop": MessageLookupByLibrary.simpleMessage("Cancel Shop"),
         "cancel_shop_hint": MessageLookupByLibrary.simpleMessage(
             "After canceling the shop, you will no longer be able to use the shop for operations, please confirm if you want to continue"),
@@ -639,6 +641,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "cancel_success":
             MessageLookupByLibrary.simpleMessage("Cancel Success"),
         "cancel_verify": MessageLookupByLibrary.simpleMessage("Cancel Verify"),
+        "cancel_voucher":
+            MessageLookupByLibrary.simpleMessage("Cancel Voucher"),
         "cannot_download_table_code":
             MessageLookupByLibrary.simpleMessage("Cannot Download Table Code"),
         "cannot_generate_qr_code":
@@ -1669,6 +1673,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "invite_employees":
             MessageLookupByLibrary.simpleMessage("Invite Staff"),
         "inviting": MessageLookupByLibrary.simpleMessage("Inviting"),
+        "invoke_success":
+            MessageLookupByLibrary.simpleMessage("Invoke Success"),
         "ipAddr": MessageLookupByLibrary.simpleMessage("IP Address"),
         "ipAddrError": MessageLookupByLibrary.simpleMessage(
             "Please Enter A Valid IP Address"),
@@ -2546,6 +2552,11 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Refund Confirm"),
         "refund_confirm_tips": MessageLookupByLibrary.simpleMessage(
             "After refund, the group buying coupon/voucher will be returned, and the amount will be returned to the customer\'s account"),
+        "refund_dish_success":
+            MessageLookupByLibrary.simpleMessage("Refund Dish Success"),
+        "refund_dish_with_voucher_success":
+            MessageLookupByLibrary.simpleMessage(
+                "Refund Dish With Voucher Success"),
         "refund_failed": MessageLookupByLibrary.simpleMessage("Refund Failed"),
         "refund_flow": MessageLookupByLibrary.simpleMessage("Refund Flow"),
         "refund_form": MessageLookupByLibrary.simpleMessage("Refund Receipt"),
@@ -2557,6 +2568,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Refund To Account"),
         "refund_volume": MessageLookupByLibrary.simpleMessage("Refund Count"),
         "refunded": MessageLookupByLibrary.simpleMessage("Refunded"),
+        "refunded_voucher":
+            MessageLookupByLibrary.simpleMessage("Refunded Voucher"),
         "refunding": MessageLookupByLibrary.simpleMessage("Refunding"),
         "refunds": MessageLookupByLibrary.simpleMessage("Refund"),
         "refuse": MessageLookupByLibrary.simpleMessage("Refuse"),
