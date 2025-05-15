@@ -1459,6 +1459,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "merchant_id": MessageLookupByLibrary.simpleMessage("商户编号"),
         "merchant_name": MessageLookupByLibrary.simpleMessage("商户名称"),
         "merchants_info": MessageLookupByLibrary.simpleMessage("商户资料"),
+        "min_sale_num": MessageLookupByLibrary.simpleMessage("起售数量"),
         "mini_program_code_generating":
             MessageLookupByLibrary.simpleMessage("小程序码生成中..."),
         "minute": MessageLookupByLibrary.simpleMessage("分"),
@@ -1840,6 +1841,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("请填写贵单位的办公电话"),
         "please_fill_shop_name":
             MessageLookupByLibrary.simpleMessage("请填写店铺名称"),
+        "please_input_min_sale_num":
+            MessageLookupByLibrary.simpleMessage("请输入起售数量"),
         "please_input_refund_amount":
             MessageLookupByLibrary.simpleMessage("请输入退款金额"),
         "please_re_enter": MessageLookupByLibrary.simpleMessage("请检查后重新输入"),

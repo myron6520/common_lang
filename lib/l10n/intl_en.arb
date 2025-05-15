@@ -2009,5 +2009,7 @@
     "amount_with_currency": "¥{amount}",
     "device_not_connected": "Device Not Connected",
     "no_printer_found": "No Printer Found",
-    "printer_not_connected": "Printer Not Connected"
+    "printer_not_connected": "Printer Not Connected",
+    "min_sale_num": "Min Sale Number",
+    "please_input_min_sale_num": "Please Input Min Sale Number"
 }

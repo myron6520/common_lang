@@ -1347,6 +1347,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "merchantName": MessageLookupByLibrary.simpleMessage("商户名称"),
         "merchant_id": MessageLookupByLibrary.simpleMessage("商户編號"),
         "merchants_info": MessageLookupByLibrary.simpleMessage("商家資料"),
+        "min_sale_num": MessageLookupByLibrary.simpleMessage("起售數量"),
         "mini_program_code_generating":
             MessageLookupByLibrary.simpleMessage("小程序碼生成中..."),
         "minute": MessageLookupByLibrary.simpleMessage("分"),
@@ -1687,6 +1688,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("請填寫店鋪詳細地址"),
         "please_fill_shop_name":
             MessageLookupByLibrary.simpleMessage("請填寫店鋪名稱"),
+        "please_input_min_sale_num":
+            MessageLookupByLibrary.simpleMessage("請輸入起售數量"),
         "please_input_refund_amount":
             MessageLookupByLibrary.simpleMessage("請輸入退款金額"),
         "please_re_enter": MessageLookupByLibrary.simpleMessage("請檢查後重新輸入"),

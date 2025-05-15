@@ -1776,6 +1776,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Tên doanh nghiệp"),
         "merchants_info":
             MessageLookupByLibrary.simpleMessage("Thông tin doanh nghiệp"),
+        "min_sale_num":
+            MessageLookupByLibrary.simpleMessage("Số lượng bán tối thiểu"),
         "mini_program_code_generating":
             MessageLookupByLibrary.simpleMessage("Đang tạo mã..."),
         "minute": MessageLookupByLibrary.simpleMessage("phút"),
@@ -2246,6 +2248,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Nhập SĐT văn phòng"),
         "please_fill_shop_name":
             MessageLookupByLibrary.simpleMessage("Nhập tên cửa hàng"),
+        "please_input_min_sale_num": MessageLookupByLibrary.simpleMessage(
+            "Vui lòng nhập số lượng bán tối thiểu"),
         "please_input_refund_amount":
             MessageLookupByLibrary.simpleMessage("Nhập số tiền hoàn trả"),
         "please_re_enter": MessageLookupByLibrary.simpleMessage("Nhập lại"),

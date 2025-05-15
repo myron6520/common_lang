@@ -1852,6 +1852,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "merchant_name": MessageLookupByLibrary.simpleMessage("Merchant Name"),
         "merchants_info":
             MessageLookupByLibrary.simpleMessage("Merchant Information"),
+        "min_sale_num": MessageLookupByLibrary.simpleMessage("Min Sale Number"),
         "mini_program_code_generating": MessageLookupByLibrary.simpleMessage(
             "Mini Program Code Generating..."),
         "minute": MessageLookupByLibrary.simpleMessage("minute"),
@@ -2333,6 +2334,8 @@ class MessageLookup extends MessageLookupByLibrary {
                 "Please enter your office telephone number"),
         "please_fill_shop_name":
             MessageLookupByLibrary.simpleMessage("Please Enter Store Name"),
+        "please_input_min_sale_num": MessageLookupByLibrary.simpleMessage(
+            "Please Input Min Sale Number"),
         "please_input_refund_amount":
             MessageLookupByLibrary.simpleMessage("Please Input Refund Amount"),
         "please_re_enter":

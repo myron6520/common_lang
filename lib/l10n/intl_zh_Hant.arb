@@ -1827,5 +1827,7 @@
     "amount_with_currency": "¥{amount}",
     "device_not_connected": "設備未連接",
     "no_printer_found": "找不到打印機",
-    "printer_not_connected": "打印機未連接"
+    "printer_not_connected": "打印機未連接",
+    "min_sale_num": "起售數量",
+    "please_input_min_sale_num": "請輸入起售數量"
 }

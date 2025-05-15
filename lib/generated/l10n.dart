@@ -20164,6 +20164,26 @@ class S {
       args: [],
     );
   }
+
+  /// `Min Sale Number`
+  String get min_sale_num {
+    return Intl.message(
+      'Min Sale Number',
+      name: 'min_sale_num',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please Input Min Sale Number`
+  String get please_input_min_sale_num {
+    return Intl.message(
+      'Please Input Min Sale Number',
+      name: 'please_input_min_sale_num',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

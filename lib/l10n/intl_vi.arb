@@ -2008,5 +2008,7 @@
     "amount_with_currency": "{amount}₫",
     "device_not_connected": "Thiết bị không kết nối",
     "no_printer_found": "Không tìm thấy máy in",
-    "printer_not_connected": "Máy in không kết nối"
+    "printer_not_connected": "Máy in không kết nối",
+    "min_sale_num": "Số lượng bán tối thiểu",
+    "please_input_min_sale_num": "Vui lòng nhập số lượng bán tối thiểu"
 }

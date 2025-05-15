@@ -23,4 +23,6 @@ class LimitConfig {
 
   static const int maxTableBatchCreateCount = 99;
   static const int maxNumOfPersonPerTable = 99;
+
+  static const double maxMinSaleNum = 99;
 }
