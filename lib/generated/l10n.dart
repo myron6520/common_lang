@@ -20113,6 +20113,57 @@ class S {
       args: [],
     );
   }
+
+  /// `{month}-{day} {hour}:{minute}`
+  String month_day_hour_minute(
+      Object month, Object day, Object hour, Object minute) {
+    return Intl.message(
+      '$month-$day $hour:$minute',
+      name: 'month_day_hour_minute',
+      desc: '',
+      args: [month, day, hour, minute],
+    );
+  }
+
+  /// `¥{amount}`
+  String amount_with_currency(Object amount) {
+    return Intl.message(
+      '¥$amount',
+      name: 'amount_with_currency',
+      desc: '',
+      args: [amount],
+    );
+  }
+
+  /// `Device Not Connected`
+  String get device_not_connected {
+    return Intl.message(
+      'Device Not Connected',
+      name: 'device_not_connected',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No Printer Found`
+  String get no_printer_found {
+    return Intl.message(
+      'No Printer Found',
+      name: 'no_printer_found',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Printer Not Connected`
+  String get printer_not_connected {
+    return Intl.message(
+      'Printer Not Connected',
+      name: 'printer_not_connected',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

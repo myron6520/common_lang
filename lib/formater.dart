@@ -15,5 +15,13 @@ class DateFormater {
 }
 
 class Symbols {
-  static String get currency => LocaleTools.isCn ? "¥" : "₫";
+  static String get currency => LocaleTools.isVi ? "₫" : "¥";
+}
+
+class RegexMatcher {
+  static bool isMobileSimple(String input) {
+    if (input.isEmpty) return false;
+    String regex = LocaleTools.isCn ? '^[1]\\d{10}\$' : '^[0]\\d{10}\$';
+    return RegExp(regex).hasMatch(input);
+  }
 }

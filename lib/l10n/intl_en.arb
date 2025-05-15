@@ -2004,5 +2004,10 @@
     "cancel_order_with_voucher": "Return will cancel the order, and return the voucher to the customer, continue?",
     "refunded_voucher": "Refunded Voucher",
     "refund_dish_success": "Refund Dish Success",
-    "refund_dish_with_voucher_success": "Refund Dish With Voucher Success"
+    "refund_dish_with_voucher_success": "Refund Dish With Voucher Success",
+    "month_day_hour_minute": "{month}-{day} {hour}:{minute}",
+    "amount_with_currency": "¥{amount}",
+    "device_not_connected": "Device Not Connected",
+    "no_printer_found": "No Printer Found",
+    "printer_not_connected": "Printer Not Connected"
 }

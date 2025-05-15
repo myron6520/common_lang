@@ -2003,5 +2003,10 @@
     "cancel_order_with_voucher": "Hủy đơn hàng nhóm và trả lại tiền vào tài khoản khách hàng",
     "refunded_voucher": "Đã hoàn trả",
     "refund_dish_success": "Hoàn trả món ăn thành công",
-    "refund_dish_with_voucher_success": "Hoàn trả món ăn và đơn hàng nhóm thành công"
+    "refund_dish_with_voucher_success": "Hoàn trả món ăn và đơn hàng nhóm thành công",
+    "month_day_hour_minute": "{day}-{month} {hour}:{minute}",
+    "amount_with_currency": "{amount}₫",
+    "device_not_connected": "Thiết bị không kết nối",
+    "no_printer_found": "Không tìm thấy máy in",
+    "printer_not_connected": "Máy in không kết nối"
 }

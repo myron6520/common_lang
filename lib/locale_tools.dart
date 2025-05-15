@@ -1,5 +1,7 @@
 import 'dart:ui';
 
+import 'package:intl/date_symbol_data_local.dart';
+
 class LocaleTools {
   static Locale? locale;
   static String get localeStr {
@@ -30,6 +32,7 @@ class LocaleTools {
   }
 
   static bool get isCn => locale?.languageCode == "zh";
+  static bool get isVi => locale?.languageCode == "vi";
 
   static Locale? localeResolutionCallback(
       Locale? locale, Iterable<Locale> supportedLocales) {
@@ -47,6 +50,7 @@ class LocaleTools {
         } else {
           LocaleTools.locale = supportedLocale;
         }
+        initializeDateFormatting(localeStr);
         return LocaleTools.locale;
       }
     }

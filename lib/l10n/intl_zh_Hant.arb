@@ -1822,5 +1822,10 @@
     "cancel_order_with_voucher": "返回將撤銷訂單，並返還顧客代金券，是否繼續",
     "refunded_voucher": "已退券",
     "refund_dish_success": "退菜成功",
-    "refund_dish_with_voucher_success": "退菜退券成功"
+    "refund_dish_with_voucher_success": "退菜退券成功",
+    "month_day_hour_minute": "{month}月{day}日 {hour}:{minute}",
+    "amount_with_currency": "¥{amount}",
+    "device_not_connected": "設備未連接",
+    "no_printer_found": "找不到打印機",
+    "printer_not_connected": "打印機未連接"
 }
