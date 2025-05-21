@@ -405,7 +405,7 @@
     "materialsWith": "Materials: {materials}",
     "pickUpOrder": "Pick Up Order",
     "deliveryOrder": "Delivery Order",
-    "makeOrderOrder": "Make Order Order",
+    "makeOrderOrder": "Make Order",
     "refundOrder": "Refund Order",
     "guestOrder": "Guest Order",
     "preSettleOrder": "Pre Settle Order",

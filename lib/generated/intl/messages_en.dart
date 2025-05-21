@@ -1770,8 +1770,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Sign For The Goods"),
         "makeMember": MessageLookupByLibrary.simpleMessage("Handling Member"),
         "makeOrder": MessageLookupByLibrary.simpleMessage("Make Order"),
-        "makeOrderOrder":
-            MessageLookupByLibrary.simpleMessage("Make Order Order"),
+        "makeOrderOrder": MessageLookupByLibrary.simpleMessage("Make Order"),
         "makeOrderSuccess":
             MessageLookupByLibrary.simpleMessage("Make Order Success"),
         "makeSuccess": MessageLookupByLibrary.simpleMessage("Make Success"),

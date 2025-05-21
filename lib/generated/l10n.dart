@@ -4110,10 +4110,10 @@ class S {
     );
   }
 
-  /// `Make Order Order`
+  /// `Make Order`
   String get makeOrderOrder {
     return Intl.message(
-      'Make Order Order',
+      'Make Order',
       name: 'makeOrderOrder',
       desc: '',
       args: [],
