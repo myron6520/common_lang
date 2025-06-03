@@ -2011,5 +2011,8 @@
     "no_printer_found": "找不到打印机",
     "printer_not_connected": "打印机未连接",
     "min_sale_num": "起售数量",
-    "please_input_min_sale_num": "请输入起售数量"
+    "please_input_min_sale_num": "请输入起售数量",
+    "good": "良好",
+    "bad": "较差",
+    "very_bad": "极差"
 }

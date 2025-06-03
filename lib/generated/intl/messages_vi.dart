@@ -459,6 +459,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "average_weighted": MessageLookupByLibrary.simpleMessage("Trung bình"),
         "average_weighted_tips": m9,
         "back_previous": MessageLookupByLibrary.simpleMessage("Quay lại"),
+        "bad": MessageLookupByLibrary.simpleMessage("Kém"),
         "balance": MessageLookupByLibrary.simpleMessage("Số dư"),
         "balanceAfterRecharge":
             MessageLookupByLibrary.simpleMessage("Số dư sau nạp"),
@@ -1309,6 +1310,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "go_rating": MessageLookupByLibrary.simpleMessage("Đánh giá"),
         "go_to_shop_management":
             MessageLookupByLibrary.simpleMessage("Thêm bàn trên app quản lý"),
+        "good": MessageLookupByLibrary.simpleMessage("Tốt"),
         "goods": MessageLookupByLibrary.simpleMessage("Hàng hóa"),
         "goodsAdjustment":
             MessageLookupByLibrary.simpleMessage("Điều chỉnh hàng"),
@@ -3214,6 +3216,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "versionNo": MessageLookupByLibrary.simpleMessage("Phiên bản"),
         "version_update": MessageLookupByLibrary.simpleMessage("Cập nhật"),
         "vertical_offset": MessageLookupByLibrary.simpleMessage("Lệch dọc"),
+        "very_bad": MessageLookupByLibrary.simpleMessage("Rất kém"),
         "viewOriginalOrder":
             MessageLookupByLibrary.simpleMessage("Xem đơn gốc"),
         "viewRefundOrder": MessageLookupByLibrary.simpleMessage("Đơn hoàn"),

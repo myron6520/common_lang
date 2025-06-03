@@ -20184,6 +20184,36 @@ class S {
       args: [],
     );
   }
+
+  /// `Good`
+  String get good {
+    return Intl.message(
+      'Good',
+      name: 'good',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Bad`
+  String get bad {
+    return Intl.message(
+      'Bad',
+      name: 'bad',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Very Bad`
+  String get very_bad {
+    return Intl.message(
+      'Very Bad',
+      name: 'very_bad',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

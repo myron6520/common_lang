@@ -489,6 +489,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Average Weighted"),
         "average_weighted_tips": m9,
         "back_previous": MessageLookupByLibrary.simpleMessage("Back"),
+        "bad": MessageLookupByLibrary.simpleMessage("Bad"),
         "balance": MessageLookupByLibrary.simpleMessage("Balance"),
         "balanceAfterRecharge":
             MessageLookupByLibrary.simpleMessage("Balance After Recharge"),
@@ -1369,6 +1370,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "go_rating": MessageLookupByLibrary.simpleMessage("Go Evaluate"),
         "go_to_shop_management": MessageLookupByLibrary.simpleMessage(
             "Go to \"吉祥管店\" app, enter the【我的】-【店铺设置】-【桌台管理】, add area or table"),
+        "good": MessageLookupByLibrary.simpleMessage("Good"),
         "goods": MessageLookupByLibrary.simpleMessage("Commodity"),
         "goodsAdjustment":
             MessageLookupByLibrary.simpleMessage("Goods Adjustment"),
@@ -3336,6 +3338,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Version Update"),
         "vertical_offset":
             MessageLookupByLibrary.simpleMessage("Vertical Offset"),
+        "very_bad": MessageLookupByLibrary.simpleMessage("Very Bad"),
         "viewOriginalOrder":
             MessageLookupByLibrary.simpleMessage("Original Order"),
         "viewRefundOrder": MessageLookupByLibrary.simpleMessage("Refund Order"),

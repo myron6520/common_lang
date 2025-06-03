@@ -2011,5 +2011,8 @@
     "no_printer_found": "No Printer Found",
     "printer_not_connected": "Printer Not Connected",
     "min_sale_num": "Min Sale Number",
-    "please_input_min_sale_num": "Please Input Min Sale Number"
+    "please_input_min_sale_num": "Please Input Min Sale Number",
+    "good": "Good",
+    "bad": "Bad",
+    "very_bad": "Very Bad"
 }

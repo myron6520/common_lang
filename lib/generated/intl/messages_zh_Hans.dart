@@ -427,6 +427,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "average_weighted": MessageLookupByLibrary.simpleMessage("平均加权"),
         "average_weighted_tips": m9,
         "back_previous": MessageLookupByLibrary.simpleMessage("返回上一步"),
+        "bad": MessageLookupByLibrary.simpleMessage("较差"),
         "balance": MessageLookupByLibrary.simpleMessage("余额"),
         "balanceAfterRecharge": MessageLookupByLibrary.simpleMessage("充值后余额"),
         "balanceBeforeRecharge": MessageLookupByLibrary.simpleMessage("充值前余额"),
@@ -1096,6 +1097,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "go_rating": MessageLookupByLibrary.simpleMessage("去评分"),
         "go_to_shop_management": MessageLookupByLibrary.simpleMessage(
             "前往管店APP，进入【我的】-【店铺设置】-【桌台管理】，添加区域或桌台"),
+        "good": MessageLookupByLibrary.simpleMessage("良好"),
         "goods": MessageLookupByLibrary.simpleMessage("商品"),
         "goodsAdjustment": MessageLookupByLibrary.simpleMessage("商品调整"),
         "goodsCardStyle": MessageLookupByLibrary.simpleMessage("商品卡片样式"),
@@ -2609,6 +2611,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "versionNo": MessageLookupByLibrary.simpleMessage("版本号"),
         "version_update": MessageLookupByLibrary.simpleMessage("版本更新"),
         "vertical_offset": MessageLookupByLibrary.simpleMessage("垂直偏移"),
+        "very_bad": MessageLookupByLibrary.simpleMessage("极差"),
         "viewOriginalOrder": MessageLookupByLibrary.simpleMessage("原订单"),
         "viewRefundOrder": MessageLookupByLibrary.simpleMessage("退款单"),
         "view_all": MessageLookupByLibrary.simpleMessage("查看全部"),
