@@ -2010,9 +2010,20 @@
     "device_not_connected": "设备未连接",
     "no_printer_found": "找不到打印机",
     "printer_not_connected": "打印机未连接",
-    "min_sale_num": "起售数量",
-    "please_input_min_sale_num": "请输入起售数量",
-    "good": "良好",
-    "bad": "较差",
-    "very_bad": "极差"
+    "wipeAmount": "抹{amount}",
+    "awaiting_amount": "待收款",
+    "customised_offers": "自定义优惠",
+    "receivable": "应收",
+    "print_bill": "打印结账单",
+    "select_a_payment_method": "选择支付方式",
+    "PayUnOpen": "未开通聚合支付",
+    "PayUnOpenDescription": "请联系服务商或通过「吉祥管店」APP申请，服务商联系方式：",
+    "pay_and_give_change": "收款，并找零 ¥{amount}",
+    "SelectPayments": "选择记账方式",
+    "exitLogin": "退出登录",
+    "member_coupons": "会员优惠券",
+    "member_login_ways": "支持以下方式登录会员",
+    "insufficientBalanceOrSelectOthersTips": "当前会员余额不足，可先充值或与其他支付方式组合支付"
+
+
 }
