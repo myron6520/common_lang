@@ -484,6 +484,7 @@
     "discountAmountReceivable": "Tổng sau giảm",
     "wipeNone": "Không làm tròn",
     "wipeZero": "Làm tròn",
+    "wipeAmount": "Làm {amount}",
     "wipePoint": "Làm tròn phần mười",
     "wipeAngle": "Làm tròn phần trăm",
     "wipeYuan": "Làm tròn hàng đơn vị",
@@ -2009,9 +2010,18 @@
     "device_not_connected": "Thiết bị không kết nối",
     "no_printer_found": "Không tìm thấy máy in",
     "printer_not_connected": "Máy in không kết nối",
-    "min_sale_num": "Số lượng bán tối thiểu",
-    "please_input_min_sale_num": "Vui lòng nhập số lượng bán tối thiểu",
-    "good": "Tốt",
-    "bad": "Kém",
-    "very_bad": "Rất kém"
+    "awaiting_amount": "Được thu thập",
+    "customised_offers": "Ưu đãi tùy chỉnh",
+    "receivable": "Phải thu",
+    "print_bill": "In trang thanh toán",
+    "select_a_payment_method": "Chọn phương thức thanh toán",
+    "PayUnOpen": "Thanh toán tổng hợp không được bật",
+    "PayUnOpenDescription": "Vui lòng liên hệ với nhà cung cấp dịch vụ hoặc đăng ký thông qua APP 「Jixiang Tube Shop」, thông tin liên hệ của nhà cung cấp dịch vụ:",
+    "pay_and_give_change": "Thu tiền và đưa tiền lẻ ¥{amount}",
+    "SelectPayments": "Chọn phương thức thanh toán",
+    "exitLogin": "Đăng xuất",
+    "member_coupons": "Phiếu giảm giá thành viên",
+    "member_login_ways": "Bạn có thể đăng nhập với tư cách thành viên theo các cách sau",
+    "insufficientBalanceOrSelectOthersTips": "Nếu số dư thành viên hiện tại không đủ, bạn có thể nạp tiền trước hoặc kết hợp với các phương thức thanh toán khác để thanh toán"
+
 }
